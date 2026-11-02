@@ -1,0 +1,96 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+ body{width:1150px;zoom:1.3913;padding:16px 20px 12px}
+ .ftitle{font-size:26px;line-height:1.2}
+ .fsub{font-size:17px;margin-top:6px;line-height:1.35}
+ .seclabel{font-size:19px;margin:14px 0 8px}
+ .fsrc{font-size:14px;margin-top:11px;line-height:1.35}
+ .box{padding:9px 11px;border-radius:9px}
+ .bh{font-size:18px;line-height:1.25}
+ .bs{font-size:16px;line-height:1.35;margin-top:3px}
+
+ .loop{position:relative;padding-top:48px;padding-bottom:46px;margin-top:10px}
+ .bl{position:absolute;top:0;bottom:0;width:0;border-left:1.5px dashed #B5452C;z-index:0}
+ .blab{position:absolute;top:0;font-size:16px;line-height:1.35;padding-left:8px;z-index:0;
+       color:#B5452C;font-weight:700}
+ .steprow{position:relative;z-index:1}
+ .steps{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+ .steps .box{padding:9px 10px}
+ .steps ul{margin-top:5px}
+ .steps li{list-style:none;font-size:16px;color:#5C5C5C;line-height:1.35}
+ .num{width:22px;height:22px;line-height:20px;font-size:16px;margin-right:5px}
+ .arr{position:absolute;top:0;bottom:0;width:16px;display:flex;align-items:center;
+      justify-content:center;font-size:17px;color:#8C4A2F}
+ .retbox{position:absolute;left:0;right:0;bottom:0;height:46px;z-index:1}
+ .retline{position:absolute;left:0;right:0;top:28px;border-top:1.5px dashed #8C4A2F}
+ .retup{position:absolute;left:0;top:3px;height:25px;border-left:1.5px dashed #8C4A2F}
+ .retup2{position:absolute;right:0;top:3px;height:25px;border-left:1.5px dashed #8C4A2F}
+ .rettxt{position:absolute;left:50%;transform:translateX(-50%);top:17px;background:#FAF9F7;
+         padding:0 12px;font-size:16px;color:#B5452C;white-space:nowrap}
+ .retcap{position:absolute;left:-7px;top:-6px;font-size:16px;color:#8C4A2F}
+ .pass{padding:10px 13px}
+ .pass .bh{font-size:18px}
+ .pass .p2{font-size:16px;color:#5C5C5C;line-height:1.35;margin-top:4px}
+ .four{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+ .four .box{padding:8px 11px;border-color:#B9D2B9;background:#FBFCFB}
+ .four .bh{font-size:17px}
+ .cn{display:inline-block;width:23px;height:23px;line-height:21px;border-radius:50%;
+     border:1.3px solid #6E6E6E;text-align:center;font-size:16px;font-weight:700;
+     color:#3A3A3A;margin-right:3px;vertical-align:-3px}
+</style></head><body>
+<div class="ftitle">Design &ndash; experiment &ndash; negative-result loop, with three data boundaries</div>
+<div class="fsub">Top row = one turn of the loop; dashed line below = negative-result return; three vertical lines = where data must stop.</div>
+
+<div class="loop">
+  <div class="bl" style="left:calc((100% - 40px)/6*2 + 12px - 22px)"></div>
+  <div class="blab" style="left:calc((100% - 40px)/6*2 + 12px - 22px);width:370px">Boundary 1 &mdash; training set ends here</div>
+  <div class="bl" style="left:calc((100% - 40px)/6*4 + 28px - 22px)"></div>
+  <div class="blab" style="left:calc((100% - 40px)/6*4 + 28px - 22px);width:186px">Boundary 2 &mdash; blind set sealed</div>
+  <div class="bl" style="left:calc((100% - 40px)/6*5 + 36px - 22px)"></div>
+  <div class="blab" style="left:calc((100% - 40px)/6*5 + 36px - 22px);width:183px">Boundary 3 &mdash; independent run</div>
+
+  <div class="steprow">
+    <div class="steps">
+      <div class="box"><div class="bh"><span class="num">1</span>Data &amp; labels</div><ul>
+        <li>In-house training set</li><li>Dosing labelled</li><li>Negatives stored too</li></ul></div>
+      <div class="box"><div class="bh"><span class="num">2</span>Design &amp; rank</div><ul>
+        <li>Rule, ML, generative</li><li>Objective: functional delivery</li><li>Non-AI baseline too</li></ul></div>
+      <div class="box"><div class="bh"><span class="num">3</span>Synthesis</div><ul>
+        <li>Fixed synthesis budget</li><li>Paired, equal arms</li><li>Same payload + linker</li></ul></div>
+      <div class="box"><div class="bh"><span class="num">4</span>Wet-lab read</div><ul>
+        <li>Transfection-free uptake</li><li>Sorted target-cell PD</li><li>Splice rescue, enzyme</li></ul></div>
+      <div class="box"><div class="bh"><span class="num">5</span>Blind-test</div><ul>
+        <li>Held-out targets/donors</li><li>Endpoints pre-set</li><li>Rounds, unit cost</li></ul></div>
+      <div class="box"><div class="bh"><span class="num">6</span>Independent</div><ul>
+        <li>New donors, batches</li><li>Third-party re-run</li><li>Raw data transferable</li></ul></div>
+    </div>
+    <div class="arr" style="left:calc((100% - 40px)/6*1 + 4px - 8px)">&#10230;</div>
+    <div class="arr" style="left:calc((100% - 40px)/6*2 + 12px - 8px)">&#10230;</div>
+    <div class="arr" style="left:calc((100% - 40px)/6*3 + 20px - 8px)">&#10230;</div>
+    <div class="arr" style="left:calc((100% - 40px)/6*4 + 28px - 8px)">&#10230;</div>
+    <div class="arr" style="left:calc((100% - 40px)/6*5 + 36px - 8px)">&#10230;</div>
+  </div>
+
+  <div class="retbox">
+    <div class="retup"></div><div class="retup2"></div><div class="retline"></div>
+    <div class="retcap">&#9650;</div>
+    <div class="rettxt">Negative-result return: failed candidates, batches and discarded designs re-enter the table; re-training rights in the contract</div>
+  </div>
+</div>
+
+<div class="box hl pass">
+  <div class="bh">Pass criterion: functional-delivery ranking &mdash; transfection-free, sorted target-cell RNA and protein PD; splice correction plus mature-protein enzyme activity</div>
+  <div class="p2">Gain test: AI arm vs reasonable non-AI baseline, same budget and task &mdash; cost per success, rounds, reproducibility, off-target</div>
+  <div class="p2">Label discipline: transfected-condition data labelled apart; galectin, homogenate means, tissue concentration reference only</div>
+</div>
+
+<div class="seclabel">Where WuXi&rsquo;s own material sits in this loop (all company-disclosed)</div>
+<div class="four">
+  <div class="box"><div class="bh"><span class="cn">1</span><span class="cn">2</span>ML sequence design</div><div class="bs">Two targets; one photo illegible</div></div>
+  <div class="box"><div class="bh"><span class="cn">2</span><span class="cn">3</span><span class="cn">4</span>ATXN2 end-to-end</div><div class="bs">Transfection / electroporation</div></div>
+  <div class="box"><div class="bh"><span class="cn">4</span>Safety &amp; delivery panels</div><div class="bs">Evaluation tools, not AI gain</div></div>
+  <div class="box dash" style="border-color:#C7C2BC"><div class="bh"><span class="cn">5</span><span class="cn">6</span>Blinding &amp; replication</div><div class="bs">Not yet established</div></div>
+</div>
+
+<div class="fsrc">Source: IC Memo v2 &sect;4.4 acceptance criteria, &sect;5.3 blinding and controls; WuXi seminar photographs, event date 2026-10-29; data as of 2026-10-13.</div>
+</body></html>

@@ -1,0 +1,52 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+body{width:1150px;padding:18px 22px 14px}
+.ftitle{font-size:26px}
+.fsub{font-size:17px;margin-top:7px;line-height:1.4}
+.fsrc{font-size:14px;margin-top:7px;line-height:1.5}
+.tgrid{margin-top:11px}
+.tr{display:grid;grid-template-columns:430px repeat(4,1fr);column-gap:8px;align-items:stretch}
+.tr+.tr{margin-top:3px}
+.hd{padding:0 2px 6px}
+.hdt{font-size:17px;font-weight:700;color:#2F2F2F;line-height:1.2}
+.hds{font-size:16px;color:#8A8A8A;margin-top:3px;line-height:1.25}
+.lb{padding:5px 12px 3px 0;font-size:16px;color:#8A8A8A;line-height:1.25}
+.ln{font-weight:700;color:#2F2F2F}
+.cell{border-radius:7px;padding:5px 8px;display:flex;gap:6px;align-items:baseline}
+.cell .ar{flex:0 0 15px;font-size:17px;font-weight:700;line-height:1.1}
+.cell .tx{font-size:16px;line-height:1.25;white-space:nowrap}
+.g{background:#E3EFE3;border:1px solid #BBD4BB}  .g .ar,.g .tx{color:#2F6B33}
+.r{background:#F7E8E4;border:1px solid #E0C2B8}  .r .ar,.r .tx{color:#9B3B23}
+.n{background:#F1EFEC;border:1px solid #E2DDD7}  .n .ar,.n .tx{color:#6E6E6E}
+.x{background:transparent;border:1px dashed #D6D1CB} .x .ar,.x .tx{color:#A3A3A3}
+.hdrule{border-bottom:1px solid #DDD8D2;margin-bottom:6px}
+.lgline{font-size:16px;color:#7A7A7A;margin-top:10px;line-height:1.4}
+.sw{width:14px;height:14px}
+</style></head><body>
+<div class="ftitle">DAR2 clearance and backbone chemistry: directional results per experiment</div>
+<div class="fsub">Female Hsd:ICR mice, n=4/group, IV, siRNA 0.5&ndash;6 mg/kg; DAR compared at equal antibody dose. Colour = direction only, no values.</div>
+
+<div class="tgrid">
+  <div class="tr">
+    <div class="hd"><div class="hdt">Experiment &middot; P=S &middot; DAR &middot; antibody</div></div>
+    <div class="hd"><div class="hdt">Plasma PK</div><div class="hds">plasma stem-loop</div></div>
+    <div class="hd"><div class="hdt">Liver uptake</div><div class="hds">tissue stem-loop</div></div>
+    <div class="hd"><div class="hdt">Muscle PD</div><div class="hds">gastrocnemius bulk</div></div>
+    <div class="hd"><div class="hdt">Potency</div><div class="hds">EC50 / Tm, SJCRH30</div></div>
+  </div>
+  <div class="hdrule"></div>
+  <div class="tr"><div class="lb"><span class="ln">DAR2 std 8&times;P=S (clinical)</span> &middot; vs DAR1 &middot; PD &alpha;TfR1</div><div class="cell r"><span class="ar">&darr;</span><span class="tx">Below DAR1</span></div><div class="cell r"><span class="ar">&uarr;</span><span class="tx">Above DAR1</span></div><div class="cell r"><span class="ar">&darr;</span><span class="tx">Both low</span></div><div class="cell n"><span class="ar">&middot;</span><span class="tx">Clinical base</span></div></div>
+  <div class="tr"><div class="lb"><span class="ln">Free EON co- or pre-dosed</span> &middot; 8&times;P=S &middot; DAR1+2 vs DAR2</div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">DAR2 up</span></div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">Pre-dose: down</span></div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">Up</span></div><div class="cell n"><span class="ar">&middot;</span><span class="tx">Weaker at 24 h</span></div></div>
+  <div class="tr"><div class="lb"><span class="ln">PMO/RNA heteroduplex</span> &middot; sense PMO, no P=S &middot; DAR2</div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">Up</span></div><div class="cell g"><span class="ar">&darr;</span><span class="tx">Down</span></div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">&gt;50% @3 mg/kg</span></div><div class="cell r"><span class="ar">&darr;</span><span class="tx">EC50 10&ndash;100&times;</span></div></div>
+  <div class="tr"><div class="lb"><span class="ln">All P=S removed</span> &middot; 0 sites &middot; DAR1+2 &middot; PK &alpha;EGFR</div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">DAR2 up/1 down</span></div><div class="cell x"><span class="ar">&mdash;</span><span class="tx">Not reported</span></div><div class="cell x"><span class="ar">&mdash;</span><span class="tx">Not reported</span></div><div class="cell r"><span class="ar">&darr;</span><span class="tx">Stability down</span></div></div>
+  <div class="tr"><div class="lb"><span class="ln">LNA + reduced P=S</span> &middot; 5&ndash;6 &middot; PK &alpha;EGFR, PD &alpha;TfR1</div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">Up</span></div><div class="cell g"><span class="ar">&darr;</span><span class="tx">Down</span></div><div class="cell n"><span class="ar">&asymp;</span><span class="tx">No change</span></div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">&gt;75% KD, 8 wks</span></div></div>
+  <div class="tr"><div class="lb"><span class="ln">Ethyl triester Et</span> &middot; &le;12 sites, neutral &middot; DAR1+2</div><div class="cell n"><span class="ar">&asymp;</span><span class="tx">No change</span></div><div class="cell x"><span class="ar">&mdash;</span><span class="tx">Not reported</span></div><div class="cell x"><span class="ar">&mdash;</span><span class="tx">Not reported</span></div><div class="cell r"><span class="ar">&darr;</span><span class="tx">12 sites: Tm&darr;</span></div></div>
+  <div class="tr"><div class="lb"><span class="ln">Mesyl MSL replaces P=S</span> &middot; full swap &middot; DAR2 vs DAR2</div><div class="cell n"><span class="ar">&asymp;</span><span class="tx">No change</span></div><div class="cell x"><span class="ar">&mdash;</span><span class="tx">Not reported</span></div><div class="cell n"><span class="ar">&asymp;</span><span class="tx">No gain, vivo</span></div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">EC50 held</span></div></div>
+  <div class="tr"><div class="lb"><span class="ln">MOP replaces 4 sense P=S</span> &middot; DAR2 vs DAR1</div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">Up &gt; DAR1</span></div><div class="cell x"><span class="ar">&mdash;</span><span class="tx">Not reported</span></div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">28-day KD up</span></div><div class="cell r"><span class="ar">&darr;</span><span class="tx">Cleavage loss</span></div></div>
+  <div class="tr"><div class="lb"><span class="ln">PG replaces 8&ndash;12 sense P=S</span> &middot; DAR2 &middot; PG PK &alpha;TfR1</div><div class="cell x"><span class="ar">&mdash;</span><span class="tx">Not reported</span></div><div class="cell x"><span class="ar">&mdash;</span><span class="tx">Not reported</span></div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">Mstn KD up</span></div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">Tm unaffected</span></div></div>
+  <div class="tr"><div class="lb"><span class="ln">PG replaces all P=S</span> &middot; only 2 left &middot; DAR2 vs DAR1</div><div class="cell g"><span class="ar">&uarr;</span><span class="tx">To DAR1 level</span></div><div class="cell x"><span class="ar">&mdash;</span><span class="tx">Not reported</span></div><div class="cell x"><span class="ar">&mdash;</span><span class="tx">Not reported</span></div><div class="cell r"><span class="ar">&darr;</span><span class="tx">PG end: EC50&darr;</span></div></div>
+</div>
+
+<div class="lgline"><span class="sw" style="background:#E3EFE3;border:1px solid #BBD4BB"></span>favourable for DAR2 &nbsp; <span class="sw" style="background:#F7E8E4;border:1px solid #E0C2B8"></span>unfavourable &nbsp; <span class="sw" style="background:#F1EFEC;border:1px solid #E2DDD7"></span>no change or baseline &nbsp; <span class="sw" style="background:transparent;border:1px dashed #D6D1CB"></span>not reported &mdash; never read as &ldquo;no effect&rdquo;</div>
+<div class="fsrc">Higher is better for plasma exposure and muscle knockdown, lower for liver uptake. Row 1 vs DAR1; all other rows vs the standard DAR2.<br>Source: IC Memo v2 &sect;4.2.2, &sect;4.2.2a, &sect;4.2.3, &sect;10.4, &sect;10.5; Cochran et al., J Med Chem 2026;69(17):20230&ndash;20247, PMID 42612014; data as of 2026-10-13.</div>
+</body></html>

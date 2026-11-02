@@ -1,0 +1,94 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+ body{width:1150px;padding:16px 22px 10px}
+ .ftitle{font-size:26px;line-height:1.2}
+ .fsub{font-size:16.5px;margin-top:5px;line-height:1.28}
+ .seclabel{font-size:19px;margin:6px 0 4px}
+ .fsrc{font-size:14px;margin-top:6px;line-height:1.3}
+ .band{position:relative;margin-top:8px;padding-bottom:14px}
+ .bg{position:absolute;top:22px;bottom:0;border-radius:5px;z-index:0}
+ .bgn{left:218px;width:449px;background:#F1EFEC}
+ .bgc{left:667px;width:449px;background:#F8F3ED}
+ .env{position:absolute;left:666px;top:22px;bottom:0;border-left:1.5px dashed #8C4A2F;z-index:2}
+ .envlab{position:absolute;left:546px;width:240px;bottom:1px;text-align:center;font-size:16px;color:#8C4A2F}
+ .gl{position:absolute;top:100px;bottom:20px;border-left:1px dotted #CFC9C2;z-index:1}
+ .gr{display:grid;grid-template-columns:92px 128px repeat(5,1fr);column-gap:10px;row-gap:4px;position:relative;z-index:3;align-items:end}
+ .zl{font-size:16px;color:#6E6E6E;text-align:center;padding-bottom:4px}
+ .fb{background:#fff;border:1.5px solid #8C4A2F;border-radius:8px;padding:4px 5px;text-align:center;position:relative;align-self:stretch}
+ .fb .cn{font-size:16.5px;font-weight:700;color:#2F2F2F;line-height:1.12}
+ .fb .cp{font-size:16px;color:#8C4A2F;line-height:1.15;margin-top:2px}
+ .fb .ar{position:absolute;left:-11px;top:50%;transform:translateY(-50%);width:11px;
+         text-align:center;font-size:17px;color:#2F2F2F;line-height:1}
+ .rlab{display:flex;align-items:center;justify-content:flex-end;text-align:right;
+       font-size:16.5px;font-weight:700;color:#2F2F2F;line-height:1.18}
+ .pl{background:#F4F2EF;border:1px solid #DDD8D2;border-radius:8px;padding:4px 6px;text-align:center}
+ .pl b{font-size:16.5px;color:#2F2F2F;display:block;line-height:1.15;white-space:nowrap}
+ .pl i{font-style:normal;font-size:16px;color:#7A7A7A;line-height:1.12;display:block}
+ .bbx{border:1.5px dashed #C7A08A;border-radius:8px;padding:5px 3px;text-align:center;
+      display:flex;flex-direction:column;justify-content:center;align-self:stretch}
+ .bbx .h{font-size:16px;color:#8C4A2F;font-weight:700;line-height:1.12}
+ .bbx .t{font-size:16px;color:#5C5C5C;line-height:1.14;margin-top:4px}
+ .act{display:flex;flex-direction:column;align-items:center;justify-content:flex-end}
+ .tri{font-size:16px;color:#8C4A2F;line-height:.8;margin-bottom:1px}
+ .abox{background:#FBF5EF;border:1.5px solid #8C4A2F;border-radius:8px;padding:4px 6px;
+       font-size:16px;color:#8C4A2F;text-align:center;width:100%;line-height:1.15}
+ .sub{font-size:16px;color:#8C4A2F;text-align:center;line-height:1.15;white-space:nowrap;margin:0 -50px}
+ .sp{height:4px}
+ .bot{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:11px}
+ .bot .box{padding:6px 9px}
+ .bot .bh{font-size:17px;color:#8C4A2F;line-height:1.18}
+ .bot .bt{font-size:16px;margin-top:2px;line-height:1.2}
+ .lg{font-size:16px;color:#7A7A7A;line-height:1.3;margin-top:6px}
+ .sq{display:inline-block;width:20px;height:11px;border-radius:3px;vertical-align:-1px;margin-right:3px}
+</style></head><body>
+<div class="ftitle">RNA pathway and where each payload class acts</div>
+<div class="fsub">Row = the step a payload intercepts; column = the pathway node and its compartment. Choose the payload by compartment first.</div>
+
+<div class="band">
+  <div class="bg bgn"></div><div class="bg bgc"></div>
+  <div class="gl" style="left:398px"></div><div class="gl" style="left:577px"></div>
+  <div class="gl" style="left:755px"></div><div class="gl" style="left:934px"></div>
+  <div class="env"></div><div class="envlab">nuclear envelope</div>
+  <div class="gr">
+    <div class="zl" style="grid-area:1/3/2/6">nucleus</div>
+    <div class="zl" style="grid-area:1/6/2/8">cytoplasm</div>
+
+    <div class="rlab" style="grid-area:2/2">RNA pathway</div>
+    <div class="fb" style="grid-area:2/3"><div class="cn">transcription</div><div class="cp">nucleus</div></div>
+    <div class="fb" style="grid-area:2/4"><div class="ar">&#8594;</div><div class="cn">pre-mRNA processing &amp; splicing</div><div class="cp">nucleus</div></div>
+    <div class="fb" style="grid-area:2/5"><div class="ar">&#8594;</div><div class="cn">mRNA nuclear export</div><div class="cp">nucleus &rarr; cytoplasm</div></div>
+    <div class="fb" style="grid-area:2/6"><div class="ar">&#8594;</div><div class="cn">translation</div><div class="cp">cytoplasm</div></div>
+    <div class="fb" style="grid-area:2/7"><div class="ar">&#8594;</div><div class="cn">protein localisation &amp; function</div><div class="cp">cytoplasm / lysosome</div></div>
+
+    <div class="bbx" style="grid-area:4/1/7/2"><div class="h">backbone<br>chemistry</div>
+      <div class="t">PMO<br>charge-neutral</div><div class="t">2&prime;-mod + P=S<br>charged</div></div>
+
+    <div class="sub" style="grid-area:3/6">substrate: mature mRNA</div>
+
+    <div class="pl" style="grid-area:4/2"><b>siRNA</b></div>
+    <div class="act" style="grid-area:4/6"><div class="tri">&#9650;</div><div class="abox">cleavage (RISC)</div></div>
+
+    <div class="pl" style="grid-area:5/2"><b>gapmer ASO</b></div>
+    <div class="act" style="grid-area:5/4"><div class="tri">&#9650;</div><div class="abox">RNase H1 cleavage &mdash; nuclear</div></div>
+    <div class="act" style="grid-area:5/6"><div class="tri">&#9650;</div><div class="abox">RNase H1 cleavage &mdash; cytoplasmic</div></div>
+
+    <div class="pl" style="grid-area:6/2"><b>SSO</b></div>
+    <div class="act" style="grid-area:6/4"><div class="tri">&#9650;</div><div class="abox">steric block, no cleavage</div></div>
+  </div>
+</div>
+
+<div class="seclabel">Qualifying readout, by payload &mdash; and the mechanism counted separately</div>
+<div class="bot">
+  <div class="box"><div class="bh">siRNA</div><div class="bt">Ago2-IP guide-strand quantity + target cleavage product</div></div>
+  <div class="box"><div class="bh">gapmer</div><div class="bt">Target RNA knockdown + RNase H1 dependence &rarr; protein function</div></div>
+  <div class="box"><div class="bh">SSO</div><div class="bt">Correct splicing ratio (unexpected splicing reported apart) + mature protein amount / form / localisation</div></div>
+  <div class="box hl"><div class="bh">CpG / TLR9 endosomal agonism</div><div class="bt">Endosomal receptor, off the RNA pathway; its own metric set</div></div>
+</div>
+
+<div class="lg"><span class="sq" style="color:#8C4A2F;border:0;width:auto;height:auto">&#9650;</span> = payload acts at that node &nbsp;&middot;&nbsp;
+<span class="sq" style="background:#FBF5EF;border:1.5px solid #8C4A2F"></span>brown frame = site of action &nbsp;&middot;&nbsp;
+<span class="sq" style="background:#F1EFEC;border:1px solid #DDD8D2"></span>nucleus &nbsp;
+<span class="sq" style="background:#F8F3ED;border:1px solid #E6D9CC"></span>cytoplasm &nbsp;&middot;&nbsp; dashed line = nuclear envelope &nbsp;&middot;&nbsp;
+<span class="sq" style="border:1.5px dashed #C7A08A"></span>backbone chemistry is a separate axis &mdash; PMO can carry an SSO mechanism</div>
+<div class="fsrc">Source: IC Memo v2 §4.2.1, §1, §10.8; data as of 2026-10-13.</div>
+</body></html>

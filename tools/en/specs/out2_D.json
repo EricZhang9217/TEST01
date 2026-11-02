@@ -1,0 +1,126 @@
+[
+ {
+  "orig": 36,
+  "title": "WuXi's internal AI evidence shows tools and a discovery workflow; the gain number needs a prospective control",
+  "lead": "Internal AI material supports tools and a payload-discovery workflow, not a measured gain. The gain number should come from one prospective controlled run on a defined target, and this round approves the twelve answers and a prospective-collaboration SOW.",
+  "figure": "fig/fig36.png",
+  "fig_caption": "Six-step design loop with negative-result return and three data boundaries; the four cards show where WuXi's own material sits",
+  "points": [
+   "The top row is the loop we want to buy; WuXi's own material covers only its first four steps.",
+   "Boundary one closes the training set, boundary two seals the blind set, boundary three changes donor, batch and executing party.",
+   "Blinding, held-out targets and independent replication are the steps nobody has run yet.",
+   "Negative results loop back into the same table, with re-training rights and ownership written into the contract.",
+   "The pass criterion is a functional-delivery ranking read on sorted cells, not a hit rate under transfection."
+  ],
+  "table_note": [
+   "Twelve questions for Andy Ng and the oligonucleotide discovery team sit in the memo.",
+   "Every internal figure shown is company-disclosed; none was re-verified this round."
+  ],
+  "limits": [
+   "Material event date 2026-10-29; checks anchored to the 2026-10-13 report and 2026-10-11 project stage, with no re-verification this round, so the figures stay company-disclosed.",
+   "Slides and posters are marketing material: 'can do' versus 'does it well', and 'done once' versus 'repeatable', are judged separately."
+  ],
+  "source": "Source: IC Memo v2 (§4.4, §4.6, §5.3); WuXi capability map, investor view; seminar photographs, event date 2026-10-29; data as of 2026-10-13",
+  "notes": "The loop is the test the collaboration has to pass, not a description of what already exists. WuXi's own material covers the first four steps - data and labels, design and ranking, paired synthesis, wet-lab readout - while blinding, held-out targets and independent replication are not yet established and would be built in a prospective collaboration. The gain test is the AI arm against a reasonable non-AI baseline at the same experimental budget and task, recording cost per success, rounds needed, reproducibility and off-target effects. Labels from transfected conditions are tagged separately, and galectin signal, homogenate means and tissue concentration stay reference-only, with positive labels taken from cell-resolved readouts. Cut for space: the ATXN2 hit rate is recorded as disclosed and under transfection or electroporation, not as a validated AI gain, and one of the two targets in the pipeline photo is illegible."
+ },
+ {
+  "orig": 38,
+  "title": "Three configurations evaluated in parallel: lead direction, first experiment and pass test matched row by row",
+  "lead": "This round buys the evidence that can change the configuration choice - the construct-neutral backbone study and the shared productive-delivery study - rather than writing three platforms into one first budget. Only configuration A holds a timeline slot and gates.",
+  "figure": "fig/fig38.png",
+  "fig_caption": "Three-configuration card: lead direction, main unknown, first validation and resources, four rows read across the three columns",
+  "points": [
+   "Four rows read across on one definition; a row with a blank cell cannot compare the three paths.",
+   "Only the brown card holds a timeline slot and gates; the two grey cards stay exploratory this round.",
+   "Each path breaks first at a different step, which is why one shared experiment cannot settle all three.",
+   "The first budget buys the construct-neutral backbone study and the shared productive-delivery study.",
+   "The band underneath is the methodology all three share; break one line and no gate can be judged."
+  ],
+  "table_note": [
+   "Cells give the memo's reported value first, then this memo's judgement.",
+   "Amounts, valuation, shareholding and the approval outcome stay TBD."
+  ],
+  "limits": [
+   "The owner asked for all three configurations to be analysed in parallel; no three-way choice is made this round, and the page does not record one as pending arbitration either.",
+   "'Lower risk' refers only to the entry step, where skeletal-muscle TfR1 has human PD in the same target-cell type; competition, freedom-to-operate and clinical risk are judged separately.",
+   "Amounts, valuation, shareholding and the approval outcome are TBD; diaphragm samples are the main bottleneck, and cardiac and CNS stay outside this round as collaboration extensions."
+  ],
+  "source": "Source: IC Memo v2 (§6.1, §6.3, §6.4, §7.2, §7.3, §7.4, §7.5, §7.9); team analysis; data as of 2026-10-13",
+  "notes": "A card counts as comparable only when all four rows are filled; a blank reads 'to be completed' and names the next experiment, which is why the three cards are read across rather than scored. Configuration A breaks first at functional improvement, B at entry into the correct cell, and C at intact molecule in blood and entry - three different points in the same delivery sequence, so one shared experiment cannot settle all three. A carries the construct-neutral backbone study and the shared productive-delivery study with its patient-cell arm; B and C stay exploratory, with C additionally requiring receptor discovery first and confirmed patient-derived models before any start. Cut for space: the six shared methodological constraints, of which the most consequential are that naked-antibody and conjugate PK are measured separately and that every decision readout is taken on sorted target cells."
+ },
+ {
+  "orig": 39,
+  "title": "GAA IVS1 sets the mechanism and delivery benchmark: a four-level chain from splice correction to glycogen",
+  "lead": "GAA IVS1 matters because it runs splice correction to mature enzyme to enzyme activity to glycogen once under free uptake, becoming the reference point for nuclear oligonucleotide delivery into myofibers; other cells, proteins and payloads each need their own evidence.",
+  "figure": "fig/fig39.png",
+  "fig_caption": "Skeletal muscle read across: delivery entry, target cell, mechanism, payload, molecular change, phenotype, in two entry bands",
+  "points": [
+   "Three mechanisms share one delivery entry, TfR1 into the skeletal myofiber, read left to right.",
+   "The GAA and DYSF row is the four-level chain: correct transcript, mature enzyme, activity, glycogen.",
+   "Dashed boxes mark the substrate-reduction row, where the evidence is animal-only or assumed.",
+   "Red text flags what each row does not cover, including heart, CNS and the diaphragm.",
+   "Below the rule is a second entry: COL6A1 sits in interstitial fibroblasts and cannot borrow the band above."
+  ],
+  "table_note": [
+   "Delivery reads high because a same-type target cell already has human PD.",
+   "The eight-column grid for GAA IVS1 in late-onset Pompe stays in the memo."
+  ],
+  "limits": [
+   "Figures, registry numbers, species and n carry the memo's original qualifiers; check-dates are project stage 2026-10-11, literature 2026-10-07, working-paper report 2026-10-13.",
+   "Patient-cell evidence for the two first-cluster payloads and COL6A1 is disclosed at payload level only; the conjugate-level steps from blood to productive intracellular payload are missing.",
+   "A change in transcript ratio alone is not a claim of disease modification, and diaphragm coverage still has to be shown separately from limb muscle."
+  ],
+  "source": "Source: IC Memo v2 (§6.1, §6.2, §6.4, §7.7, §8.1); team analysis; data as of 2026-10-13",
+  "notes": "The same skeletal-muscle entry carries three different mechanisms in the source material: toxic-RNA reduction in DM1, splice correction for GAA and DYSF, and partial GYS1 knockdown as an indirect substrate-reduction route that slows new glycogen synthesis but does not clear what has already accumulated. The four-level chain is what makes GAA IVS1 a benchmark rather than one more splice-correction result, because each level is read on its own terms - correct-transcript proportion, mature GAA protein, enzyme activity, cell glycogen - with no transfection reagent in the system. Chemistry is mature here, so the conjugate characterization study, not the biology, sets oligonucleotide-to-antibody ratio distribution, site occupancy and free-payload residue. The COL6A1 row sits below the entry boundary because its product cell is the muscle interstitial fibroblast nucleus: same compartment does not mean same entry, and the band above cannot be borrowed."
+ },
+ {
+  "orig": 41,
+  "title": "COL6A1 and HSP47 are two entry tasks: interstitial delivery and the selectivity window prove themselves apart",
+  "lead": "The fibroblast side runs as two independent entry tasks that only share a cell class. COL6A1 keeps one gated option, taken when models and materials are separately available; HSP47's value this round is measuring the lesional-versus-normal selectivity window.",
+  "figure": "fig/fig41.png",
+  "fig_caption": "One HSP47 mechanism chain across the top, then SSc skin, IPF lung and MASH liver compared for accessibility and evidence",
+  "points": [
+   "One mechanism chain across the top: HSP47 chaperone, siRNA knockdown, less collagen deposited.",
+   "The fourth box is the entry problem: FAP expression is not the same thing as a drug-efficacy entry.",
+   "The three organ cards compare evidence, not mechanism: solid green for skin, dashed for lung and liver.",
+   "Skin leads the column order on sampling cost alone; its readings do not stand in for lung or liver.",
+   "The liver card already carries adverse facts, with a phase 2 showing no histological advantage."
+  ],
+  "table_note": [
+   "COL6A1 and HSP47 are two entry tasks that happen to share a cell class.",
+   "The selectivity window holds at 3x; below 2x we change the antigen, not the payload."
+  ],
+  "limits": [
+   "COL6A1's product cell is the muscle interstitial fibroblast nucleus, a separate entry task from the myofiber; no reuse claim here puts COL6A1 inside the myofiber entry's scope.",
+   "If the myofiber entry cannot be secured this configuration serves as a comparison, but a failure budget does not automatically convert into a second platform.",
+   "Skin ranks first on sampling cost, not on a stronger mechanism; a skin readout does not stand in for the lung-side or liver-side reading."
+  ],
+  "source": "Source: IC Memo v2 (§6.1, §6.2, §6.4, §7.4, §7.5); team analysis; data as of 2026-10-13",
+  "notes": "The HSP47 test is a paired one: activated fibroblasts from an SSc patient biopsy against normal donor cells from the same site, with lesional and normal PD read inside the same experiment. A ratio of 3x or more with normal fibroblast proliferation, migration and wound closure intact means the selectivity window holds; a ratio below 2x means we change the antigen, not the payload. The three organs separate on evidence rather than on mechanism - skin is samplable and repeatable, lung rests on cross-organ extrapolation with the inhaled route meeting epithelium first, and the liver already carries adverse facts, with a phase 2 showing no histological advantage and hepatic uptake landing on hepatocytes and Kupffer cells. The earlier BMS-986263 liver programme ended early, and that status is still to be verified. Cut for space: the original figure's wording implied skin was the only measurable organ, which this version corrects."
+ },
+ {
+  "orig": 42,
+  "title": "Kidney runs as two separate entry tasks: receptor discovery for TAL and podocytes before any platform claim",
+  "lead": "The kidney stays a high-risk research option. This round buys only the first two receptor-discovery steps - single-cell plus surface proteome, and polarity sections - which eliminate candidates cheaply, and confirms that patient-derived models are obtainable before any start.",
+  "figure": "fig/fig42.png",
+  "fig_caption": "Four kidney segments ordered by blood-side accessibility and receptor maturity; the TAL and podocyte columns are the platform gap",
+  "points": [
+   "Four segments ordered by blood-side accessibility: only the proximal tubule has a candidate entry.",
+   "The two dashed columns, TAL and podocyte, are the target cells and have no entry found yet.",
+   "The delivery signal sits where we do not need it, which is the clearest platform gap in the atlas.",
+   "Green text marks comparators that already exist: ligand platforms, naked ASO, non-antibody RNA.",
+   "Red text is what rules an option out: megalin cannot reach TAL, antibody size may block the podocyte."
+  ],
+  "table_note": [
+   "This round buys only the first two of the four receptor-discovery steps.",
+   "Cyst epithelium is listed for completeness; farabursen is already in the clinic."
+  ],
+  "limits": [
+   "UMOD in the thick ascending limb and COL4A5 in podocytes differ in target cell, access, mechanism and payload design, so they are funded apart, not as one generic kidney platform.",
+   "Sparse entries mean high discovery risk, and existing non-antibody nucleic-acid pharmacology in the kidney raises the bar an antibody increment has to clear.",
+   "Entry status is stated only to this round's search limit of 2026-10-13; a blank means not found in the material, not that no receptor exists."
+  ],
+  "source": "Source: IC Memo v2 (§6.1, §6.2, §6.4, §7.5, §7.9); team analysis; data as of 2026-10-13",
+  "notes": "The common constraint across the organ is that the strongest delivery signal sits in the proximal tubule while the target cells are elsewhere, which is what makes the thick ascending limb the clearest platform gap in the atlas. Receptor discovery is an elimination exercise, not an efficacy study: candidates broadly expressed on liver, marrow or vascular endothelium are discarded, as are lumen-only expression and binding without internalization or routing entirely to lysosome, and no specific PD at the patient-model step retires the receptor and returns the search to step one. The proximal tubule is the only segment with a candidate entry, through megalin and KIM1, but its disease value is relatively limited and a ligand may suit better than an antibody. If the kidney does work it has the strongest barrier and the longest timescale of the three configurations, which is why it is preferably advanced as a technology collaboration."
+ }
+]

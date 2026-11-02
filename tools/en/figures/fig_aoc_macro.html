@@ -1,0 +1,106 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+body{width:1150px;padding:18px 26px 12px}
+.ftitle{font-size:26px}
+.fsub{font-size:17px;margin-top:7px;line-height:1.4}
+.wrap{margin-top:10px}
+.chart{width:1098px}
+svg{display:block}
+.ax{font:700 17px Arial,Helvetica,sans-serif;fill:#2F2F2F}
+.axs{font:16px Arial,Helvetica,sans-serif;fill:#9A9A9A}
+.ptn{font:700 18px Arial,Helvetica,sans-serif;fill:#2F2F2F}
+.ptn.hl{fill:#8C4A2F}
+.ptt{font:16px Arial,Helvetica,sans-serif;fill:#6E6E6E}
+.bandt{font:700 17px Arial,Helvetica,sans-serif;fill:#9B3B23}
+.bands{font:16px Arial,Helvetica,sans-serif;fill:#A8604A}
+.movet{font:italic 16px Arial,Helvetica,sans-serif;fill:#8A8A8A}
+.risks{display:flex;gap:12px;margin-top:7px}
+.risks>.risk{flex:1}
+.rh{font-size:19px;font-weight:700;color:#B5452C;line-height:1.22}
+.risk{border:1px solid #DDD8D2;border-radius:9px;background:#FBF6F4;padding:8px 11px;
+      border-left:5px solid #9B3B23}
+.risk .h{font-size:18px;font-weight:700;color:#9B3B23;line-height:1.2}
+.risk .t{font-size:16px;color:#5C5C5C;line-height:1.32;margin-top:3px}
+</style></head><body>
+
+<div class="ftitle">Each step out from the liver buys reach and pays in clinical validation</div>
+<div class="fsub">Routes placed by tissues reachable against clinical validation. Nothing sits in the shaded region, and one unsolved step is why.</div>
+
+<div class="wrap">
+<div class="chart">
+<svg viewBox="0 0 1098 308" width="1098" height="308" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F2F2F"/></marker>
+    <marker id="ahd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#A8A29B"/></marker>
+  </defs>
+
+  <!-- the region no route reaches -->
+  <path d="M 420 16 C 560 40 680 86 780 122 C 880 158 1000 196 1060 220 L 1060 16 Z"
+        fill="#B5452C" fill-opacity="0.09" stroke="#C98B76" stroke-width="2" stroke-dasharray="8 6"/>
+  <text class="bandt" x="1048" y="38" text-anchor="end">Still unsolved: productive delivery</text>
+  <text class="bandt" x="1048" y="58" text-anchor="end">into the cytosol of the target cell</text>
+  <text class="bands" x="1048" y="84" text-anchor="end">Uptake is not release. No route sits here.</text>
+
+  <!-- grid -->
+  <g stroke="#E6E2DD" stroke-width="1" stroke-dasharray="4 6">
+    <line x1="150" y1="64"  x2="1060" y2="64"/>
+    <line x1="150" y1="130" x2="1060" y2="130"/>
+    <line x1="150" y1="196" x2="1060" y2="196"/>
+    <line x1="455" y1="16"  x2="455"  y2="250"/>
+    <line x1="760" y1="16"  x2="760"  y2="250"/>
+  </g>
+
+  <!-- axes -->
+  <line x1="150" y1="250" x2="1072" y2="250" stroke="#2F2F2F" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="150" y1="250" x2="150"  y2="10"  stroke="#2F2F2F" stroke-width="2" marker-end="url(#ah)"/>
+
+  <text class="axs" x="138" y="58"  text-anchor="end">Approved</text>
+  <text class="axs" x="138" y="77"  text-anchor="end">medicines</text>
+  <text class="axs" x="138" y="124" text-anchor="end">Late-phase</text>
+  <text class="axs" x="138" y="143" text-anchor="end">data</text>
+  <text class="axs" x="138" y="190" text-anchor="end">Preclinical to</text>
+  <text class="axs" x="138" y="209" text-anchor="end">first-in-human</text>
+  <g transform="translate(24,133) rotate(-90)"><text class="ax" x="0" y="0" text-anchor="middle">Clinical validation</text></g>
+
+  <text class="ax"  x="150" y="278">Tissues reachable</text>
+  <text class="axs" x="152" y="302">One tissue, dedicated ligand</text>
+  <text class="axs" x="457" y="302">A second, by direct dosing</text>
+  <text class="axs" x="762" y="302">Several, by systemic entry</text>
+
+  <!-- the trade each step makes -->
+  <path d="M 420 150 C 540 172 660 188 756 198" fill="none" stroke="#A8A29B" stroke-width="2"
+        stroke-dasharray="7 6" marker-end="url(#ahd)"/>
+  <text class="movet" x="200" y="234">Reach bought, validation paid</text>
+
+  <!-- routes -->
+  <circle cx="235" cy="52" r="11" fill="#2F6B33"/>
+  <text class="ptn" x="258" y="47">GalNAc&#8211;siRNA</text>
+  <text class="ptt" x="258" y="69">Liver only. Approved medicines.</text>
+
+  <circle cx="320" cy="118" r="11" fill="#2F6B33"/>
+  <text class="ptn" x="343" y="113">Naked and intrathecal ASO</text>
+  <text class="ptt" x="343" y="135">CNS, but only where placed.</text>
+
+  <circle cx="790" cy="200" r="13" fill="#8C4A2F"/>
+  <circle cx="790" cy="200" r="21" fill="none" stroke="#8C4A2F" stroke-width="2" stroke-dasharray="4 4"/>
+  <text class="ptn hl" x="820" y="194">Antibody&#8211;oligonucleotide</text>
+  <text class="ptn hl" x="820" y="214">conjugates</text>
+  <text class="ptt" x="820" y="236">Muscle via TfR1, systemic.</text>
+</svg>
+</div>
+
+<div class="rh" style="margin-top:6px">Three open risks sit on that one unsolved step</div>
+<div class="risks">
+  <div class="risk"><div class="h">Endosomal escape efficiency</div>
+    <div class="t">Uptake is not delivery; whole-tissue read-outs cannot report the cytosolic fraction.</div></div>
+  <div class="risk"><div class="h">Payload-distribution control and characterization</div>
+    <div class="t">Payload-to-antibody ratio, conjugation site and free-payload residue gate every entry claim.</div></div>
+  <div class="risk"><div class="h">Receptor-mediated on-target toxicity</div>
+    <div class="t">The entry receptor sits well beyond the target tissue: efficacy and harm share one receptor.</div></div>
+</div>
+</div>
+
+<div class="fsrc">Positions are qualitative, set by the evidence class behind each route, not by a measured scale.</div>
+</body></html>

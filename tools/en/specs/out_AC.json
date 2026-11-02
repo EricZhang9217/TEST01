@@ -1,0 +1,675 @@
+[
+ {
+  "orig": [
+   17
+  ],
+  "section": "AOC opportunity & landscape",
+  "title": "Human data de-risk TfR1 entry into skeletal muscle; the window is set by evidence density and rights, not a date",
+  "layout": "stack",
+  "regions": [
+   {
+    "type": "table",
+    "heading": "Risks reduced by human evidence and risks still open",
+    "columns": [
+     "Status",
+     "Risk",
+     "What the evidence shows",
+     "Limit / where NewCo tests it"
+    ],
+    "col_widths": [
+     0.15,
+     0.25,
+     0.32,
+     0.28
+    ],
+    "first_col_bold": true,
+    "rows": [
+     [
+      "Reduced (human data)",
+      "TfR1 antibody delivers oligo to skeletal muscle with measurable PD",
+      "Company-disclosed human PD; animal tissue data only for DYNE-101 / DYNE-251",
+      "Holds only for skeletal muscle, TfR1 and the classic AOC format"
+     ],
+     [
+      "Reduced (human data)",
+      "Nuclear splice correction restores transcript and function",
+      "GAA IVS1 and DYSF patient-cell readouts (company-disclosed)",
+      "Payload-level only and under transfection; AOC-level delivery steps still missing"
+     ],
+     [
+      "Reduced (human data)",
+      "Intrathecal naked ASO gives randomized benefit in CNS",
+      "zilganersen approved 2026-09-03; nusinersen randomized benefit",
+      "Evidence for the intrathecal route, not for AOCs (no antibody transport step)"
+     ],
+     [
+      "Partly reduced (stage, regulatory)",
+      "The route can reach confirmatory trials with priority review",
+      "5 of 7 classic AOC assets are in skeletal muscle, all Phase 3; two BLA priority reviews",
+      "Acceptance is not approval: z-rostudirsen PDUFA 2027-01-21; del-zota PDUFA TBD"
+     ],
+     [
+      "Partly reduced (stage, regulatory)",
+      "Competitors are better funded",
+      "Novartis completed the Avidity acquisition 2026-02-27; Atrium spun out the cardiac route",
+      "Deepens rivals' resources; does not change evidence density"
+     ],
+     [
+      "Not yet reduced",
+      "Intact molecule in blood, entry into the right cell, productive payload in cell",
+      "No direct blood or payload data in 13 priority programs; cell entry only CNS preclinical",
+      "Tested at the Receptor-entry & payload-fit gate and the Tissue translation & safety gate"
+     ],
+     [
+      "Not yet reduced",
+      "Randomized benefit and the antibody's increment over alternative ligands",
+      "No classic AOC success yet; HARBOR missed its primary endpoint",
+      "Antibody increment measured at the Receptor-entry & payload-fit gate"
+     ]
+    ]
+   },
+   {
+    "type": "callout",
+    "text": "Window = evidence density × rights maturity. Reassess when any signal moves: first AOC approval, filing density, same-entry follow-on payload, gaps filled in literature, rival head-to-head data"
+   }
+  ],
+  "source": "Source: IC Memo v2 (§3, §3.3–3.5, §4.1.7, App. D.2/D.4); ClinicalTrials.gov check of 33 assets (2026-10-11); data as of 2026-10-13",
+  "notes": "Human readouts have lowered three risks, each with a clear reach: TfR1 delivery to skeletal muscle, splice correction in patient cells, and intrathecal oligo benefit in CNS. Phase 3 status, priority reviews and the Novartis–Avidity deal reduce feasibility and regulatory risk but provide no step-by-step delivery data. The window cannot be dated, but its closing signals can be monitored quarterly (order of magnitude, not rate). NewCo's response is to secure payload-sequence and disease-use rights now and generate its own transfection-free readouts for the first two payloads via the freedom-to-operate & backbone study (Rights & backbone-chemistry gate) and the productive-delivery study (Receptor-entry & payload-fit gate); the independent DYSF functional readout comes from the second-payload (DYSF) study (Platform-transfer gate). Cut for space: registry reads exclude trial results; del-desiran, del-brax and AOC 1044 lack animal tissue data in the materials."
+ },
+ {
+  "orig": [
+   18
+  ],
+  "section": "AOC opportunity & landscape",
+  "title": "Crowding sits at the delivery entry: six of seven classic AOC assets share TfR1, and late stage is muscle-only",
+  "layout": "stack",
+  "regions": [
+   {
+    "type": "table",
+    "heading": "Assets, patents and disease records by organ system",
+    "columns": [
+     "Organ system",
+     "Classic AOC assets (of 33)",
+     "Other modality assets (of 33)",
+     "Core AOC patents (of 60)",
+     "Disease records (of 94)",
+     "Mechanism-verifiable (of 31)"
+    ],
+    "col_widths": [
+     0.17,
+     0.17,
+     0.3,
+     0.12,
+     0.12,
+     0.12
+    ],
+    "first_col_bold": true,
+    "rows": [
+     [
+      "Skeletal muscle",
+      "5, all Phase 3",
+      "8: non-antibody ligands (6 Ph1, 1 Ph2, 1 terminated)",
+      "25",
+      "12",
+      "3"
+     ],
+     [
+      "CNS",
+      "1, Phase 1",
+      "10: mostly naked oligo (1 approved, 2 Ph3, 1 Ph2, 2 terminated)",
+      "5",
+      "26",
+      "13"
+     ],
+     [
+      "Solid tumour",
+      "1, Phase 1",
+      "—",
+      "3",
+      "6",
+      "1"
+     ],
+     [
+      "Cardiac / peripheral nerve / kidney",
+      "—",
+      "3: one Phase 1 each, delivery format undisclosed",
+      "3",
+      "12",
+      "4"
+     ],
+     [
+      "Eye, ear, skin",
+      "—",
+      "3: 2 non-antibody ligand Ph1, 1 naked oligo Ph3",
+      "0",
+      "12",
+      "6"
+     ],
+     [
+      "Lung, fibrosis, immune, blood, metabolic, liver",
+      "—",
+      "2: 1 non-antibody ligand Ph1 (metabolic), 1 GalNAc liver control",
+      "3",
+      "26",
+      "4"
+     ],
+     [
+      "Platform, process, receptor antibody",
+      "—",
+      "—",
+      "21",
+      "—",
+      "—"
+     ]
+    ]
+   },
+   {
+    "type": "callout",
+    "text": "Crowding is measured by entry × stage, not company or disease count. A blank cell means not captured, not 'no competition'; NewCo's positioning and follow-up searches use the same two axes"
+   }
+  ],
+  "source": "Source: IC Memo v2 (§3, §3.3, §3.4, App. A–C.3); ClinicalTrials.gov check 2026-10-11; patent workbook 2026-09-07; disease records 2026-09-28",
+  "notes": "Each column has its own unit and denominator: assets (33 representative assets), patent publication numbers (60 core AOC), and disease/genotype records (94, of which 31 mechanism-verifiable), so no two columns can be summed. Late-stage assets are concentrated in a single system, skeletal muscle, while the most records sit in CNS: where activity is densest is not where assets are most advanced. Coverage is representative, not global; gaps are triaged as not captured, not found this round, or entry conditions not yet met. 'Approved' requires a company announcement plus registry confirmation; Phase 1 includes Phase 1/2. CGB1001 is excluded."
+ },
+ {
+  "orig": [
+   20
+  ],
+  "section": "AOC opportunity & landscape",
+  "title": "Rivals include alternative ligands, so NewCo must show why an antibody beats an aptamer, not only a naked oligo",
+  "layout": "split_left_wide",
+  "regions": [
+   {
+    "type": "table",
+    "heading": "Furthest evidence along the delivery sequence, by asset",
+    "columns": [
+     "Asset (holder)",
+     "Modality",
+     "Furthest evidence",
+     "Not yet shown"
+    ],
+    "col_widths": [
+     0.26,
+     0.17,
+     0.32,
+     0.25
+    ],
+    "first_col_bold": true,
+    "rows": [
+     [
+      "del-desiran, del-brax, del-zota (Avidity, now Novartis)",
+      "Classic AOC",
+      "RNA/protein change (disclosed); del-desiran function and RCT negative (HARBOR)",
+      "Blood stability, tissue, cell entry, productive payload"
+     ],
+     [
+      "DYNE-101, DYNE-251 (Dyne)",
+      "Classic AOC",
+      "Tissue delivery (animal); RNA/protein change (disclosed)",
+      "Cell entry, productive payload, function"
+     ],
+     [
+      "SRP-1005 (Sarepta)",
+      "Classic AOC",
+      "Tissue delivery and RNA/protein change (animal)",
+      "Cell entry, productive payload, human data"
+     ],
+     [
+      "TAC-001 (Tallac)",
+      "Classic AOC",
+      "No direct data in materials",
+      "Payload and RNA steps not applicable"
+     ],
+     [
+      "DNL628 (Denali)",
+      "Engineered Fc",
+      "Tissue, cell entry and RNA/protein change (animal)",
+      "Cell-entry data is a tool MALAT1 ASO"
+     ],
+     [
+      "ABX1100 (Aro, Centyrin)",
+      "Non-antibody ligand",
+      "RNA/protein change and function (disclosed)",
+      "Blood stability, tissue, cell entry"
+     ],
+     [
+      "NewCo candidates (9 directions, not yet AOCs)",
+      "—",
+      "Payload-level RNA/protein for 8; function also for GAA IVS1, DYSF, COL6A1",
+      "All AOC-level steps"
+     ]
+    ]
+   },
+   {
+    "type": "bullets",
+    "heading": "33 same-disease assets in six delivery classes",
+    "items": [
+     "Classic AOC 7, held by four rights-holders; non-antibody ligand and peptide 11; naked oligo incl. intrathecal 9; undisclosed 4; engineered Fc 1; GalNAc liver control 1",
+     "Non-antibody ligands set the external benchmark for the antibody increment; intrathecal naked oligo is the CNS comparator",
+     "GAA faces three alternative routes at once; the antibody-over-aptamer increment is measured at the Receptor-entry & payload-fit gate",
+     "No classic AOC approval yet; two BLA priority reviews (del-zota PDUFA TBD, z-rostudirsen PDUFA 2027-01-21) are acceptances only"
+    ]
+   }
+  ],
+  "source": "Source: IC Memo v2 (§3.3, §3.5, §4.1.5, §10.7, App. C.3, App. D.2/D.4); ClinicalTrials.gov check 2026-10-11; data as of 2026-10-13",
+  "notes": "Competition sits both within the same target and modality and across alternative ligands and naked oligos serving the same patients, so the competitor table is split into six modality classes, each asset's configuration confirmed from three sources. None of the 13 priority programs has in-material data for intact molecule in blood or productive intracellular payload: the most likely failure point is after cell entry. HARBOR's failure is not inferred from other programs on the same platform. Registry records were checked 2026-10-11 and correction items 2026-10-07; neither was re-verified for this deck. Three modality-representative assets (ION582, ATR 1072, WVE-006) are not profiled step by step."
+ },
+ {
+  "orig": [
+   21
+  ],
+  "section": "AOC opportunity & landscape",
+  "title": "Rights dependency sits in the receptor-antibody layer; NewCo differentiates on payload sequence and disease use",
+  "layout": "split",
+  "regions": [
+   {
+    "type": "bullets",
+    "heading": "Filing density is rising and concentrated (core set of 60)",
+    "items": [
+     {
+      "text": "29 of 60 core AOC publications appeared in 2025–26 (18 and 11); none in 2012–2017 in this set",
+      "sub": [
+       "2026 is a partial year and publication lags ~18 months, so recent years are understated"
+      ]
+     },
+     {
+      "text": "Avidity 13 and Dyne 11 hold 40% of the 60; the other 24 applicants hold 36, 20 of them one each",
+      "sub": [
+       "Leaders concentrate on TfR1 conjugates, linker chemistry and muscle indications"
+      ]
+     },
+     "Chinese applicants hold 8 of the 60, across 6 entities",
+     "Counts kept separate: 135 / 60 public filings; family counts not yet built; 2 granted-in-force records (qualified)"
+    ]
+   },
+   {
+    "type": "table",
+    "heading": "Where the dependency sits and how NewCo enters",
+    "columns": [
+     "Layer / entry path",
+     "Reading",
+     "Treatment"
+    ],
+    "col_widths": [
+     0.34,
+     0.36,
+     0.3
+    ],
+    "first_col_bold": true,
+    "rows": [
+     [
+      "Receptor-antibody layer",
+      "Main rights dependency",
+      "License or design around"
+     ],
+     [
+      "Backbone-chemistry layer",
+      "Scope unclear until a supplementary search",
+      "Path chosen after the Rights & backbone-chemistry gate"
+     ],
+     [
+      "Payload sequence and disease use",
+      "Where NewCo can establish differentiation",
+      "Secure rights early"
+     ],
+     [
+      "Path 1: decisive cost = commercial terms",
+      "Depends on license negotiation",
+      "In gate scope (Rights & backbone-chemistry gate / Receptor-entry & payload-fit gate)"
+     ],
+     [
+      "Path 2: decisive cost = data rebuild",
+      "Own data must replace licensed data",
+      "In gate scope (Rights & backbone-chemistry gate / Receptor-entry & payload-fit gate)"
+     ],
+     [
+      "Path 3: decisive cost = rebuilding receptor access",
+      "New receptor route must be proven",
+      "Exploratory"
+     ],
+     [
+      "Path 4: decisive cost = scarce disease models",
+      "Model availability gates the start",
+      "Exploratory"
+     ]
+    ]
+   },
+   {
+    "type": "callout",
+    "text": "Rising density cuts both ways: any FTO conclusion is premature, and new entrants still have time, yet the wait-and-see window narrows. No FTO opinion is given at the scan stage"
+   }
+  ],
+  "source": "Source: IC Memo v2 (§3.1, §3.2, §4.5, App. B); core AOC patent workbook 2026-09-07; data as of 2026-10-13",
+  "notes": "Three counts are kept apart: public filing numbers (135 in the full set, 60 core AOC), patent families (not yet counted), and granted patents in force (2 in the workbook, with qualifications). Pre-merger counts on the 135 basis (Avidity 14, Dyne 12; Arrowhead and Denali 5 each) are for reference only and are not added to the 60. This is not a freedom-to-operate opinion: changing epitope or sequence does not automatically achieve design-around, process innovation may not solve FTO, publication does not imply freedom to operate, and a 'Ceased' WO status says nothing about the whole family. The first two entry paths fall within gate work; the last two stay exploratory."
+ },
+ {
+  "orig": [
+   32
+  ],
+  "section": "Why us",
+  "title": "Of 46 WuXi capabilities mapped to NewCo's seven work packages, 23 are directly shown; none is yet committed",
+  "layout": "stack",
+  "regions": [
+   {
+    "type": "kpis",
+    "items": [
+     {
+      "value": "23",
+      "label": "Directly shown in seminar materials"
+     },
+     {
+      "value": "14",
+      "label": "Usable after transfer (7) or adaptation (7)"
+     },
+     {
+      "value": "9",
+      "label": "Not yet shown; NewCo builds or obtains separately"
+     },
+     {
+      "value": "0",
+      "label": "Committed resources (quotes, slots, LOIs all TBD)"
+     }
+    ]
+   },
+   {
+    "type": "table",
+    "heading": "Capability map by NewCo work package (all company-disclosed)",
+    "columns": [
+     "Work package",
+     "Direct/transfer/adapt/absent",
+     "Directly shown (examples)",
+     "Gaps for the AOC case"
+    ],
+    "col_widths": [
+     0.15,
+     0.15,
+     0.36,
+     0.34
+    ],
+    "first_col_bold": true,
+    "rows": [
+     [
+      "Oligo design & synthesis",
+      "5 / 0 / 1 / 2",
+      "ML sequence-design pipeline; ATXN2 gapmer case; chemistry vs Alnylam ESC; saRNA screen",
+      "Re-target knockdown design to SSO splice rescue; transfection-free ranking not shown"
+     ],
+     [
+      "Antibody discovery",
+      "2 / 1 / 1 / 1",
+      "Phage (3–4 wks), hybridoma (13–16 wks), single B cell; in-house CD19 phage antibody",
+      "TfR1 epitope/valency and IgG/Fab/small-format head-to-head not shown"
+     ],
+     [
+      "Conjugation",
+      "3 / 1 / 1 / 1",
+      "96-well ADC conjugation, 2–3 wks/round, 40+ linkers, 70+ payloads; site-specific/random",
+      "AOC charge and P=S constraints need adaptation; full OAR distribution not shown"
+     ],
+     [
+      "Bioanalysis & DMPK",
+      "5 / 2 / 2 / 1",
+      "Six oligo bioanalysis platforms, 500+ projects/yr; LLOQ 0.001–20 ng/mL; PK/PD to protein",
+      "AOC project count and method validation pending; cell-resolved PD not shown"
+     ],
+     [
+      "Disease & functional models",
+      "3 / 1 / 0 / 2",
+      ">1,500 cell lines, humanized mice, NHP; uptake/internalization panel; organ-level SAR",
+      "LOPD/LGMD R2 patient cells, diaphragm sampling, receptor-dependent PD not shown"
+     ],
+     [
+      "Nonclinical safety",
+      "4 / 1 / 1 / 1",
+      "In vitro safety panel; 15,000+ samples, 200+ INDs; oligo-specific toxicity; IND package",
+      "AOC share of INDs not broken out; conjugate species-relevance needs adaptation"
+     ],
+     [
+      "CMC & scale-up",
+      "1 / 1 / 1 / 1",
+      "GMP oligo synthesis to IND stage",
+      "ADC process adjacent; AOC OAR/aggregation needs adaptation; conjugate GMP not shown"
+     ]
+    ]
+   }
+  ],
+  "source": "Source: WuXi AppTec Frontier New Modality Seminar, 53 on-site photos (2026-10-29); WuXi capability map, investor view; team analysis",
+  "notes": "Mapped onto NewCo's seven work packages, the WuXi case rests on execution cost and speed rather than on product judgement: 23 capabilities are directly shown, 14 usable after transfer or adaptation, 9 must be built or evidenced separately. Product judgement, configuration choice, key rights and transferable raw data stay with NewCo. All 46 items are seminar slides and posters, i.e. marketing material, recorded as company-disclosed and judged to diligence standard: 'can do' is not 'does well'. Presentations are not exclusive resources or contracts; no resource commitment exists yet. DMPK lists named AOC project experience (alongside ASO/PMO/siRNA), the only direct AOC mention in the materials; project counts and validation status are pending."
+ },
+ {
+  "orig": [
+   33
+  ],
+  "section": "Why us",
+  "title": "Three WuXi companies execute; NewCo owns product judgement, configuration, key rights and transferable raw data",
+  "layout": "stack",
+  "regions": [
+   {
+    "type": "cards",
+    "items": [
+     {
+      "heading": "WuXi AppTec (sponsor; can commit)",
+      "body": "Payload sequence design and oligo synthesis; backbone and linker chemistry; discovery-grade conjugation with DAR/OAR separation; DMPK and bioanalysis; in vitro safety, toxicology, IND package; animal target-cell PD"
+     },
+     {
+      "heading": "WuXi Biologics (LOI TBD)",
+      "body": "Antibody discovery and epitope/valency engineering; multi-format expression (IgG/Fab/small formats); antibody-format head-to-head study; GMP antibody drug substance"
+     },
+     {
+      "heading": "WuXi XDC (LOI TBD)",
+      "body": "GMP conjugation, fill and release; commercial-stage process and quality; formulation/drug-product interface with WuXi AppTec (TBD)"
+     },
+     {
+      "heading": "NewCo owns",
+      "body": "Product judgement (disease, genotype population, TPP); configuration choice (entry, format, chemistry, quality attributes); key molecule and indication rights; transferable raw data incl. negative results"
+     }
+    ]
+   },
+   {
+    "type": "table",
+    "heading": "Four commitment types: only rights and data can form a moat",
+    "columns": [
+     "Type",
+     "Terms sought",
+     "Protective value"
+    ],
+    "col_widths": [
+     0.16,
+     0.56,
+     0.28
+    ],
+    "first_col_bold": true,
+    "rows": [
+     [
+      "IP (rights)",
+      "Molecule and indication IP to NewCo; method patents and know-how allocated up front",
+      "Possible moat; not yet secured"
+     ],
+     [
+      "Services",
+      "Mutually non-exclusive, at market price, written, not free; two LOIs (TBD)",
+      "Execution only, not a moat"
+     ],
+     [
+      "Data",
+      "Raw data and method files owned, cross-licensed; negatives archived, handed over at exit",
+      "Structural downside protection"
+     ],
+     [
+      "People",
+      "Cross-training and secondment; post-departure non-compete and method know-how (TBD)",
+      "Structural downside protection"
+     ]
+    ]
+   }
+  ],
+  "source": "Source: entity-scope definitions for the three listed WuXi companies; IC Memo v2 (§7.9, §10.9); WuXi seminar materials; team analysis",
+  "notes": "Work is split across three independently listed WuXi companies; NewCo's four owned assets are its source of difference and what remains if a molecule fails. Five load-bearing term categories decide whether these four can be realised; all are TBD. The decisions sought are two letters of intent (WuXi Biologics, WuXi XDC), confirmation of the ownership interface, and a mandate to negotiate the five term categories. The allocation of steps to entities is a team judgement based on the entity scope, not on WuXi's own capability descriptions. Branding and contracting entity differ: antibody discovery and ADC conjugation were shown under WuXi Biology/WuXi AppTec branding, and the actual service entity is confirmed per contract. Versus a financial investor, WuXi's increment lies on the capability side (methods and retained people); service revenue and pro-rata returns are shown separately."
+ },
+ {
+  "orig": [
+   35
+  ],
+  "section": "Why us",
+  "title": "AI is applied only where wet-lab results can correct it, with functional-delivery ranking as the pass criterion",
+  "layout": "split_left_wide",
+  "regions": [
+   {
+    "type": "table",
+    "heading": "Seven AI use areas: input, output and wet-lab check",
+    "columns": [
+     "Use area",
+     "Maturity",
+     "Input → output",
+     "Wet-lab validation"
+    ],
+    "col_widths": [
+     0.24,
+     0.17,
+     0.32,
+     0.27
+    ],
+    "first_col_bold": true,
+    "rows": [
+     [
+      "Target & receptor screening",
+      "Partly validated",
+      "Tissue single-cell and surface proteome → ranked receptors",
+      "Polarity → internalization → functional delivery"
+     ],
+     [
+      "Binder design",
+      "Validated use exists",
+      "Affinity, pH, cross-species data → binder ranking",
+      "Target-cell PD (validated at antibody level)"
+     ],
+     [
+      "Epitope & trafficking",
+      "Concept",
+      "Epitope, kon/koff, sorting data → trafficking score",
+      "Pulse-chase; capillary-depleted brain concentration"
+     ],
+     [
+      "Payload sequence, chemistry, conjugation",
+      "Partly validated",
+      "Patient RNA, chemistry SAR, OAR → sequence and modification",
+      "Transfection-free functional rescue in patient cells"
+     ],
+     [
+      "Multi-parameter experiment design",
+      "Concept",
+      "Variable sets and functional readouts → next build batch",
+      "Rounds needed vs a controlled design"
+     ],
+     [
+      "CMC quality prediction",
+      "Concept",
+      "OAR, impurity profile, process parameters → release-risk alert",
+      "Prospective batches (training batches usually too few)"
+     ],
+     [
+      "Patient stratification & biomarkers",
+      "Partly validated",
+      "Variant spectrum, editability rules → serviceable population",
+      "Patient cells, biopsy (rule-based is feasible)"
+     ]
+    ]
+   },
+   {
+    "type": "bullets",
+    "heading": "How AI is held to account",
+    "items": [
+     "Single test: can wet-lab experiments correct this step?",
+     "Pass criterion: functional-delivery ranking, i.e. transfection-free, receptor-dependent productive payload and sequence-specific PD",
+     "Gain is measured against a non-AI baseline at the same budget and on the same task",
+     "Blind test set and retraining rights on negative results belong to NewCo"
+    ]
+   },
+   {
+    "type": "callout",
+    "text": "A strong binder, a differentially expressed gene or an in vitro active sequence is not a usable AOC; best training data: one candidate in diseased vs normal cells, failures kept"
+   }
+  ],
+  "source": "Source: IC Memo v2 (§4.4); team analysis",
+  "notes": "The seven application areas from the research are consolidated for NewCo into four task classes that wet-lab work can correct, each with its own validation loop and the same pass criterion. Maturity grades are a research judgement, not recorded facts. What AI cannot yet replace is functional-delivery validation: receptor-dependent productive intracellular payload and sequence-specific PD without transfection. The most valuable training data are uptake, productive payload, PD, function, toxicity and manufacturability for the same candidate in diseased and normal cells, including failed candidates. Cut for space: the seven acceptance criteria and four label-discipline rules are in the memo."
+ },
+ {
+  "orig": [
+   36
+  ],
+  "section": "Why us",
+  "title": "WuXi's internal AI evidence shows tools and a discovery workflow; the gain must come from a prospective blinded test",
+  "layout": "stack",
+  "regions": [
+   {
+    "type": "flow",
+    "heading": "Design–test loop with three data boundaries",
+    "steps": [
+     {
+      "heading": "1. Data & labels",
+      "body": "In-house training set; dosing conditions labelled; negatives stored on equal terms"
+     },
+     {
+      "heading": "2. Design & ranking",
+      "body": "Rule/ML/generative design; objective = functional delivery; non-AI baseline run in parallel. Training set closes here"
+     },
+     {
+      "heading": "3. Paired synthesis",
+      "body": "Fixed synthesis budget; equal numbers in AI and baseline arms; same payload and linker"
+     },
+     {
+      "heading": "4. Wet-lab readout",
+      "body": "Transfection-free uptake; sorted target-cell PD; splice rescue, enzyme activity. Blind set sealed by patient/variant/batch, held by NewCo"
+     },
+     {
+      "heading": "5. Blind-test read",
+      "body": "Held-out targets/donors; predefined endpoints; rounds and unit cost recorded"
+     },
+     {
+      "heading": "6. Independent validation",
+      "body": "New donors, batches and executing party; third-party or internal replication; transferable raw data. Failures loop back to step 1"
+     }
+    ]
+   },
+   {
+    "type": "table",
+    "heading": "Where WuXi's internal materials sit (company-disclosed)",
+    "columns": [
+     "Internal material",
+     "Loop steps covered",
+     "Caveat"
+    ],
+    "col_widths": [
+     0.36,
+     0.22,
+     0.42
+    ],
+    "first_col_bold": true,
+    "rows": [
+     [
+      "ML four-step sequence-design pipeline",
+      "Data & labels; design & ranking",
+      "Two targets shown; one photo illegible"
+     ],
+     [
+      "ATXN2 end-to-end case",
+      "Design through wet-lab readout",
+      "Readouts under transfection / electroporation conditions"
+     ],
+     [
+      "In vitro safety and delivery evaluation panels",
+      "Wet-lab readout",
+      "Evaluation tools, not evidence of AI gain"
+     ],
+     [
+      "Blind test, held-out targets, independent replication",
+      "Blind-test read; independent validation",
+      "Not yet established; to be set up in a prospective collaboration"
+     ]
+    ]
+   }
+  ],
+  "source": "Source: IC Memo v2 (§4.4); blinded-testing and controls analysis; WuXi seminar photos (2026-10-29); data as of 2026-10-13",
+  "notes": "WuXi's internal material supports 'tools exist and a payload-discovery workflow exists'; it does not yet quantify AI gain. That number should come from one prospective comparison on a defined target: the AI arm versus a reasonable non-AI baseline at the same experimental budget and task, recording cost per success, rounds needed, reproducibility and off-target effects. Labels from transfected conditions are tagged separately; galectin signals, homogenate means and tissue concentration are reference only, with positive labels taken from cell-resolved readouts. The ATXN2 hit rate is recorded as disclosed and under transfection, not as a validated AI gain. Next steps: answers to twelve questions for Andy Ng and the oligo discovery platform team, and a prospective-collaboration SOW (TBD)."
+ }
+]

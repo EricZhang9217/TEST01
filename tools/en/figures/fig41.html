@@ -1,0 +1,88 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+ body{width:1150px;zoom:1.3913;padding:16px 20px 12px}
+ .ftitle{font-size:26px;line-height:1.2}
+ .fsub{font-size:17px;margin-top:6px;line-height:1.35}
+ .seclabel{font-size:19px;margin:13px 0 8px}
+ .fsrc{font-size:14px;margin-top:10px;line-height:1.35}
+ .chain{display:grid;grid-template-columns:1fr 24px 1.05fr 24px 1fr 24px 1.3fr;
+        align-items:stretch;margin-top:12px}
+ .cb{text-align:center;padding:8px 10px;display:flex;flex-direction:column;justify-content:center;
+     border-radius:9px}
+ .t1{font-size:18px;font-weight:700;color:#2F2F2F;line-height:1.25}
+ .t2{font-size:16px;color:#5C5C5C;line-height:1.35;margin-top:2px}
+ .em{color:#8C4A2F;font-weight:700}
+ .bad{color:#B5452C}
+ .ar{display:flex;align-items:center;justify-content:center;font-size:19px;color:#2F2F2F}
+ .plain{background:transparent;border:0}
+ .cards{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+ .cd{border-radius:10px;padding:9px 11px}
+ .cg{border:1.8px solid #2F6B33;background:#FBFCFB}
+ .cy{border:1.6px dashed #A8762F;background:transparent}
+ .cr{border:1.6px dashed #9B3B23;background:transparent}
+ .cdh{font-size:19px;font-weight:700;text-align:center;line-height:1.25;margin-bottom:7px}
+ .cg .cdh{color:#2F6B33}.cy .cdh{color:#8C6418}.cr .cdh{color:#9B3B23}
+ .bd{font-size:16px;color:#4F4F4F;line-height:1.32;margin-top:4px}
+ .bd b{font-weight:700}
+ .cg .bd b{color:#2F6B33}.cy .bd b{color:#8C6418}.cr .bd b{color:#9B3B23}
+ .grade{border-top:1px solid #DDD8D2;margin-top:7px;padding-top:5px;font-size:16px;line-height:1.32}
+ .cg .grade{color:#2F6B33}.cy .grade{color:#8C6418}.cr .grade{color:#9B3B23}
+ .note{margin-top:12px;padding:9px 13px;font-size:16px;line-height:1.35;color:#4F4F4F}
+ .lg{font-size:16px;color:#7A7A7A;line-height:1.35;margin-top:11px}
+ .lg div{margin-top:4px}
+ .kb{display:inline-block;width:30px;height:13px;border-radius:3px;margin-right:5px;
+     vertical-align:-1px}
+ .k1{background:#FBFCFB;border:1.8px solid #2F6B33}
+ .k2{background:transparent;border:1.6px dashed #A8762F}
+ .k3{background:transparent;border:1.6px dashed #9B3B23}
+</style></head><body>
+<div class="ftitle">Pathological fibroblast: one HSP47 mechanism, three organs, three outcomes</div>
+<div class="fsub">Mechanism chain across the top; three organ columns compare accessibility and evidence.</div>
+
+<div class="chain">
+  <div class="cb box"><div class="t1">Activated fibroblast</div><div class="t2">Endoplasmic reticulum</div><div class="t2 em">HSP47 (SERPINH1)</div><div class="t2">Collagen chaperone</div></div>
+  <div class="ar">&#10230;</div>
+  <div class="cb box" style="background:#FCFBFA"><div class="t1">Procollagen folding</div><div class="t2">&rarr; secreted to matrix</div><div class="t2">Sustained output &rarr; stiffening</div><div class="t2">&rarr; organ function lost</div></div>
+  <div class="ar">&#10230;</div>
+  <div class="cb box hl"><div class="t1" style="color:#8C4A2F">Lower HSP47</div><div class="t2">siRNA, cytoplasmic</div><div class="t2">Collagen cut at source</div><div class="t2 em">Protect normal repair</div></div>
+  <div class="ar">&#10230;</div>
+  <div class="cb plain" style="text-align:left;align-items:flex-start;justify-content:center"><div class="t2" style="margin-top:0">Collagen output &darr;, less deposition</div><div class="t2 bad">Entry problem: FAP &ne; efficacy entry</div><div class="t2 bad">Fibroblasts heterogeneous</div><div class="t2 bad">Needs patient tissue or explant PD</div></div>
+</div>
+
+<div class="seclabel">Three organs &mdash; column order reflects sampling cost only</div>
+
+<div class="cards">
+  <div class="cd cg">
+    <div class="cdh">SSc skin fibroblasts</div>
+    <div class="bd"><b>Mechanism:</b> sound; biopsy repeatable, PD and selectivity read in patients</div>
+    <div class="bd"><b>Read:</b> first on sampling cost, not a stronger mechanism</div>
+    <div class="bd"><b>Next:</b> paired lesional/normal PD; 3x holds, below 2x change antigen</div>
+    <div class="grade">Grade: payload level; neighbour organ mixed</div>
+  </div>
+
+  <div class="cd cy">
+    <div class="cdh">IPF lung fibroblasts</div>
+    <div class="bd"><b>Mechanism:</b> borrowed across organs; inhaled dose meets epithelium first</div>
+    <div class="bd"><b>Read:</b> cross-organ extrapolation, least direct evidence here</div>
+    <div class="bd"><b>Next:</b> human IPF explant PD; quantify interstitial fraction</div>
+    <div class="grade">Grade: extrapolation, no direct reading</div>
+  </div>
+
+  <div class="cd cr">
+    <div class="cdh">MASH hepatic stellate cells</div>
+    <div class="bd"><b>Mechanism:</b> mixed results; phase 2 no histological advantage</div>
+    <div class="bd"><b>Read:</b> partial-veto basis; BMS-986263 liver LNP ended early</div>
+    <div class="bd"><b>Next:</b> stellate-cell uptake and PD; answer the earlier failure</div>
+    <div class="grade">Grade: mixed (disclosed); partial veto trigger</div>
+  </div>
+</div>
+
+<div class="box hl note">
+<b style="color:#8C4A2F">Redraw note:</b> selectivity is checkable in several organs; skin is simply cheapest to sample, and its readings do not stand in for lung or liver.
+</div>
+
+<div class="lg">
+  <div><span class="kb k1"></span>Solid green = mechanism and accessibility supported. <span class="kb k2"></span><span class="kb k3"></span>Dashed = cross-organ extrapolation or least direct evidence here; gold = unvalidated, red-brown = adverse facts. Blank = not checked this round, not &ldquo;none&rdquo;; columns carry no ranking and no weighted total.</div>
+</div>
+<div class="fsrc">Source: redrawn from the memo&rsquo;s fibrosis atlas; original figure and notes kept in full in the appendix figure archive; data as of 2026-10-13.</div>
+</body></html>

@@ -1,0 +1,121 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+body{width:1150px;padding:12px 24px 6px}
+.ftitle{font-size:26px;line-height:1.16}
+.tot{display:flex;align-items:center;gap:12px;border:2px solid #8C4A2F;border-radius:9px;
+     background:#FDF8F3;padding:5px 12px;margin-top:7px}
+.tot .k{flex:0 0 auto;font-size:18px;font-weight:700;color:#8C4A2F;line-height:1.15;white-space:nowrap}
+.tot .v{font-size:16px;color:#3A3A3A;line-height:1.2}
+.wall{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:7px}
+.card{background:#FCFBFA;border:1px solid #DDD8D2;border-radius:9px;padding:0 0 6px;
+      display:flex;flex-direction:column}
+.chd{background:#F4EFE9;border-bottom:1px solid #DDD8D2;border-radius:8px 8px 0 0;
+     padding:3px 9px;font-size:17px;font-weight:700;color:#2F2F2F;line-height:1.16}
+.cb{padding:4px 9px 0}
+.segs{display:flex;gap:2px;margin-bottom:3px}
+.seg{flex:1;height:19px;line-height:17px;text-align:center;font-size:16px;border-radius:4px;
+     border:1px solid #DCD7D1;background:#F2F0ED;color:#9A9A9A}
+.seg.ok{background:#2F6B33;border-color:#2F6B33;color:#fff;font-weight:700}
+.seg.bad{background:#9B3B23;border-color:#9B3B23;color:#fff;font-weight:700}
+.seg.wait{background:transparent;border:1.5px dashed #C89A5E;color:#8C4A2F}
+.nochain{font-size:16px;color:#9A9A9A;line-height:1.18;margin-bottom:3px;font-style:italic}
+.now{font-size:16px;color:#2F2F2F;line-height:1.18}
+.lift{font-size:16px;color:#3A3A3A;line-height:1.18;margin-top:3px}
+.lift b{color:#8C4A2F}
+.lg{font-size:16px;color:#7A7A7A;line-height:1.24;margin-top:6px}
+.lg b{color:#8C4A2F}
+.kb{display:inline-block;width:22px;height:13px;border-radius:4px;vertical-align:-1px;margin-right:2px}
+.fsrc{font-size:14px;margin-top:4px}
+</style></head><body>
+
+<div class="ftitle">Eight dimensions graded card by card &mdash; and no weighted total</div>
+
+<div class="tot">
+  <div class="k">Total &mdash; left blank</div>
+  <div class="v">One score would average away the critical gap, so none is given. Blank is not zero and not &ldquo;not assessed&rdquo;; the out-of-100 total in the reference template is not adopted.</div>
+</div>
+
+<div class="wall">
+
+  <div class="card">
+    <div class="chd">Biology</div>
+    <div class="cb">
+      <div class="segs"><span class="seg wait">1</span><span class="seg wait">2</span><span class="seg wait">3</span><span class="seg wait">4</span><span class="seg ok">5</span><span class="seg ok">6</span><span class="seg">7</span></div>
+      <div class="now">Payload steps 5&ndash;6 shown, under transfection; conjugate level unevidenced</div>
+      <div class="lift"><b>Lift &rarr; patient-cell biology gate:</b> four-level chain in patient myotubes</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="chd">Delivery</div>
+    <div class="cb">
+      <div class="segs"><span class="seg">1</span><span class="seg">2</span><span class="seg">3</span><span class="seg bad">4</span><span class="seg ok">5</span><span class="seg">6</span><span class="seg">7</span></div>
+      <div class="now">Skeletal muscle TfR1 high; heart medium; CNS low; fibroblast and kidney none</div>
+      <div class="lift"><b>Lift &rarr; receptor-entry gate:</b> cytosolic payload under free uptake, 4 controls</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="chd">Clinical translation</div>
+    <div class="cb">
+      <div class="segs"><span class="seg">1</span><span class="seg">2</span><span class="seg">3</span><span class="seg">4</span><span class="seg">5</span><span class="seg">6</span><span class="seg bad">7</span></div>
+      <div class="now">HARBOR Phase 3 missed vHOT &mdash; NCT06411288, 159 patients, 2026-09-08</div>
+      <div class="lift"><b>Lift &rarr; fixed target product profile:</b> population, endpoint, effect size</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="chd">Competition</div>
+    <div class="cb">
+      <div class="nochain">Not scored by chain step</div>
+      <div class="now">First receptor &times; target &times; mechanism taken. Avidity 13 + Dyne 11 = 24/60 (40%); Creyon 36 nt (bioRxiv 2026-07-19); ABX1100 Ib: 9 patients, GYS1 mRNA ~62%, FVC ~+2.5% / 5 mo</div>
+      <div class="lift"><b>Lift &rarr; no gate:</b> asset-by-asset compare, 4 more registries</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="chd">Market</div>
+    <div class="cb">
+      <div class="nochain">Not scored by chain step</div>
+      <div class="now">No geography and no patient count this round</div>
+      <div class="lift"><b>Lift &rarr; fixed target product profile:</b> addressable population</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="chd">CMC</div>
+    <div class="cb">
+      <div class="nochain">Not scored by chain step</div>
+      <div class="now">Base disclosed, characterization to build. Single-payload yield 16&ndash;46%, 5 isotypes / 6 antibody&ndash;linker pairings</div>
+      <div class="lift"><b>Lift &rarr; CMC and cost gate:</b> six mandatory measurements, free-payload residue</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="chd">Rights</div>
+    <div class="cb">
+      <div class="nochain">Not scored by chain step</div>
+      <div class="now">60 core filings: 56 PCT / 2 substantive exam / 2 granted. Arrowhead US 12,527,877 granted 2026-01-20</div>
+      <div class="lift"><b>Lift &rarr; rights and backbone gate:</b> counsel&rsquo;s written opinion</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="chd">Team execution</div>
+    <div class="cb">
+      <div class="nochain">Not scored by chain step</div>
+      <div class="now">Candidates at Lilly and Avidity, direction overlaps; conflict gate open</div>
+      <div class="lift"><b>Lift &rarr; no gate:</b> time-commitment letters, agreements, five named signatories</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="lg"><b>Chips are the seven-step delivery chain.</b>
+<span class="kb" style="background:#2F6B33"></span>read-out exists &middot;
+<span class="kb" style="background:#9B3B23"></span>gap or endpoint not met &middot;
+<span class="kb" style="border:1.5px dashed #C89A5E"></span>still to be evidenced, not &ldquo;most likely to fail&rdquo; &middot;
+<span class="kb" style="background:#F2F0ED;border:1px solid #DCD7D1"></span>not recorded. Grades state the source class of the evidence, not a score; five dimensions are not booked by chain step.</div>
+
+<div class="fsrc">Source: IC Memo v2 &sect;2.1, &sect;3.3, &sect;4.1.5&ndash;&sect;4.1.7, &sect;6.1, &sect;6.2; patent workbook; data as of 2026-10-13.</div>
+</body></html>

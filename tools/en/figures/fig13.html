@@ -1,0 +1,69 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+ body{width:1150px;padding:18px 22px 12px}
+ .ftitle{font-size:26px;line-height:1.2}
+ .fsub{font-size:16.5px;margin-top:6px;line-height:1.3}
+ .seclabel{font-size:19px;margin:12px 0 6px}
+ .fsrc{font-size:14px;margin-top:9px;line-height:1.35}
+ .mx{display:grid;grid-template-columns:116px 1fr 1fr 1fr;gap:7px;margin-top:10px}
+ .hd{background:#FBF5EF;border:1.5px solid #8C4A2F;border-radius:9px;padding:6px 8px;
+     text-align:center;font-size:18px;font-weight:700;color:#8C4A2F;line-height:1.2}
+ .corner{display:flex;align-items:flex-end;justify-content:flex-end;font-size:16px;color:#8A8A8A;
+         padding-bottom:6px;line-height:1.2;text-align:right}
+ .rh{background:#F4F2EF;border:1px solid #DDD8D2;border-radius:9px;display:flex;align-items:center;
+     justify-content:center;text-align:center;font-size:17px;font-weight:700;color:#2F2F2F;padding:6px 4px;line-height:1.2}
+ .cell{background:#F4F2EF;border:1px solid #DDD8D2;border-radius:9px;padding:7px 9px}
+ .cell.dash{background:transparent;border:1px dashed #C7C2BC}
+ .ex{font-size:16px;color:#2F2F2F;line-height:1.25}
+ .tb{font-size:16px;color:#8C4A2F;line-height:1.25;margin-top:3px}
+ .own{border:1.5px solid #DDD8D2;border-radius:9px;padding:6px 10px 6px 14px;position:relative;
+      background:#FCFBFA;overflow:hidden;font-size:17px;font-weight:700;color:#8C4A2F;line-height:1.2}
+ .own:before{content:"";position:absolute;left:0;top:0;bottom:0;width:7px;background:#8C4A2F}
+ .own.g{border-color:#B9D2B9;color:#2F6B33}.own.g:before{background:#2F6B33}
+ .own.b{border-color:#DDBDB3}
+ .rowlab{display:flex;align-items:center;justify-content:flex-end;font-size:16px;color:#8A8A8A;text-align:right;line-height:1.2}
+ .unit{margin-top:8px;padding:9px 12px}
+ .unit .bh{color:#8C4A2F;font-size:18px;line-height:1.2}
+ .unit .bt{font-size:16.5px;margin-top:4px;line-height:1.27}
+ .lg{font-size:16px;color:#7A7A7A;line-height:1.3;margin-top:8px;white-space:nowrap}
+ .sw{display:inline-block;width:20px;height:11px;border-radius:3px;vertical-align:-1px;margin-right:4px}
+</style></head><body>
+<div class="ftitle">AOC&rsquo;s three modules: independent capability lines on three dimensions</div>
+<div class="fsub">Column = what one module must build; row = how the three stay independent. Black = existing basis, brown = to build.</div>
+
+<div class="mx">
+  <div class="corner">Dimension &darr;<br>Module &rarr;</div>
+  <div class="hd">Binder</div>
+  <div class="hd">Oligonucleotide payload</div>
+  <div class="hd">Linker &amp; conjugation</div>
+
+  <div class="rh">CMC &amp;<br>supply chain</div>
+  <div class="cell"><div class="ex">Mammalian expression mature</div><div class="tb">To build: cysteine site-specific reduction control</div></div>
+  <div class="cell"><div class="ex">Oligo synthesis &amp; purification</div><div class="tb">To build: batch failure-rate and loss control</div></div>
+  <div class="cell"><div class="ex">The two supply chains converge</div><div class="tb">To build: conjugate purification and scale-up controls</div></div>
+
+  <div class="rh">PK &amp;<br>formulation</div>
+  <div class="cell"><div class="ex">Naked-antibody FcRn recycling</div><div class="tb">To build: conjugate-specific PK method</div></div>
+  <div class="cell"><div class="ex">P=S drives charged-payload clearance (female ICR mice, n=4/group)</div><div class="tb">To build: cross-backbone exposure</div></div>
+  <div class="cell"><div class="ex">PMO loading clears ~4&times; faster (8D3_130, C57BL/6J, 20 mg/kg IV, n=3&ndash;4)</div><div class="tb">To build: full OAR distribution</div></div>
+
+  <div class="rh">Patents &amp;<br>rights</div>
+  <div class="cell"><div class="ex">TfR1 antibody and Fab dense, two leaders</div><div class="tb">To build: receptor-layer claim map</div></div>
+  <div class="cell"><div class="ex">Dispersed by target; new sequences = unique rights</div><div class="tb">To build: sequence/use-layer filings</div></div>
+  <div class="cell dash"><div class="ex">Overlaps the ADC field</div><div class="tb">To build: backbone-chemistry search boundary (memo&rsquo;s own layer)</div></div>
+
+  <div class="rowlab">Commitment<br>owner &rarr;</div>
+  <div class="own">WuXi Biologics &mdash; letter of intent, TBD</div>
+  <div class="own g">WuXi AppTec &mdash; can commit</div>
+  <div class="own b">WuXi XDC &mdash; letter of intent, TBD</div>
+</div>
+
+<div class="box hl unit"><div class="bh">Platform unit (spans all three modules)</div>
+<div class="bt">Same entry + same target cell + same site of action. First unit: TfR1 + myofibre nucleus + splice-switching occupancy, shared by GAA IVS1 and DYSF; COL6A1 is the second-unit candidate.</div></div>
+
+<div class="lg"><span class="sw" style="border:1px solid #DDD8D2;background:#F4F2EF"></span>solid = existing basis &nbsp;&middot;&nbsp;
+<span class="sw" style="border:1px dashed #C7C2BC"></span>dashed = boundary undefined &nbsp;&middot;&nbsp;
+<span class="sw" style="background:#2F6B33;width:7px"></span>green bar = can commit &nbsp;&middot;&nbsp;
+<span class="sw" style="background:#8C4A2F;width:7px"></span>brown bar = letter of intent</div>
+<div class="fsrc">Source: IC Memo v2 §4.1.2, §4.1.5, §4.2.2, §4.3, §4.5; data as of 2026-10-13.</div>
+</body></html>

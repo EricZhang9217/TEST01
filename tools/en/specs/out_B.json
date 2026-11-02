@@ -1,0 +1,456 @@
+[
+  {
+    "orig": [13],
+    "section": "How we evaluate (platform & pipeline)",
+    "title": "AOC splits into binder, oligonucleotide payload and conjugation chemistry - each line built separately",
+    "layout": "full",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Three capability lines, independent on three dimensions",
+        "columns": ["Dimension", "Binder", "Oligonucleotide payload", "Linker & conjugation"],
+        "col_widths": [0.16, 0.28, 0.28, 0.28],
+        "first_col_bold": true,
+        "rows": [
+          [
+            "CMC & supply",
+            "Mammalian expression mature; must add cysteine site-specific partial reduction control",
+            "Oligo synthesis and purification in place; must add batch failure and loss control",
+            "Two supply chains converge; must define conjugate purification and scale-up controls"
+          ],
+          [
+            "PK & formulation",
+            "Naked-antibody FcRn recycling known; must build conjugate-specific PK methods",
+            "P=S content drives charged-payload clearance (ICR mice, n=4/group, one siRNA chemistry)",
+            "Same antibody clears ~4x faster after PMO loading; must characterise full OAR distribution"
+          ],
+          [
+            "Patents & rights",
+            "TfR1 antibody and Fab space crowded, two holders dominate; map receptor-layer claims",
+            "Rights disperse by target; new-target sequences are the realistic source of unique rights",
+            "Overlaps ADC space; counsel scopes the backbone-chemistry patent search first"
+          ],
+          [
+            "Commitment owner",
+            "WuXi Biologics (letter of intent, TBD)",
+            "WuXi AppTec (can commit)",
+            "WuXi XDC (letter of intent, TBD)"
+          ]
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "One reusable platform unit = same entry + same target cell + same main active compartment. First unit: TfR1 + myofibre nucleus + splice-switching occupancy, shared by GAA IVS1 and DYSF."
+      }
+    ],
+    "source": "Source: IC Memo v2 §4.1.2, §4.1.5, §4.2.2, §4.3, §4.5; Cochran et al., J Med Chem 2026;69(17):20230-20247 (PMID 42612014); data as of 2026-10-13",
+    "notes": "We buy and commit along three lines, not one. The scope here is classic AOC only: direct covalent conjugation of an antibody or antibody fragment to a short oligonucleotide - antibody-protamine-siRNA complexes, targeted LNP carrying editor mRNA, Centyrin, aptamers, peptides and GalNAc are deliberately out of scope. ADC experience transfers in reverse on three points: conjugate PK is not predicted by the naked antibody, the OAR distribution must be reported in full rather than as a mean, and the backbone chemistry layer has the least direct evidence. Reuse is claimed per platform unit and is first testable at the platform-transfer gate. Cut for space: the three-company rights boundary table and the commitment-authority detail."
+  },
+  {
+    "orig": [14],
+    "section": "How we evaluate (platform & pipeline)",
+    "title": "Each payload class acts in its own compartment; SSO success means correct splicing plus functional protein",
+    "layout": "stack",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Where each payload acts and how it is read out",
+        "columns": ["Payload", "Active compartment", "Mechanism", "Qualifying read-out"],
+        "col_widths": [0.14, 0.22, 0.28, 0.36],
+        "first_col_bold": true,
+        "rows": [
+          [
+            "siRNA",
+            "Cytoplasm, at mature mRNA before translation",
+            "Ago2/RISC loading, then sequence-specific cleavage",
+            "Guide-strand quantity after Ago2 immunoprecipitation, plus target cleavage product"
+          ],
+          [
+            "gapmer ASO",
+            "Nucleus or cytoplasm, following the target RNA",
+            "RNase H1 cleavage at pre-mRNA or at mature mRNA",
+            "Target RNA knockdown with RNase H1 dependence, then protein function"
+          ],
+          [
+            "SSO",
+            "Nucleus, at pre-mRNA",
+            "Steric occupancy, no cleavage; totals shift via splicing and NMD",
+            "Correct splicing ratio (unexpected isoforms reported separately), then mature protein"
+          ]
+        ]
+      },
+      {
+        "type": "bullets",
+        "heading": "Compartment first, then mechanism, backbone and read-out",
+        "items": [
+          "Backbone chemistry is a separate axis from mechanism: PMO is charge-neutral, 2'-modified plus P=S is charged, and PMO can carry an SSO mechanism.",
+          "A total-RNA read-out is a methodological error for an SSO, because occupancy does not cleave the transcript.",
+          "For SSO the bar is the correct transcript and the mature protein: amount, form and localisation, then function and disease phenotype.",
+          "Both first payloads are SSOs, so the receptor-entry & payload-fit gate and the patient-cell biology gate score two axes separately and never merge them into one number.",
+          "CpG/TLR9 endosomal activation acts at an endosomal receptor, off the RNA pathway, and needs its own metrics.",
+          "Same antibody clears about four times faster once PMO is loaded, so conjugate PK must be measured on the conjugate itself."
+        ]
+      }
+    ],
+    "source": "Source: IC Memo v2 §4.2.1, §10.8; data as of 2026-10-13",
+    "notes": "Payload choice starts from the target cell and the compartment where the drug must act, and only then fixes mechanism, backbone chemistry and read-out. The three classes are classified on three independent axes, with backbone chemistry recorded apart from mechanism. The conclusions on DAR1 versus DAR2 and on PG, MOP, Et and MSL hold only inside the published system: female ICR wild-type mice, n=4 per group, intravenous dosing, that one siRNA chemistry, and only two loading levels. Cut for space: the full mechanism comparison table and the three separate sources behind the DAR and backbone conclusions."
+  },
+  {
+    "orig": [15],
+    "section": "How we evaluate (platform & pipeline)",
+    "title": "Evidence is built step by step; productive intracellular payload is the gap the first study buys",
+    "layout": "full",
+    "regions": [
+      {
+        "type": "flow",
+        "heading": "Dosing to clinical benefit: seven steps, each proven alone",
+        "steps": [
+          {"heading": "1 Intact in blood", "body": "Intact conjugate in circulation, measured as the conjugate and not as free payload"},
+          {"heading": "2 Reaches tissue", "body": "Post-vascular tissue concentration; tissue fluorescence alone proves neither integrity nor parenchymal uptake"},
+          {"heading": "3 Enters the cell", "body": "Uptake sorted to the target cell type, with cell resolution rather than a bulk tissue average"},
+          {"heading": "4 Productive payload", "body": "Payload released into the active intracellular compartment; the step the first study is designed to answer"},
+          {"heading": "5 Molecular PD", "body": "RNA and protein change in the target cell, reported on both axes"},
+          {"heading": "6-7 Function, benefit", "body": "Disease-relevant phenotype improves, then clinical benefit under randomised control"}
+        ]
+      },
+      {
+        "type": "bullets",
+        "heading": "Evidence still to be completed",
+        "items": [
+          "Steps 1 and 4 have no direct data in any priority project. A blank is a missing measurement, not a result, so step 4 counts as unmeasured and the first study answers it.",
+          "Two 2026 AOC reviews both call endosomal escape rate-limiting, but neither can cite an experiment that measured escape efficiency on an AOC.",
+          "The one competition-inhibition study puts the main limit on DAR2 in non-specific hepatic clearance; it measured tissue arrival, so it neither proves nor excludes step 4.",
+          "No level may be skipped: one project result is not platform capability, and the same entry must show independent functional evidence on a second sequence.",
+          "Step 1 evidence and in vivo step 3 are scheduled at the tissue translation & safety gate, so this round's approval does not cover every known gap."
+        ]
+      }
+    ],
+    "source": "Source: IC Memo v2 §2.1, §2.2, §10.4, §10.8; ClinicalTrials.gov status check 2026-10-11; data as of 2026-10-13",
+    "notes": "The first experimental spend buys discriminating power on steps 3 and 4. The receptor-entry & payload-fit gate quantifies step 4 with two separately scored axes and a complete set of four entry-dependence controls. The chain is a conceptual framework with no measured per-step efficiencies attached, and the effective-dose mass balance must not be imported from LNP escape fractions. One date remains open: the primary paper is recorded by PubMed as published 2026-09-10 while the source material cites August 2026."
+  },
+  {
+    "orig": [23],
+    "section": "How we evaluate (platform & pipeline)",
+    "title": "Crowding sits at the entry and rights layers, not the disease layer - 94 records sorted on four axes",
+    "layout": "split_right_wide",
+    "regions": [
+      {
+        "type": "kpis",
+        "heading": "The 94-record base",
+        "items": [
+          {"value": "94", "label": "disease records screened across 14 therapeutic areas"},
+          {"value": "45%", "label": "of records sit in one receptor family, TfR1/CD98hc"},
+          {"value": "18", "label": "records whose entry receptor is still to be discovered"},
+          {"value": "5", "label": "of 7 tracked assets in Phase 3, all in skeletal muscle"}
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Entry family distribution and the next action it implies",
+        "columns": ["Entry family", "Records / 94", "Share", "Next action"],
+        "col_widths": [0.36, 0.14, 0.12, 0.38],
+        "first_col_bold": true,
+        "rows": [
+          ["TfR1 / CD98hc family", "42", "~45%", "Productive-delivery study (with patient-cell arm)"],
+          ["Local administration, no systemic receptor", "12", "~13%", "Dosing burden and local PD"],
+          ["Other known receptors (EGFR, IGF1R, C5aR1, epithelial)", "10", "~11%", "Re-grade the entry against source data"],
+          ["Immune and blood antigens (CD22, CD33, CD71, CD117)", "8", "~9%", "Patient primary-cell PD without transfection, plus safety window"],
+          ["Entry receptor still to be discovered", "18", "~19%", "Separate receptor-discovery route"]
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "First wave backs the one entry with human PD evidence, TfR1 into skeletal muscle. Differentiation sits in payload sequence and disease use; the 18 undiscovered entries are a moat candidate set."
+      }
+    ],
+    "source": "Source: IC Memo v2 §3.3, §3.4, §4.1.7, §6.2; registry status check 2026-10-11; data as of 2026-10-13",
+    "notes": "The map answers where work is already under way, not where work is worth doing; that second question is answered by the four-axis grading. The five counting columns use different units and no two may be added. Within the 26 records of the adjacent-technology column there are 1 engineered Fc, 11 non-antibody ligand and peptide conjugates, 9 naked oligonucleotides, 4 undisclosed or unconfirmed formats and 1 GalNAc liver control, and these subgroups are likewise not additive. Of the 31 records ready for mechanism validation, 13 are CNS, 6 eye, ear and skin, 3 skeletal muscle and 3 kidney."
+  },
+  {
+    "orig": [24],
+    "section": "How we evaluate (platform & pipeline)",
+    "title": "Five evidence labels say what each candidate still lacks; three axes set the order of work",
+    "layout": "stack",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Five fit labels: meaning, next step, where evidence lands",
+        "columns": ["Label (records)", "What it means", "Next step", "Where the evidence lands"],
+        "col_widths": [0.2, 0.28, 0.24, 0.28],
+        "first_col_bold": true,
+        "rows": [
+          [
+            "Ready for mechanism validation (31)",
+            "Biology and payload mechanism supported in humans or patient cells; delivery unproven",
+            "Go straight into the productive-delivery study; no further biology needed",
+            "Productive intracellular payload is unmeasured; receptor-entry & payload-fit gate"
+          ],
+          [
+            "Delivery increment unproven (25)",
+            "Target and payload route validated by others; AOC must show gain over current dosing",
+            "Define what it has to beat, then design the control",
+            "Three-arm comparison against naked payload and the best alternative route"
+          ],
+          [
+            "Exploratory hypothesis (18)",
+            "Mechanism plausible, but the key experimental step was not verified this round",
+            "Add patient-cell evidence before discussing delivery",
+            "Patient-cell biology gate; rebuilt with free uptake, no transfection reagent"
+          ],
+          [
+            "High-risk exploration (11)",
+            "Known precedent of failure, or major uncertainty in the mechanism itself",
+            "Explain why others failed, otherwise do not start the project",
+            "Veto item: unexplained same-mechanism failure"
+          ],
+          [
+            "Non-AOC preferred (5; 8 after standardisation)",
+            "A simpler or more mature modality already solves the same problem",
+            "Keep as a control, not as a candidate",
+            "Retained as a control; this is not a veto"
+          ]
+        ]
+      },
+      {
+        "type": "bullets",
+        "heading": "Priority comes from three axes, scored once each",
+        "items": [
+          "The three axes are entry feasibility, payload-mechanism maturity, and availability of rights and resources; each is scored separately.",
+          "On those axes the first cluster is only two candidates, both on TfR1 into the myofibre nucleus: GAA IVS1 and DYSF.",
+          "A label reads one axis only, how far disease biology and payload mechanism have come; it carries no entry-feasibility information.",
+          "Entry feasibility must therefore be scored on its own; ranking labels high to low as an investment score sets entry risk to zero.",
+          "The labels are not summed and are not turned into a score card; eight original labels were standardised into five, with the denominator recomputed to 100%.",
+          "Remaining candidates go into three different queues: receptor discovery, failure explanation, or retained control arm."
+        ]
+      }
+    ],
+    "source": "Source: IC Memo v2 §2.5, §6.1, §7.6, §7.8, Appendix A; data as of 2026-10-13",
+    "notes": "The labels tell us which link each candidate is still missing and what the next experiment should be; they do not rank investments. 'Delivery proof missing' means specifically that productive intracellular payload has never been measured, which is what the receptor-entry & payload-fit gate buys. For the delivery-increment group, the comparator is a three-arm design: same payload, naked payload, and the best alternative route. Cut for space: the mapping from eight original labels to five and the cross-tabulation of the 31 mechanism-validation records by entry grade."
+  },
+  {
+    "orig": [26],
+    "section": "How we evaluate (platform & pipeline)",
+    "title": "Antibody format follows from target cell and compartment, then from a same-payload, same-model comparison",
+    "layout": "stack",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Six binder formats: mass, payload share and use in AOC today",
+        "columns": ["Format", "Carrier mass", "With one siRNA (~13 kDa)", "Use in AOC today"],
+        "col_widths": [0.16, 0.18, 0.24, 0.42],
+        "first_col_bold": true,
+        "rows": [
+          ["IgG", "~150 kDa", "~163 kDa", "Clinical: AOC 1001 / 1020 / 1044"],
+          ["Fab", "~50 kDa", "~63 kDa", "Clinical: DYNE-101 / 251, SRP-1005"],
+          ["scFv", "~25-30 kDa", "~40 kDa", "No AOC data in this round's material"],
+          ["VHH", "~15 kDa", "~28 kDa", "Preprint only: TfR1 VHH-Fc for brain delivery"],
+          ["Centyrin", "~10 kDa", "~23 kDa", "Clinical: ABX1100 (non-antibody scaffold)"],
+          ["Peptide ligand", "~1-3 kDa", "~15 kDa", "Clinical: PepGen, Entrada, PYC"]
+        ]
+      },
+      {
+        "type": "bullets",
+        "heading": "What the comparison can and cannot settle",
+        "items": [
+          "The smaller the carrier, the larger the share of mass the oligonucleotide takes; ~60 kDa is a first-approximation glomerular filtration level, not a prediction.",
+          "Charge and plasma-protein binding move real clearance, and a VHH-Fc fusion rises to tens of kDa and is no longer filtered.",
+          "No same-payload, same-model head-to-head between formats exists in this round's material, so formats are not interchangeable parts.",
+          "Epitope, valency and affinity explain why the same K_D gives different distribution; conjugation itself changes the carrier.",
+          "Antibody gain is measured separately on functional delivery into the target cell, safety window and durability, against naked payload and the best alternative route.",
+          "The one read-out to buy sits with WuXi Biologics; closing antibody supply is a hard precondition for starting the receptor-entry & payload-fit gate."
+        ]
+      }
+    ],
+    "source": "Source: IC Memo v2 §4.1, §4.1.2, §10.8; data as of 2026-10-13",
+    "notes": "This is the first engineering decision the platform section has to make, and it is not settled by ranking the literature. The candidate set is derived backwards from the target cell, the mature myofibre, and the compartment, the nucleus, and is then fixed by a format comparison we run ourselves on the same payload and the same model. The influence of antibody format on AOC delivery is graded as system-dependent, supported only by valency, affinity and epitope having been compared systematically inside a single study. None of the sub-ratings are merged into an overall delivery score and there is no score card. Cut for space: the full six-format comparison table and the epitope-valency-affinity table."
+  },
+  {
+    "orig": [27],
+    "section": "How we evaluate (platform & pipeline)",
+    "title": "Nine entries graded on five steps; the atlas screens entries and sets the first read-out to buy",
+    "layout": "split_right_wide",
+    "regions": [
+      {
+        "type": "kpis",
+        "heading": "Evidence level across 45 cells (9 entries x 5 steps)",
+        "items": [
+          {"value": "2", "label": "cells with publicly comparable head-to-head data"},
+          {"value": "19", "label": "cells with indirect support only"},
+          {"value": "0", "label": "cells resting on vendor narrative alone"},
+          {"value": "24", "label": "cells with no evidence in this round's material"}
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Where three company configurations sit on the atlas",
+        "columns": ["Configuration", "Position on the atlas", "What this section can say"],
+        "col_widths": [0.3, 0.32, 0.38],
+        "first_col_bold": true,
+        "rows": [
+          [
+            "Skeletal-muscle TfR1, myofibre nucleus, splice-switching payload",
+            "Only entry with a publicly comparable cell; four cells are still indirect support",
+            "Format and epitope open; patients carry GAA IVS1 c.-32-13T>G"
+          ],
+          [
+            "Diseased fibroblast entry",
+            "Step 1 indirect support only; steps 2 to 5 have no evidence",
+            "Stuck at step 1; COL6A1 pseudo-exon variants (Ullrich, Bethlem)"
+          ],
+          [
+            "Specific kidney-cell entry",
+            "All five cells have no evidence",
+            "No accessible endocytic receptor found on the blood side; ADTKD-UMOD, Alport"
+          ]
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "First money buys two read-outs on the skeletal-muscle TfR1 row: cell-resolved productive payload, then a same-payload format comparison. Not more dose, and not a second entry."
+      }
+    ],
+    "source": "Source: IC Memo v2 §4.1, §4.1.1, §4.1.7; registry status check 2026-10-11; data as of 2026-10-13",
+    "notes": "Each cell records the evidence level for that entry at that step, not a performance score, and the five steps are never merged into one delivery score. The four counts must always be quoted together, and the grading is our own reading of the material rather than a systematic review. The four-receptor comparison also notes that comparable human receptor copy numbers at the blood-brain barrier are unavailable, and that anti-CD98 antibodies do not transit through the LAT1 substrate channel. The three configurations are held in parallel this round: none is ranked or eliminated. Transport fate across the five steps is coupled, so a change in one step moves the others."
+  },
+  {
+    "orig": [28],
+    "section": "How we evaluate (platform & pipeline)",
+    "title": "Loading is optimised jointly - payload charge, P=S content, site and format - one system at a time",
+    "layout": "stack",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "How far the loading conclusions can be used",
+        "columns": ["Status", "Conclusion", "Basis and limit"],
+        "col_widths": [0.22, 0.4, 0.38],
+        "first_col_bold": true,
+        "rows": [
+          [
+            "Usable as a design premise",
+            "Within this chemistry, the usable DAR ceiling is set by payload charge and P=S content",
+            "Bracketed by two opposite-direction systems; mouse, one institution, one siRNA chemistry"
+          ],
+          [
+            "Not yet a design premise",
+            "'DAR>=2 clears fast', 'P=S matters more than charge', and PG or MOP superiority",
+            "Anchored at tissue arrival and bulk RNA in mice; cell entry is explicitly excluded"
+          ],
+          [
+            "No evidence",
+            "Best DAR across payload classes, receptors or species, and any 'best linker' claim",
+            "Blank cells in the source material; assumption only"
+          ]
+        ]
+      },
+      {
+        "type": "bullets",
+        "heading": "Conditions behind the directional results",
+        "items": [
+          "Primary conditions: female Hsd:ICR mice, ~24 g, n=4 per group, intravenous 5 mL/kg, siRNA equivalent 0.5-6 mg/kg; DAR1 and DAR2 compared at equal antibody dose.",
+          "Only two loading levels were tested, so nothing extends to all DAR>=2, and a blank cell reads as 'not reported', never as 'no effect'.",
+          "Charge-neutral backbone changes raise plasma exposure and muscle knockdown: the PMO heteroduplex gives >50% knockdown at 3 mg/kg, and PG improves Mstn knockdown.",
+          "Each gain costs something: removing all P=S sharply lowers stability, MOP loses material in deprotection, and LNA with less P=S improves exposure but not muscle PD.",
+          "Single institution, single siRNA chemistry, no third-party replication; reproduce in-house before applying to NewCo candidates, and treat none of it as an AOC rule.",
+          "The rights & backbone-chemistry gate judges only two items: counsel's written directional opinion, and the exposure gain seen on a non-targeting backbone."
+        ]
+      }
+    ],
+    "source": "Source: IC Memo v2 §4.2.2, §4.2.3, §10.4, §10.5; Cochran et al., J Med Chem 2026;69(17):20230-20247 (PMID 42612014); data as of 2026-10-13",
+    "notes": "Fix the counting unit before arguing about numbers, and label the read-out conditions on every experiment. Three antibodies are used across the study - a targeting anti-TfR1 for efficacy, an anti-TfR1 for plasma exposure, and a non-binding anti-EGFR for the reduced-P=S arm - so PK and PD from different antibodies or different experiments are read separately and not strung into one causal chain. Two systems point in opposite directions and both hold, which is why loading is optimised per system rather than by a universal DAR rule. The backbone-chemistry patent family search boundary is scoped by counsel before we commit."
+  },
+  {
+    "orig": [29],
+    "section": "How we evaluate (platform & pipeline)",
+    "title": "Model AOC behaves opposite to its parent antibody on colloidal stability; formulation DoE starts first",
+    "layout": "stack",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Model AOC versus its unconjugated parent antibody",
+        "columns": ["Comparison", "Reported finding", "What we take from it"],
+        "col_widths": [0.2, 0.42, 0.38],
+        "first_col_bold": true,
+        "rows": [
+          [
+            "Most stable condition",
+            "The antibody is most stable at low pH and low ionic strength, via long-range repulsion",
+            "The usual low-pH, low-salt antibody starting point does not transfer to this model AOC"
+          ],
+          [
+            "Concentration behaviour",
+            "Viscosity of the model AOC rises with concentration; DAR was not reported",
+            "High-concentration subcutaneous dosing stays a product hypothesis, not funded this round"
+          ],
+          [
+            "Mechanism",
+            "Short-range attraction between local oligo negative charge and positive surface patches",
+            "Three handles to work with: pH, ionic strength, and antibody surface positive patches"
+          ],
+          [
+            "Method",
+            "One model AOC versus its parent; DoE over pH and ionic strength, with DLS and viscosity",
+            "Needs no animals, no targeting antibody and no first payload, so it can start immediately"
+          ]
+        ]
+      },
+      {
+        "type": "bullets",
+        "heading": "What discovery CMC must control, and what limits the claim",
+        "items": [
+          "Discovery controls intact and sub-unit LC-MS, site occupancy and the full OAR distribution across both loading levels, not a mean value.",
+          "Free payload residue directly contaminates the productive-delivery study read-out, so intact, free and total payload are measured as three separate analytes.",
+          "Demonstrated capability covers the discovery column; the preclinical and scale-up columns are built by NewCo or placed elsewhere.",
+          "Scale-up failure signals to avoid: trading yield or activity for uniformity, and relying on purification that cannot be scaled.",
+          "Limits: one model AOC, one configuration, one institution, no DAR gradient, no long-term stability and no aggregation kinetics.",
+          "Claiming that AOC and antibody formulation rules are generally opposite would need repeats across DAR gradients, configurations and real molecules; not claimed here."
+        ]
+      }
+    ],
+    "source": "Source: IC Memo v2 §4.3, §7.7, §10.6; workshop material 2026-10-29; data as of 2026-10-13",
+    "notes": "This is the first work front to start, because it is cheap, needs no animals and does not wait on the first payload, and because its direction must be confirmed for our own candidate rather than assumed from the model molecule. Building the full OAR distribution, free-payload and three-analyte methods during discovery is what makes later configuration comparisons interpretable. Batch potency variation must stay smaller than the differences between the configurations we intend to compare, otherwise the comparison carries no information. The conjugation GMP, fill and release interface is still to be fixed and cannot be committed before it is."
+  },
+  {
+    "orig": [30],
+    "section": "How we evaluate (platform & pipeline)",
+    "title": "Platform value is built one unit at a time; acquisition is judged module by module across four routes",
+    "layout": "stack",
+    "regions": [
+      {
+        "type": "cards",
+        "heading": "One unit = same entry + same target cell + same compartment",
+        "items": [
+          {
+            "heading": "First unit",
+            "body": "TfR1 entry x myofibre nucleus x splice-switching occupancy, shared by GAA IVS1 and DYSF. The platform claim is first testable at the platform-transfer gate; this round authorises only up to the receptor-entry gate."
+          },
+          {
+            "heading": "Second-unit candidate",
+            "body": "Muscle interstitial fibroblast nucleus, where COL6A1 is placed rather than in the first cluster. Entry still has to be proven, and spend is deferred until after the receptor-entry & payload-fit gate read-out."
+          },
+          {
+            "heading": "New systems",
+            "body": "Kidney thick ascending limb, podocyte, CNS and other new systems are re-scoped as separate projects on their own added risk, and are not folded into the first unit's budget or schedule."
+          },
+          {
+            "heading": "What crosses unit boundaries",
+            "body": "Only methodology, transferable formulation, negative results and quality-to-function rules. Change the entry, the target cell or the main compartment and it is a new unit needing fresh evidence."
+          }
+        ]
+      },
+      {
+        "type": "bullets",
+        "heading": "Four acquisition routes, assessed per module",
+        "items": [
+          "Each module is costed across four routes - build in-house, module-level licence, partnership, and equity stake - and traded off item by item.",
+          "No wholly licensable mature AOC delivery platform was found in this round's search; all three inquiry-table rows stand at 'not contacted, TBD' as of 2026-11-02.",
+          "A sponsor search of five companies on ClinicalTrials.gov returned no records, so the premise is unclosed rather than disproven, and the inquiry table closes it first.",
+          "'Module-level licence plus build in-house where rights are open' is this round's planning assumption only, not the single feasible path; evidence may change it.",
+          "Generation is defined as a measurable performance iteration rather than a calendar step, and rights are judged on three separate layers.",
+          "The platform counts as established only when a second payload, DYSF, gives independent functional evidence at the same entry; one payload alone is a single product."
+        ]
+      }
+    ],
+    "source": "Source: IC Memo v2 §4.1, §4.1.2, §4.1.5, §4.1.7, §7.3, §8.1; inquiry table and ClinicalTrials.gov sponsor search as of 2026-11-02",
+    "notes": "Build the platform unit by unit and put the verification point for the platform claim at the platform-transfer gate, not earlier. The three capability lines share almost nothing across the CMC, PK and rights dimensions, which is why acquisition is decided per module rather than for the platform as a whole. Pipeline count is a secondary reference only; the platform claim rests on one defensible statement about repeatable functional delivery at a given entry, target cell and payload chemistry. Cut for space: the ordering table for capability build-out and the four commitment categories with the separate capability list."
+  }
+]

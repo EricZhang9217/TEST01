@@ -1,0 +1,124 @@
+[
+ {
+  "orig": 29,
+  "title": "Model AOC colloidal stability runs opposite to the parent antibody; the candidate needs its own formulation DoE",
+  "lead": "Formulation and colloidal-stability DoE is the first work front to start, with direction confirmed on our own candidate rather than assumed from the model molecule, while discovery builds the OAR distribution, free-payload and three-analyte methods that make later format comparisons readable.",
+  "figure": "fig/fig29.png",
+  "fig_caption": "Three CMC stages by four control areas; the green band is capability already demonstrated, dashed cells fall to NewCo",
+  "points": [
+   "Twelve cells: four things to control, read across the three stages from discovery to scale-up.",
+   "Green marks the three cells WuXi has already demonstrated; the other nine are NewCo's to build or place.",
+   "Discovery controls full OAR distribution and three separate analytes, so later format comparisons stay readable.",
+   "Red lines are the failure signals: uniformity bought with yield, purification that cannot be scaled.",
+   "Cost becomes a question only at scale-up, counted per equivalent annual course of qualified conjugate."
+  ],
+  "table_note": [
+   "Model AOC colloidal stability inverts the parent antibody's low-pH, low-salt starting point",
+   "Handles are pH, ionic strength and antibody surface positive patches; no animals needed"
+  ],
+  "limits": [
+   "The direction rests on one model AOC, one format, one institution and one condition set (pH x ionic strength DoE, phase separation, DLS, viscosity), with no DAR gradient and no DAR value",
+   "No long-term stability or aggregation kinetics were reported, and a category-level claim that AOC and antibody formulation rules are generally opposite is not made here",
+   "Demonstrated capability covers the discovery column only; the preclinical and scale-up columns are built by NewCo or placed elsewhere, and the formulation interface is still undefined"
+  ],
+  "source": "Source: IC Memo v2 §4.3, §10.6; WuXi workshop material 2026-10-29; PMID 41022695; data as of 2026-10-13",
+  "notes": "This front starts first because it is cheap, needs no animals, no targeting antibody and no first payload, so nothing holds it up. Its direction has to be confirmed on our own candidate rather than inherited from a model molecule whose behaviour inverted the antibody rule. Building the full OAR distribution, free-payload and three-analyte methods during discovery is what makes every later format comparison interpretable; free payload otherwise contaminates the productive-delivery read-out directly. Batch potency variation must stay smaller than the differences between the formats we intend to compare, or the comparison carries no information. Cut for space: the stage-by-stage failure-signal table and the Avidity process background."
+ },
+ {
+  "orig": 30,
+  "title": "Platform value is built one unit at a time; acquisition is judged module by module across four routes",
+  "lead": "Build the platform unit by unit and put the verification point for the platform claim at the platform-transfer gate; list acquisition module by module and trade off build, module licence, partnership and equity item by item, closing the licensable-platform premise first.",
+  "figure": "fig/fig30.png",
+  "fig_caption": "Three nested reuse rings: inner first unit, middle second-unit candidate, outer new systems; only four assets cross",
+  "points": [
+   "Three nested rings: the first unit inside, the second-unit candidate around it, new systems outside.",
+   "A unit is one entry, one target cell, one compartment; change any one and the evidence starts again.",
+   "GAA IVS1 and DYSF share the inner unit; COL6A1 sits in the middle ring and needs its own entry proof.",
+   "Only four things cross a ring: methodology, formulation, negative results, quality-function rules.",
+   "The platform claim is first testable at the platform-transfer gate, well past anything funded this round."
+  ],
+  "table_note": [
+   "The three capability lines share almost nothing across the CMC, PK and rights dimensions",
+   "Four acquisition routes costed per module: build, module licence, partnership, equity"
+  ],
+  "limits": [
+   "No wholly licensable mature AOC delivery platform was found this round; the search covered three inquiry rows, all 'not contacted, TBD' at 2026-11-02, and five ClinicalTrials.gov sponsors",
+   "A sponsor search returning no records leaves the premise unclosed rather than disproven, so the inquiry table closes it before any acquisition route is fixed",
+   "'Module-level licence plus build where rights are open' is this round's planning assumption only, not the single feasible path, and the evidence may change it"
+  ],
+  "source": "Source: IC Memo v2 §4.1, §4.1.2, §4.1.5, §4.1.7, §7.3, §8.1; inquiry table and ClinicalTrials.gov sponsor search as of 2026-11-02; data as of 2026-10-13",
+  "notes": "A reusable unit is same entry, same target cell, same main compartment; change any one and it is a new unit needing fresh evidence, so a shared disease name proves nothing. GAA IVS1 and DYSF share the first unit, COL6A1 moves out to a second-unit candidate whose entry must be proven separately, and kidney, podocyte and CNS work is re-scoped as separate projects on their own risk. Only methodology, transferable formulation, negative results and quality-to-function rules cross ring boundaries; an open service catalogue and a one-off positive experiment are replicable, not platform. The platform claim is first testable at the platform-transfer gate, when the second payload gives independent functional evidence at the same entry; this round authorises only as far as the receptor-entry and payload-fit gate. Cut for space: the capability build order and the four commitment types."
+ },
+ {
+  "orig": 32,
+  "title": "Of 46 WuXi capabilities across NewCo's seven work packages, 23 are shown directly and none is yet committed",
+  "lead": "Of WuXi's 46 capabilities, 23 can be ordered directly, 14 are usable after transfer or adaptation and 9 must be built or evidenced separately, so the case rests on execution cost and pace; product judgement, format choice, key rights and transferable raw data stay with NewCo.",
+  "figure": "fig/fig32.png",
+  "fig_caption": "Forty-six capabilities in seven columns; the fill gives one of five statuses and each card's foot gives its source photo",
+  "points": [
+   "Forty-six capabilities sorted into NewCo's seven work packages, each one coloured by its status.",
+   "Twenty-three are shown directly, seven transfer from an adjacent modality, seven need adaptation here.",
+   "Nine dashed cards are absent from the 53 photographs, mostly patient cells and conjugate CMC.",
+   "The committed-resource count is zero: no written intent, quote, slot or capacity exists yet.",
+   "One card names AOC directly, in the DMPK project list; it proves the category, not the depth."
+  ],
+  "table_note": [
+   "Capabilities per work package: 8, 5, 6, 10, 6, 7 and 4 across the seven columns"
+  ],
+  "limits": [
+   "All 46 are seminar slides and posters, registered as company-disclosed and kept apart from fact-grade patents and papers; the material's own caution is that 'can do' is not 'does well'",
+   "Material and a live demonstration are not an exclusive resource or a contract: resource commitments stand at 0, and quotes, slots, capacity and the two letters of intent are all TBD",
+   "Status marks coverage within these 53 photographs, not a capability score; 'not seen' means nothing was found in that photo range and can be re-graded when more material arrives"
+  ],
+  "source": "Source: WuXi AppTec Frontier New Modality Seminar, 53 on-site photos (event date 2026-10-29); IC Memo v2 §4.3; data as of 2026-10-13",
+  "notes": "Changing the axis from WuXi's own service catalogue to NewCo's seven work packages is what makes the map decision-grade: it shows what can be ordered tomorrow, what needs transfer or adaptation first, and what nobody has yet shown. The 23 directly shown items concentrate in oligonucleotide design, conjugation and bioanalysis; the 9 absent ones concentrate exactly where this programme is hardest, in patient-cell functional delivery and conjugate CMC. Status is a record of what the material covers, not a judgement on quality, and every item re-grades when more is supplied. The single most important number on the page is the zero: no written intent, quote, slot or capacity commitment exists yet."
+ },
+ {
+  "orig": 33,
+  "title": "Three WuXi companies execute; NewCo owns product judgement, format choice, key rights and raw data",
+  "lead": "Execution splits across three separately listed WuXi companies, while four owned assets - product judgement, format choice, key rights and transferable raw data - are the source of difference; five term categories decide whether they hold, and this round seeks two letters of intent and a mandate.",
+  "figure": "fig/fig33.png",
+  "fig_caption": "Left three columns list the steps each WuXi entity can take on; the brown column is what NewCo keeps for itself",
+  "points": [
+   "Three columns of steps, one per listed WuXi company; the brown column is what NewCo never outsources.",
+   "AppTec is the sponsor side and can commit; Biologics and XDC each still need a letter of intent.",
+   "The four owned assets - judgement, format, rights, raw data - are what survives a failed molecule.",
+   "Of the four commitment types, only rights and data can become a moat; services are execution.",
+   "Every load-bearing term is still TBD, so the four owned assets are intent, not secured position."
+  ],
+  "table_note": [
+   "Five load-bearing term categories decide whether the four owned assets are realised"
+  ],
+  "limits": [
+   "Which entity owns which step, and who may commit for another, is the memo's own judgement from entity scope; neither research report describes the three WuXi companies' own capabilities",
+   "Branding and contracting entity are two different things: antibody discovery and ADC conjugation were shown under WuXi Biology and WuXi AppTec bylines; the service entity is set by contract",
+   "The formulation and drug-product boundary between WuXi AppTec and WuXi XDC is undefined this round, and nothing on that interface can be promised before it is fixed"
+  ],
+  "source": "Source: IC Memo v2 §7.9, §10.9; entity-scope definitions for the three listed WuXi companies; WuXi seminar photos 6987 and 6989; data as of 2026-10-13",
+  "notes": "Execution capacity is available from three separately listed companies, which is an advantage on cost and pace but not on its own a moat. What differentiates NewCo is the four it keeps: the product judgement, the format choice, the key rights, and raw data including negative results. The five load-bearing term categories - IP allocation, service terms, data ownership and cross-licensing, people and non-compete, and the wind-up interface - are all TBD, so the four owned assets are stated intent rather than secured position. The asks are two letters of intent, confirmation of the ownership interface, and a mandate to negotiate those five categories. Versus a purely financial investor the increment sits on the capability side, in methods and retained people, and is classed as structural downside protection rather than upside."
+ },
+ {
+  "orig": 35,
+  "title": "AI is applied only where wet-lab work can correct it, each task with its own validation loop",
+  "lead": "AI is pointed first at four task classes that wet-lab work can correct, each with one loop and one pass criterion - functional-delivery ranking; gain is measured against a non-AI baseline at the same budget on the same task, and the blind set and retraining rights stay with NewCo.",
+  "figure": "fig/fig35.png",
+  "fig_caption": "Seven use areas with input, output and validation; filled, half-filled and open circles grade how far each is proven",
+  "points": [
+   "Seven AI use areas, each written out as input, output and the wet-lab check that corrects it.",
+   "One filled circle only, binder design; three areas are partly validated and three remain concepts.",
+   "The pass criterion is the same everywhere: functional-delivery ranking without transfection.",
+   "The brown box is the gap AI cannot close, receptor-dependent payload and sequence-specific PD.",
+   "Best training data pair diseased and normal cells for one candidate, failures kept, not discarded."
+  ],
+  "table_note": [
+   "Seven use areas fold into four task classes, each with its own validation loop"
+  ],
+  "limits": [
+   "The maturity grading is a research judgement, stated as such in the source, and is kept apart from that source's factual records",
+   "The four statuses are counted by step rather than by application, so the status totals and the seven use areas belong to two different countings; the figure keeps the original seven",
+   "A high-affinity binder, a differentially expressed gene or an in vitro active sequence is not a usable AOC, and no AI result substitutes for functional-delivery validation"
+  ],
+  "source": "Source: IC Memo v2 §4.4; data as of 2026-10-13",
+  "notes": "There is one test for any AI step: can a wet-lab experiment close the loop and correct it. Binder design is the only area with a validated use today, target and receptor screening, payload sequence work and patient stratification are partly validated, and trafficking, multi-parameter design and CMC quality prediction remain concepts. What AI cannot yet replace is functional-delivery validation - receptor-dependent productive intracellular payload and sequence-specific PD without transfection. The most valuable training data are uptake, productive payload, PD, function, toxicity and manufacturability for the same candidate in diseased and in normal cells, with failed candidates kept rather than discarded. Cut for space: the seven acceptance criteria and the four label-discipline rules."
+ }
+]

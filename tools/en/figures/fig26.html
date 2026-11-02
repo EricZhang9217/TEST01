@@ -1,0 +1,73 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+body{width:1150px;padding:18px 22px 14px}
+.ftitle{font-size:26px}
+.fsub{font-size:17px;margin-top:7px;line-height:1.4}
+.fsrc{font-size:14px;margin-top:10px}
+.wrap{position:relative;margin-top:16px}
+.brow{display:flex;align-items:center;height:56px}
+.bname{width:118px;font-size:18px;font-weight:700;color:#2F2F2F}
+.bmass{width:96px;font-size:16px;color:#6E6E6E}
+.barea{width:420px;display:flex;align-items:center}
+.seg{height:26px}
+.carrier{background:#D2CFCB}
+.load{background:#A0603F}
+.bval{width:58px;font-size:16px;color:#4A4A4A;padding-left:10px}
+.use{width:390px;font-size:16px;color:#4A4A4A;display:flex;align-items:center;gap:9px}
+.dot{flex:0 0 12px;width:12px;height:12px;border-radius:50%;background:#4E7A52}
+.dot.open{background:#fff;border:2px solid #9A7A3C}
+.dash{flex:0 0 12px;width:12px;height:2px;background:#9A9A9A}
+.cutline{position:absolute;left:369px;top:26px;bottom:4px;border-left:2px dashed #B5452C}
+.cutlab{position:absolute;left:377px;top:0;font-size:16px;color:#B5452C;white-space:nowrap}
+.useshead{position:absolute;left:708px;top:0;font-size:16px;color:#6E6E6E}
+.lgline{display:flex;gap:34px;align-items:center;font-size:16px;color:#7A7A7A;margin-top:14px}
+.note{font-size:16px;color:#6E6E6E;line-height:1.45;margin-top:10px}
+</style></head><body>
+<div class="ftitle">Smaller carrier &rarr; larger payload share once one oligonucleotide is loaded</div>
+<div class="fsub">Grey = carrier; brown = one siRNA duplex (&asymp;13 kDa). Textbook magnitudes, not this round's data.</div>
+
+<div class="wrap">
+  <div class="cutline"></div>
+  <div class="cutlab">&asymp;60 kDa glomerular filtration</div>
+  <div class="useshead">Use in AOC today</div>
+  <div style="height:28px"></div>
+
+  <div class="brow"><div class="bname">IgG</div><div class="bmass">&asymp;150 kDa</div>
+    <div class="barea"><div class="seg carrier" style="width:386px"></div><div class="seg load" style="width:34px"></div></div>
+    <div class="bval">&asymp;163</div>
+    <div class="use"><span class="dot"></span>Clinical: AOC 1001 / 1020 / 1044</div></div>
+
+  <div class="brow"><div class="bname">Fab</div><div class="bmass">&asymp;50 kDa</div>
+    <div class="barea"><div class="seg carrier" style="width:129px"></div><div class="seg load" style="width:34px"></div></div>
+    <div class="bval">&asymp;63</div>
+    <div class="use"><span class="dot"></span>Clinical: DYNE-101 / 251, SRP-1005</div></div>
+
+  <div class="brow"><div class="bname">scFv</div><div class="bmass">&asymp;25&ndash;30 kDa</div>
+    <div class="barea"><div class="seg carrier" style="width:71px"></div><div class="seg load" style="width:34px"></div></div>
+    <div class="bval">&asymp;40</div>
+    <div class="use"><span class="dash"></span>No AOC data this round</div></div>
+
+  <div class="brow"><div class="bname">VHH</div><div class="bmass">&asymp;15 kDa</div>
+    <div class="barea"><div class="seg carrier" style="width:39px"></div><div class="seg load" style="width:34px"></div></div>
+    <div class="bval">&asymp;28</div>
+    <div class="use"><span class="dot open"></span>Preprint: TfR1 VHH-Fc (BBB)</div></div>
+
+  <div class="brow"><div class="bname">Centyrin</div><div class="bmass">&asymp;10 kDa</div>
+    <div class="barea"><div class="seg carrier" style="width:26px"></div><div class="seg load" style="width:34px"></div></div>
+    <div class="bval">&asymp;23</div>
+    <div class="use"><span class="dot"></span>Clinical: ABX1100 (non-antibody)</div></div>
+
+  <div class="brow"><div class="bname">Peptide</div><div class="bmass">&asymp;1&ndash;3 kDa</div>
+    <div class="barea"><div class="seg carrier" style="width:5px"></div><div class="seg load" style="width:34px"></div></div>
+    <div class="bval">&asymp;15</div>
+    <div class="use"><span class="dot"></span>Clinical: PepGen / Entrada / PYC</div></div>
+</div>
+
+<div class="lgline">
+  <span><span class="dot" style="display:inline-block;vertical-align:-1px;margin-right:7px"></span>Clinical-stage programme</span>
+  <span><span class="dot open" style="display:inline-block;vertical-align:-1px;margin-right:7px"></span>Preclinical or preprint only</span>
+  <span><span class="dash" style="display:inline-block;vertical-align:4px;margin-right:7px"></span>None in this round's material</span>
+</div>
+<div class="note">Charge and plasma-protein binding move real clearance; the threshold is a first approximation, not a prediction.<br>
+VHH-Fc fusion rises to tens of kDa and is no longer filtered &mdash; only the VHH body is drawn.</div>
+</body></html>

@@ -1,0 +1,59 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+body{width:1150px;zoom:1.3913;padding:16px 24px 10px}
+.ftitle{font-size:26px;line-height:1.15}
+.fsub{font-size:16px;margin-top:5px;line-height:1.35}
+.fsrc{font-size:14px;margin-top:8px;line-height:1.35}
+.g7{display:grid;grid-template-columns:repeat(7,1fr);column-gap:7px;row-gap:0;margin-top:12px}
+.hdr{background:#F4F2EF;border:1px solid #DDD8D2;border-radius:8px;padding:7px 6px;
+     text-align:center;font-size:17px;font-weight:700;color:#2F2F2F;line-height:1.2;
+     display:flex;align-items:center;justify-content:center;min-height:56px}
+.mat{display:flex;justify-content:center;margin:9px 0 8px}
+.dot{width:20px;height:20px;border-radius:50%;border:2px solid #8C4A2F;background:#fff}
+.dot.full{background:#8C4A2F}
+.dot.half{background:linear-gradient(90deg,#8C4A2F 50%,#fff 50%)}
+.cell{background:#FCFBFA;border:1px solid #DDD8D2;border-radius:8px;padding:7px 8px;
+      font-size:16px;line-height:1.28;color:#4A4A4A;min-height:150px}
+.cell b{color:#2F2F2F}
+.cell .r{margin-top:5px}
+.cell .v{color:#8C4A2F;margin-top:5px}
+.cell .q{color:#8A8A8A}
+.pb{border:1.5px dashed #8C4A2F;background:#FBF5EF;border-radius:9px;padding:7px 11px;margin-top:11px}
+.pb h4{font-size:18px;font-weight:700;color:#8C4A2F;line-height:1.2}
+.pb p{font-size:16px;color:#5C4034;line-height:1.3;margin-top:3px}
+.pb .s{font-size:16px;color:#7A6258;line-height:1.3;margin-top:3px}
+</style></head><body>
+<div class="ftitle">Where AI belongs in the evidence chain: seven use areas, each with input, output and check</div>
+<div class="fsub">Filled = a validated use exists; half = partly validated; open = concept. One test only: can wet-lab work correct this step?</div>
+
+<div class="g7">
+  <div class="hdr">Target &amp; receptor screening</div>
+  <div class="hdr">Binder design</div>
+  <div class="hdr">Epitope &amp; trafficking</div>
+  <div class="hdr">Payload sequence &amp; conjugation</div>
+  <div class="hdr">Multi-parameter design</div>
+  <div class="hdr">CMC quality prediction</div>
+  <div class="hdr">Patient stratification</div>
+
+  <div class="mat"><div class="dot half"></div></div>
+  <div class="mat"><div class="dot full"></div></div>
+  <div class="mat"><div class="dot"></div></div>
+  <div class="mat"><div class="dot half"></div></div>
+  <div class="mat"><div class="dot"></div></div>
+  <div class="mat"><div class="dot"></div></div>
+  <div class="mat"><div class="dot half"></div></div>
+
+  <div class="cell"><b>In</b> tissue single-cell, surface proteome<div class="r"><b>Out</b> ranked receptors</div><div class="v"><b>Check</b> polarity &rarr; internalisation &rarr; functional delivery</div></div>
+  <div class="cell"><b>In</b> affinity, pH, cross-species<div class="r"><b>Out</b> ranked binders</div><div class="v"><b>Check</b> target-cell PD <span class="q">(antibody level)</span></div></div>
+  <div class="cell"><b>In</b> epitope, kon/koff, sorting<div class="r"><b>Out</b> trafficking score</div><div class="v"><b>Check</b> pulse-chase; capillary-depleted brain</div></div>
+  <div class="cell"><b>In</b> patient RNA, chemistry SAR, OAR<div class="r"><b>Out</b> sequence and modification plan</div><div class="v"><b>Check</b> patient cells, no transfection</div></div>
+  <div class="cell"><b>In</b> variable sets, functional read-outs<div class="r"><b>Out</b> next build batch</div><div class="v"><b>Check</b> rounds vs a conventional design</div></div>
+  <div class="cell"><b>In</b> OAR, impurity profile, process<div class="r"><b>Out</b> release-risk alert</div><div class="v"><b>Check</b> prospective batches <span class="q">(training batches few)</span></div></div>
+  <div class="cell"><b>In</b> variant spectrum, repairability<div class="r"><b>Out</b> serviceable population</div><div class="v"><b>Check</b> patient cells, biopsy <span class="q">(rule-based works)</span></div></div>
+</div>
+
+<div class="pb"><h4>The part AI cannot replace today</h4>
+<p>Functional-delivery validation: receptor-dependent productive intracellular payload and sequence-specific PD, without transfection. A high-affinity binder, a differentially expressed gene or an in vitro active sequence is not a usable AOC.</p>
+<div class="s">Best training data: uptake, productive payload, PD, function, toxicity and manufacturability for the same candidate in diseased and normal cells &mdash; failed candidates kept.</div></div>
+<div class="fsrc">Source: IC Memo v2 §4.4; maturity grading is a research judgement, kept apart from factual records; data as of 2026-10-13.</div>
+</body></html>

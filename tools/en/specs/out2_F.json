@@ -1,0 +1,119 @@
+[
+ {
+  "orig": 5,
+  "title": "Eight dimensions graded card by card on evidence status, with the total column left blank",
+  "lead": "Eight dimensions each carry their own grade, upgrade read-out and owner; every red flag states which programme or deal structure it kills, so a local failure is contained locally and the valuation basis waits on the platform-transfer read-out.",
+  "figure": "fig/fig05.png",
+  "fig_caption": "Eight evidence cards in a four-by-two wall; chain-step chips, a prerequisite bar per card, and the total column left blank",
+  "points": [
+   "Each dimension carries its own grade and its own upgrade read-out; the total column is left blank on purpose.",
+   "Only two of the eight rest on measured evidence at conjugate level; five are not booked by chain step at all.",
+   "Delivery breaks at step 4 and clinical translation at step 7 — the two steps nobody has direct evidence for.",
+   "Rights and delivery are read first, because either one can end the case whatever the other six say.",
+   "Prerequisite facts — patient-material compliance, the HARBOR miss, the Creyon position — come before valuation."
+  ],
+  "table_note": [
+   "HARBOR Phase 3: NCT06411288, 159 patients, primary endpoint vHOT not met, announced 2026-09-08",
+   "Rights: 60 core conjugate filings — 56 at PCT, 2 in substantive examination, 2 granted"
+  ],
+  "limits": [
+   "No weighted total is given: one score would hide the critical gap, and any total synthesised from this page falls outside the unit's definition.",
+   "The “none” entry-cell grade for fibroblasts and muscle interstitial fibroblasts is this memo's own inference; the source lists only kidney TAL and podocytes at that grade.",
+   "Rights and competition counts hold only within the search set; they do not describe the global filing or trial landscape."
+  ],
+  "source": "Source: IC Memo v2 §2.1, §3.3, §4.1.5, §4.1.6, §4.1.7, §6.1, §6.2; appendix D.2/D.3/D.4; data as of 2026-10-13",
+  "notes": "Read the wall column by column, not as a scorecard. Rights and delivery come first because either can end the case on its own; biology and CMC next; clinical translation, competition, market and team execution last, because they only matter once the first four hold. The total stays blank deliberately: the reference template reports a single out-of-100 figure, and here that would bury the fact that two dimensions rest on inference rather than measurement. If the committee presses for a number, the honest answer is a pair - high confidence on biology and CMC, low on delivery and rights. The prerequisite bars are the ones to argue about: patient-material compliance, the missing step-4 data across the 13 lead programmes, the HARBOR miss, and the Creyon position are all facts that have to be on the table before any valuation conversation starts."
+ },
+ {
+  "orig": 11,
+  "title": "Approve a capped preparation period: funding releases gate by gate, three configurations assessed in parallel",
+  "lead": "What is approved is the purpose and accountability of a capped preparation period: it buys a directional rights opinion, a productive-delivery discrimination and conjugate interpretability, with further money released gate by gate. Amounts, valuation and holdings are approved separately.",
+  "figure": "fig/fig11.png",
+  "fig_caption": "Five preparation deliverables feed the three gates inside this round; two gates return to the IC, with three configurations on one axis",
+  "points": [
+   "All five preparation deliverables must be in place, in writing, before the first study starts.",
+   "Three gates sit inside this round; platform transfer and in vivo translation go back to the IC.",
+   "The CMC and cost gate runs alongside throughout and is never authorised or funded on its own.",
+   "All three configurations are assessed at the same time; the shared axis implies no ranking of value.",
+   "Each configuration is labelled with the delivery-chain step most likely to break it first."
+  ],
+  "table_note": [
+   "Thresholds follow the target product profile once fixed; no universal win criteria are set",
+   "Every amount, limit, valuation and share reads TBD against a named owner"
+  ],
+  "limits": [
+   "Thresholds can only be derived once the target product profile is fixed; 90% knockdown, a fixed payload ratio and quarterly dosing are explicitly not universal criteria.",
+   "The three configurations are analysed in parallel and none is chosen; deferring spend on B and C past the delivery read-out is a resource sequence, not a ranking of scientific value.",
+   "Money hangs on read-outs, not on business events or the calendar; absolute dates are only set once funds land, and sequence is an output of a gate."
+  ],
+  "source": "Source: IC Memo v2 §1 item 9, §3.3, §4.1.7, §4.5, §6.3, §7.1, §7.6–§7.9; HARBOR NCT06411288; data as of 2026-10-13",
+  "notes": "Close on this page. The five deliverables are deliberately unglamorous - they are the things that cannot be bought later: a person who owns product judgement, patient material with clean provenance, the right to use what gets generated, a defined set of configurations to compare, and assays that pass a positive control. Inside this round the authority stops after the patient-cell biology gate, with the CMC and cost gate running alongside as a whole-period veto that is never funded on its own. Platform transfer and in vivo translation come back to the committee. The three configurations sit on one axis because they are being evaluated at the same time, not because they are ranked: muscle nuclear repair is inside this round's authority, while fibroblast delivery and kidney entry stay exploratory with spend deferred until after the delivery read-out."
+ },
+ {
+  "orig": 52,
+  "title": "Budget rebuilt as line items and quantity drivers, each tied to a gate and split into two cases",
+  "lead": "What goes to the IC is a line-item schedule tied to gates plus two resource cases, not a total: amounts go in once the four prerequisites are settled and like-for-like quotes are in, and RMB 47m stands only as a recomputable muscle-configuration scenario, never a platform budget.",
+  "figure": "fig/fig52.png",
+  "fig_caption": "Nine budget lines against six gates, the conservative and aggressive cases side by side, and every amount left as TBD",
+  "points": [
+   "Nine budget lines, each tied to the gates it funds, across six gate columns — and no amounts anywhere.",
+   "Solid chips sit inside this round, dashed ones return to the IC, dotted is a veto never funded alone.",
+   "The conservative and aggressive cases differ on one thing: which read-out the first experiment buys.",
+   "Conservative exposes failure fastest, because the delivery study needs no fixed disease direction.",
+   "The three configurations bottleneck on different resources: capability, sampling, and model scarcity."
+  ],
+  "table_note": [
+   "Conservative's most useful result: similar uptake with a more than fivefold potency difference",
+   "RMB 47m stands only as a recomputable muscle-configuration scenario, not a platform budget"
+  ],
+  "limits": [
+   "No amounts are given: a budget can only be built after company positioning, the case for conjugates, the patient and product profile, and the availability of rights are settled.",
+   "Public data do not support generic unit costs; cost per effective course is an output of the CMC and cost gate, not an input, and filling it now assumes that gate has passed.",
+   "The conservative case exposes failure fastest because the delivery study is the only one that can start without a fixed disease direction; the aggressive case is one notch slower."
+  ],
+  "source": "Source: IC Memo v2 §4.3, §7.2, §7.3, §7.7, §7.9; budget quantity-driver schedule; data as of 2026-10-13",
+  "notes": "Setting a raise first and back-filling the pipeline turns gate criteria into reporting decoration, so this round delivers the structure and leaves every figure blank against a named owner. The two cases are not big and small versions of the same plan: they differ on which read-out the first experiment buys. The conservative case buys discrimination - two axes recorded separately plus four entry-dependency controls - and its most useful outcome is similar uptake with a more than fivefold difference in functional potency. The aggressive case goes straight at the four-level chain in patient myotubes and is slower to expose a failure, because a negative functional endpoint still has to be attributed to delivery or to sequence. The three configurations bottleneck on different resources: muscle nuclear repair on donor myotubes and two functional assays, with diaphragm unobtainable in vitro and needing planning early; fibroblast delivery on clinical sampling, which is feasible; kidney entry on scarce models, where not verified is not the same as non-existent."
+ },
+ {
+  "orig": 0,
+  "key": "contents",
+  "title": "How the case is built: four blocks, in the order they have to be answered",
+  "lead": "Each block has to hold before the next is worth reading: what conjugation opened and who already stands there, how a molecule and a disease candidate get judged, which part of the chain this team already runs end to end, and only then the plan this round is asked to authorise.",
+  "figure": "fig/fig_contents.png",
+  "fig_caption": "Four full-width numbered bands stacked top to bottom, each naming the questions that block has to answer",
+  "points": [
+   "Why now: the field and what is open",
+   "How we evaluate: molecule, entry, evidence",
+   "Why us: what we own, what we buy",
+   "How we build: route, configurations, plan"
+  ],
+  "limits": [
+   "The order is an argument, not a table of contents: a reader who rejects the first block has no reason to read the fourth."
+  ],
+  "source": "Source: IC Memo v2, deck architecture",
+  "notes": "Use this as the spine of the conversation. Block one establishes that conjugation changed what systemic oligonucleotide delivery can reach, and that the obvious ground is already occupied. Block two sets out how we judge any candidate molecule - binder, payload and conjugation chemistry separately, the entry receptor on its own evidence, and a defined evidence bar for a disease candidate. Block three is the only part specific to us: a large share of the chain is already executed end to end inside the WuXi group, so the case turns on naming the narrow set the new company must own itself. Block four is the ask."
+ },
+ {
+  "orig": 0,
+  "key": "aoc_macro",
+  "title": "Each step outward from the liver has cost clinical validation, and the step that blocks all three is the same",
+  "lead": "GalNAc-siRNA reaches one tissue with several approved medicines behind it, intrathecal ASO reaches the CNS only where the drug can be placed by hand, and antibody-oligonucleotide conjugates reach muscle systemically with no clinical record yet; none has solved productive cytosolic delivery.",
+  "figure": "fig/fig_aoc_macro.png",
+  "fig_caption": "Delivery routes plotted by tissues reachable against clinical validation; the shaded region is where no route has reached",
+  "points": [
+   "Liver: one tissue, approved medicines",
+   "CNS: reach bought by direct dosing",
+   "Muscle via TfR1: reach without a record",
+   "Unsolved: productive cytosolic delivery"
+  ],
+  "table_note": [
+   "Three open risks: endosomal escape, payload-distribution control, on-target receptor toxicity"
+  ],
+  "limits": [
+   "Marker positions are qualitative, set by the class of evidence behind each route rather than by a measured scale; the chart orders routes, it does not quantify them.",
+   "Reaching a tissue and releasing payload where it can act are different claims; whole-tissue read-outs cannot separate them, so the shaded region is defined by absence of evidence."
+  ],
+  "source": "Source: IC Memo v2 (delivery landscape); positions are qualitative, not a measured scale",
+  "notes": "This is the macro framing for the whole case. The trade is the point: every step away from the liver has bought reach and paid for it in clinical validation, and nothing yet sits in the corner that has both. The reason is one step - productive delivery into the cytosol of the target cell - and it is the step with the least direct evidence anywhere in the field. The three open risks all sit on that step rather than beside it: how much internalised payload escapes the endosome, whether payload distribution is controlled and characterised well enough to attribute a potency difference, and the fact that the entry receptor is expressed beyond the target tissue, so efficacy and toxicity are read on the same receptor."
+ }
+]

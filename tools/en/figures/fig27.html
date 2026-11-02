@@ -1,0 +1,133 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+body{width:1150px;padding:18px 22px 14px}
+.ftitle{font-size:26px}
+.fsub{font-size:17px;margin-top:7px;line-height:1.4}
+.fsrc{font-size:14px;margin-top:8px}
+.atlas{margin-top:11px}
+.arow{display:grid;grid-template-columns:340px repeat(5,1fr);column-gap:5px;align-items:stretch}
+.arow+.arow{margin-top:4px}
+.hcell{padding:0 3px 7px}
+.hnum{font-size:17px;font-weight:700;color:#2F2F2F;line-height:1.2}
+.hsub{font-size:16px;color:#8A8A8A;margin-top:3px;line-height:1.25}
+.num{width:24px;height:24px;line-height:22px;font-size:16px;margin-right:5px}
+.rlab{padding:6px 12px 4px 0;font-size:16px;color:#8A8A8A;line-height:1.25}
+.rn{font-size:16px;font-weight:700;color:#2F2F2F}
+.c{border-radius:7px;padding:6px 8px;position:relative}
+.c.ind{background:#DBD2BE;border:1px solid #D1C7B1}
+.c.cmp{background:#93B396;border:1px solid #84A788}
+.c.non{background:transparent;border:1px dashed #C7C2BC}
+.cd{font-size:16px;color:#3A3A3A;line-height:1.25}
+.c.cmp .cd{color:#FFFFFF;font-weight:700}
+.c.non .cd{color:#A3A3A3}
+.bulk{font-size:16px;font-weight:700;color:#2F2F2F}
+.c.cmp .bulk{color:#FFFFFF}
+.hdrule{border-bottom:1px solid #DDD8D2;margin-bottom:6px}
+.lgwrap{display:flex;gap:18px;margin-top:9px}
+.lg{display:flex;align-items:flex-start;gap:8px;flex:1 1 0;min-width:0;font-size:16px;color:#7A7A7A;line-height:1.3}
+.lgsw{flex:0 0 34px;height:17px;border-radius:4px;margin-top:1px}
+</style></head><body>
+<div class="ftitle">Delivery-capability atlas: five steps graded separately, never merged</div>
+<div class="fsub">Each of the 45 cells is the evidence level for that entry at that step, not a performance score. Colour carries the level.</div>
+
+<div class="atlas">
+  <div class="arow">
+    <div class="hcell"></div>
+    <div class="hcell"><div class="hnum"><span class="num">1</span>Receptor</div><div class="hsub">Where it binds</div></div>
+    <div class="hcell"><div class="hnum"><span class="num">2</span>Format</div><div class="hsub">IgG / Fab / VHH</div></div>
+    <div class="hcell"><div class="hnum"><span class="num">3</span>Epitope</div><div class="hsub">K<sub>D</sub> &middot; pH &middot; valency</div></div>
+    <div class="hcell"><div class="hnum"><span class="num">4</span>Release</div><div class="hsub">Uptake &ne; delivery</div></div>
+    <div class="hcell"><div class="hnum"><span class="num">5</span>Escape</div><div class="hsub">Own contribution</div></div>
+  </div>
+  <div class="hdrule"></div>
+
+  <div class="arow">
+    <div class="rlab"><span class="rn">TfR1 &rarr; skeletal muscle</span> &middot; IgG/Fab, PD</div>
+    <div class="c ind"><div class="cd">Human PD discl.</div></div>
+    <div class="c ind"><div class="cd">IgG + Fab coexist</div></div>
+    <div class="c ind"><div class="cd">No general rule</div></div>
+    <div class="c cmp"><div class="cd">Mouse paired <span class="bulk">&dagger;</span></div></div>
+    <div class="c ind"><div class="cd">EEV, non-AOC</div></div>
+  </div>
+
+  <div class="arow">
+    <div class="rlab"><span class="rn">TfR1 &rarr; cardiac muscle</span> &middot; no AOC data</div>
+    <div class="c ind"><div class="cd">Peptide-ligand</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c ind"><div class="cd">Peptide-ligand PD</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+  </div>
+
+  <div class="arow">
+    <div class="rlab"><span class="rn">TfR1 &rarr; brain (BBB)</span> &middot; Fab, Fc, VHH-Fc</div>
+    <div class="c ind"><div class="cd">Mouse / NHP PD</div></div>
+    <div class="c ind"><div class="cd">Fab, Fc, VHH-Fc</div></div>
+    <div class="c cmp"><div class="cd">Affinity, no load</div></div>
+    <div class="c ind"><div class="cd">NHP region <span class="bulk">&dagger;</span></div></div>
+    <div class="c non"><div class="cd">none</div></div>
+  </div>
+
+  <div class="arow">
+    <div class="rlab"><span class="rn">CD98hc &rarr; brain</span> &middot; antibody shuttle</div>
+    <div class="c ind"><div class="cd">Transport data</div></div>
+    <div class="c ind"><div class="cd">Cross-species</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+  </div>
+
+  <div class="arow">
+    <div class="rlab"><span class="rn">IGF1R &rarr; brain</span> &middot; clone F etc.</div>
+    <div class="c ind"><div class="cd">Mouse siRNA PD</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c ind"><div class="cd">pH clone in vitro</div></div>
+    <div class="c ind"><div class="cd">Mouse func. PD</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+  </div>
+
+  <div class="arow">
+    <div class="rlab"><span class="rn">SYT2 &rarr; motor neuron</span> &middot; NMJ retrograde</div>
+    <div class="c ind"><div class="cd">Luminal epitope</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c ind"><div class="cd">Mouse tool ASO</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+  </div>
+
+  <div class="arow">
+    <div class="rlab"><span class="rn">TAL / podocyte</span> &middot; receptor not found</div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+  </div>
+
+  <div class="arow">
+    <div class="rlab"><span class="rn">Diseased fibroblast</span> &middot; FAP candidates</div>
+    <div class="c ind"><div class="cd">FAP candidates</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+  </div>
+
+  <div class="arow">
+    <div class="rlab"><span class="rn">CD22 &rarr; B-lineage</span> &middot; antibody&ndash;ASO, TLR9</div>
+    <div class="c ind"><div class="cd">CD22 Ab&ndash;ASO</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+    <div class="c ind"><div class="cd">MXD3 cell/mouse</div></div>
+    <div class="c non"><div class="cd">none</div></div>
+  </div>
+</div>
+
+<div class="lgwrap">
+  <div class="lg"><span class="lgsw" style="background:#93B396;border:1px solid #84A788"></span><span>Publicly comparable: same study, model, conditions</span></div>
+  <div class="lg"><span class="lgsw" style="background:#DBD2BE;border:1px solid #D1C7B1"></span><span>Indirect support: payload, model or species mismatched</span></div>
+  <div class="lg"><span class="lgsw" style="background:repeating-linear-gradient(90deg,#F4F2EF 0 6px,#DBD2BE 6px 10px);border:1px solid #D1C7B1"></span><span>Vendor narrative only: no verifiable first-hand data</span></div>
+  <div class="lg"><span class="lgsw" style="background:transparent;border:1px dashed #C7C2BC"></span><span>none = no evidence in this round's material</span></div>
+</div>
+<div class="fsrc">&dagger; = whole-tissue read-out only, no cell resolution. Grading is this report's own reading, not a systematic review. Source: IC Memo v2 &sect;4.1, &sect;4.1.1, &sect;4.1.7; data as of 2026-10-13.</div>
+</body></html>
