@@ -1,0 +1,450 @@
+[
+  {
+    "orig": [
+      50
+    ],
+    "section": "How we build",
+    "title": "Licensing a proven entry and building on it is the base case; equity co-incubation stays the alternative",
+    "layout": "full",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Three ways into the field",
+        "columns": [
+          "Entry mode",
+          "What it buys",
+          "What it costs",
+          "Pick it when"
+        ],
+        "col_widths": [
+          0.22,
+          0.26,
+          0.26,
+          0.26
+        ],
+        "first_col_bold": true,
+        "rows": [
+          [
+            "Build fully in-house",
+            "Full decision autonomy; background technology accumulates inside the company",
+            "New receptor, new payload and new model stack up: longer, riskier early cycle",
+            "No licensable entry covers the target product and the rights we need"
+          ],
+          [
+            "License the entry, then build",
+            "Concentrates risk on nuclear delivery and disease function, not on entry discovery",
+            "Depends on a licensor able to grant, with scope coverage and affordable economics",
+            "Rights are obtainable — the base case for the validation period"
+          ],
+          [
+            "Minority stake / co-incubation",
+            "Fastest access to an existing team and an existing construct",
+            "Less control; service synergies and ownership of new IP must be agreed up front",
+            "Rights are not obtainable, or an existing asset is already ahead of us"
+          ]
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Run diligence on all three in parallel, with licence-then-build as the base case; if rights are not obtainable within 6 months, compare alternative entries or co-incubation."
+      }
+    ],
+    "source": "Source: IC Memo v2 (§6.3, §7.9); team analysis, cut-off 2026-10-12",
+    "notes": "The case for building in-house has to come from the target product and the rights package we can assemble, not from the fact that few assets are available to buy. The three options differ mainly in how much technology evidence we can obtain at the moment of entry: the more mature that evidence, the lower the new-technology R&D burden we carry. Licence-then-build is the base case because it moves our risk off entry discovery and onto nuclear delivery and disease function, which is where our own work adds value. Project evidence and control rights under a minority stake still need diligence, and the ownership of newly created IP and any service synergies must be written into the agreement. The positioning here is a strategy judgement, not a scored ranking or a valuation."
+  },
+  {
+    "orig": [
+      38
+    ],
+    "section": "How we build",
+    "title": "Three configurations stay in parallel; the first budget buys the evidence that can change the choice",
+    "layout": "full",
+    "regions": [
+      {
+        "type": "table",
+        "columns": [
+          "Dimension",
+          "A Muscle nuclear repair",
+          "B Fibroblast delivery",
+          "C Kidney-cell entry"
+        ],
+        "col_widths": [
+          0.19,
+          0.27,
+          0.27,
+          0.27
+        ],
+        "first_col_bold": true,
+        "rows": [
+          [
+            "Lead direction",
+            "GAA IVS1 (late-onset Pompe) plus repairable DYSF variants",
+            "HSP47 in SSc skin; COL6A1 as second candidate in the same platform unit",
+            "UMOD in the thick ascending limb, or COL4A5 in podocytes"
+          ],
+          [
+            "Target cell and compartment",
+            "Myofiber nucleus; splice-site occupancy, repair rather than degradation",
+            "Lesional skin fibroblast cytoplasm; COL6A1 in muscle interstitial fibroblast nuclei",
+            "Medullary thick ascending limb and early distal tubule, or podocyte nucleus"
+          ],
+          [
+            "Entry",
+            "Skeletal-muscle TfR1 — the only entry with human PD in the same target-cell type",
+            "Antigen to be fixed; FAP is a surface antigen, not the progenitor cell type",
+            "No blood-side accessible receptor identified in the search to 2026-10-13"
+          ],
+          [
+            "Evidence still to be completed",
+            "Productive intracellular payload, then functional improvement",
+            "Entry into the correct cell: antigen difference to delivery difference is unmeasured",
+            "Intact molecule in blood, and entry; the paths diverge at receptor discovery"
+          ],
+          [
+            "First experiment",
+            "Two payloads to functional protein in patient myotubes, transfection-free, 3+ donors",
+            "Lesional vs matched normal fibroblast PD; window holds at 3x, change antigen below 2x",
+            "Four-step receptor discovery, which eliminates candidates rather than shows efficacy"
+          ],
+          [
+            "Role in the first budget",
+            "Carries the timeline and the gates; funded by the construct-neutral shared studies",
+            "Exploratory; no timeline slot and no gate of its own",
+            "Exploratory; receptor discovery first, patient models confirmed before any start"
+          ]
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "First-round money buys the freedom-to-operate & backbone study and the shared productive-delivery study, which are neutral between the three configurations — not three platforms in one budget."
+      }
+    ],
+    "source": "Source: IC Memo v2 (§6.1, §6.3, §6.4, §7.2); team analysis, data cut-off 2026-10-13",
+    "notes": "All three configurations stay open in this round; no three-way choice is asked for here. Configuration A is lower risk only at the entry step, because skeletal-muscle TfR1 already has human PD in the same type of target cell; competition, freedom-to-operate and clinical risk are judged separately and none of them falls because the entry is mature. Each path breaks first at a different point in the delivery sequence, which is why one shared experiment cannot settle all three. Cardiac and CNS are held as collaboration extensions and are covered separately. Cut for space: the shared methodological constraints — naked-antibody and conjugate PK measured separately, readouts on sorted target cells, and splicing read as correct-splice proportion plus mature protein."
+  },
+  {
+    "orig": [
+      39
+    ],
+    "section": "How we build",
+    "title": "GAA IVS1 sets the benchmark: splice correction carried through to glycogen, without transfection",
+    "layout": "split_left_wide",
+    "regions": [
+      {
+        "type": "flow",
+        "heading": "One chain, measured end to end in patient myotubes",
+        "steps": [
+          {
+            "heading": "Correct transcript",
+            "body": "Oligonucleotide occupies the aberrant splice site at GAA c.-32-13T>G; correctly spliced transcript rises, and the RNA is not degraded"
+          },
+          {
+            "heading": "Mature GAA enzyme",
+            "body": "The correct transcript has to appear as mature, processed protein — read as protein form and amount, never as total RNA"
+          },
+          {
+            "heading": "Enzyme activity",
+            "body": "The mature enzyme has to be catalytically active inside the cell"
+          },
+          {
+            "heading": "Cell glycogen",
+            "body": "Glycogen clears in patient myotubes under free uptake, with no transfection reagent in the system"
+          }
+        ]
+      },
+      {
+        "type": "bullets",
+        "heading": "What is strong, what is still missing",
+        "items": [
+          "Biology is strong: functional recovery is seen in patient cells, but at payload level only — the conjugate-level steps from blood to intracellular payload are unmeasured",
+          "Delivery feasibility is high: skeletal-muscle TfR1 is the only entry with human PD in the same target-cell type; diaphragm coverage still has to be shown",
+          "Chemistry is mature here; the conjugate characterization study sets oligonucleotide-to-antibody ratio distribution, site occupancy and free-payload residue",
+          "A change in transcript ratio alone is not a claim of disease modification: the gate needs restored function in patient cells and normal cells not unduly harmed"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Myofiber and muscle interstitial fibroblast are two separate entry tasks: the COL6A1 direction cannot borrow the myofiber entry evidence."
+      }
+    ],
+    "source": "Source: IC Memo v2 (§6.1, §6.2, §7.7); team analysis, data cut-off 2026-10-13",
+    "notes": "The value of GAA IVS1 is that it runs the whole chain — splice correction, mature enzyme, enzyme activity, glycogen — once, under free uptake, and so becomes the reference point for nuclear oligonucleotide delivery into myofibers. Success supports the myofiber configuration specifically; other cells, other proteins and other payloads each need their own evidence. The same skeletal-muscle entry carries three different mechanisms in the source material: toxic-RNA reduction in DM1, splice correction for GAA and DYSF, and partial GYS1 knockdown as an indirect substrate-reduction route that slows glycogen synthesis but does not clear what has already accumulated. Numbers and grades are carried over from the memo with their original qualifiers; project-stage cut-off 2026-10-11, literature 2026-10-07."
+  },
+  {
+    "orig": [
+      40
+    ],
+    "section": "How we build",
+    "title": "DYSF advances as a conditional product: two routes on one entry, each proving its own claim",
+    "layout": "full",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "The two routes differ in product, frame and population",
+        "columns": [
+          "Route",
+          "Splicing event",
+          "Expected product",
+          "What must be proven"
+        ],
+        "col_widths": [
+          0.2,
+          0.26,
+          0.26,
+          0.28
+        ],
+        "first_col_bold": true,
+        "rows": [
+          [
+            "Pseudoexon removal",
+            "The oligonucleotide blocks a pseudoexon that a deep-intronic variant causes to be included",
+            "Full-length transcript in normal reading frame; full-length dysferlin",
+            "Localization and laser-injury membrane repair, against normal donor cells"
+          ],
+          [
+            "Tolerated coding-exon skipping",
+            "The oligonucleotide skips an exon that belongs to the coding sequence",
+            "Internally deleted transcript, frame still readable; shorter dysferlin isoform",
+            "That isoform's own function; deletion effects differ from exon to exon"
+          ],
+          [
+            "Shared and divergent",
+            "Both use nuclear splice occupancy, the same entry and the same functional readout",
+            "They differ in expected product, frame consequence and variant population covered",
+            "Success of DMD exon skipping is adjacent evidence for the second route only"
+          ]
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Product status requires all four at once: an identifiable patient population, functional change, rights and clinical increment. If they do not hold, DYSF reverts to a platform-validation payload."
+      }
+    ],
+    "source": "Source: IC Memo v2 (§6.2, §6.4, §7.9); team analysis, data cut-off 2026-10-13",
+    "notes": "DYSF is the second payload of the first wave, and its job this round is to deliver the platform-transfer evidence: a second payload producing an independent functional readout on the same entry, which is the single criterion of the platform-transfer gate. The two routes are mechanistically different and are kept apart in the readout tables, in the use claims and in patient stratification — the first restores full-length dysferlin, the second yields a shorter internally deleted isoform whose function cannot be assumed. If the four product conditions are not met, the programme is demoted to a platform-validation payload rather than kept alive to maintain pipeline count. Cut for space: the per-variant grid for repairable DYSF variants and the continue/demote/stop decision table."
+  },
+  {
+    "orig": [
+      41
+    ],
+    "section": "How we build",
+    "title": "COL6A1 and HSP47 are two separate entry tasks: interstitial delivery and the selectivity window prove themselves",
+    "layout": "split_right_wide",
+    "regions": [
+      {
+        "type": "cards",
+        "heading": "Two tasks on one cell class",
+        "items": [
+          {
+            "heading": "COL6A1 — interstitial entry",
+            "body": "The product cell is the muscle interstitial fibroblast nucleus, not the myofiber, so entry must be proven on its own. Keep one gated option, decided when models and materials are available and the critical path is free."
+          },
+          {
+            "heading": "HSP47 — selectivity window",
+            "body": "Cytoplasmic siRNA lowers the ER collagen chaperone encoded by SERPINH1 and cuts collagen output at source. Its value this round is to measure the lesional-versus-normal cell selectivity window directly in patient tissue."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Same mechanism, three different outcomes",
+        "columns": [
+          "Organ",
+          "What supports it",
+          "What limits it"
+        ],
+        "col_widths": [
+          0.26,
+          0.37,
+          0.37
+        ],
+        "first_col_bold": true,
+        "rows": [
+          [
+            "SSc skin fibroblasts",
+            "Repeatable biopsy; PD, cell selectivity and function measurable in patients",
+            "It ranks first on sampling cost, not on a stronger mechanism"
+          ],
+          [
+            "IPF lung fibroblasts",
+            "The mechanism carries across organs and is worth borrowing",
+            "Inhaled drug meets epithelium first; the fraction reaching interstitium is unmeasured"
+          ],
+          [
+            "MASH stellate cells",
+            "Same chaperone mechanism, with clinical attempts already made",
+            "Phase 2 showed no histological advantage; uptake lands on hepatocytes and Kupffer cells"
+          ]
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Skin is the cheapest tissue to sample, not the only one that can be measured: a skin readout does not stand in for the lung or the liver."
+      }
+    ],
+    "source": "Source: IC Memo v2 (§6.1, §6.2, §6.4, §7.4); team analysis, data cut-off 2026-10-13",
+    "notes": "The fibroblast side runs as two independent entry tasks that happen to share a cell class; entry, compartment and chemistry are separate for each. The HSP47 test is a paired one: activated fibroblasts from an SSc patient biopsy against normal donor cells from the same site, with lesional and normal PD read in the same experiment — a ratio of 3x or more with normal fibroblast proliferation, migration and wound closure intact means the selectivity window holds, and a ratio below 2x means we change the antigen, not the payload. If the myofiber entry cannot be secured, this configuration serves as a comparison, but a failure budget does not automatically convert into a second platform. On the liver side, the BMS-986263 liver programme ended early, which is part of what puts the stellate-cell route behind the others."
+  },
+  {
+    "orig": [
+      42
+    ],
+    "section": "How we build",
+    "title": "Kidney stays a research option: fund receptor discovery for TAL and podocytes before any platform claim",
+    "layout": "split_left_wide",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Four segments, four different entry situations",
+        "columns": [
+          "Segment",
+          "Entry status",
+          "Disease and limit"
+        ],
+        "col_widths": [
+          0.22,
+          0.35,
+          0.43
+        ],
+        "first_col_bold": true,
+        "rows": [
+          [
+            "Proximal tubule",
+            "Candidate entries exist: megalin and KIM1, with ligand platforms available",
+            "Only segment with a candidate entry; disease value limited, and a ligand may fit better"
+          ],
+          [
+            "Thick ascending limb",
+            "No entry found; blood-side endocytic receptors still to be screened",
+            "ADTKD-UMOD: mutant UMOD accumulates and stresses the ER; the megalin route cannot reach it"
+          ],
+          [
+            "Podocyte",
+            "No entry found; naked ASO provides an animal comparator",
+            "Alport COL4A5 and APOL1; antibody size may itself block access across basement membrane"
+          ],
+          [
+            "Cyst epithelium",
+            "Entry depends on cyst origin; non-antibody RNA is already in the clinic",
+            "ADPKD: cyst origin is heterogeneous and second-hit cells may be beyond rescue"
+          ]
+        ]
+      },
+      {
+        "type": "flow",
+        "heading": "Receptor discovery: the first budget buys steps one and two",
+        "steps": [
+          {
+            "heading": "Single-cell + surface proteome",
+            "body": "Map candidate surface proteins; discard anything broadly expressed on liver, marrow or vascular endothelium"
+          },
+          {
+            "heading": "Polarity sections",
+            "body": "Confirm the candidate faces the blood side; expression confined to the lumen is discarded"
+          },
+          {
+            "heading": "Internalization and sorting",
+            "body": "Binding without internalization, or routing entirely to lysosome, takes the candidate out"
+          },
+          {
+            "heading": "Patient-model PD",
+            "body": "Patient-derived models must be confirmed obtainable before start; no specific PD sends the search back to step one"
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Entries here are sparse, so discovery risk is high — and because allele-selective nucleic-acid pharmacology already works in the kidney, an antibody has to beat that route to earn a place."
+      }
+    ],
+    "source": "Source: IC Memo v2 (§6.1, §6.2, §7.5, §7.9); team analysis, data cut-off 2026-10-13",
+    "notes": "UMOD in the thick ascending limb and COL4A5 in podocytes are two different entry tasks — different target cells, different blood-side access questions, different disease mechanisms and different payload design — so they are kept as separate projects rather than merged into one generic kidney platform. What we buy first is cheap, elimination-only evidence: the single-cell and surface-proteome step and the polarity step, which can rule candidates out without committing to a payload. The common constraint across the whole organ is that the strongest delivery signal sits in the proximal tubule while our target cells are elsewhere. If this route does work it has the highest barrier to entry and the longest timescale of the three configurations, which is why it is preferably advanced as a technology collaboration."
+  },
+  {
+    "orig": [
+      43
+    ],
+    "section": "How we build",
+    "title": "CNS and cardiac advance only as collaboration extensions: disease evidence is deep, delivery evidence is not",
+    "layout": "split",
+    "regions": [
+      {
+        "type": "flow",
+        "heading": "Three independent gates every CNS mechanism faces",
+        "steps": [
+          {
+            "heading": "Cross the barrier",
+            "body": "Evidence that the conjugate crosses the blood-brain barrier at a dose that is tolerated"
+          },
+          {
+            "heading": "Enter the target cell",
+            "body": "Evidence of productive entry into the parenchymal target cell, which crossing the barrier does not demonstrate"
+          },
+          {
+            "heading": "Cover the right regions",
+            "body": "Evidence that the regions driving the disease are reached; coverage elsewhere does not substitute"
+          }
+        ]
+      },
+      {
+        "type": "bullets",
+        "heading": "Entry mode: a collaboration we can accept on delivery",
+        "items": [
+          "The partner delivers conjugate-level evidence for this payload in this cell type, with the raw data behind it",
+          "Models, manufacturing definition and commercially usable rights transfer with the package, not after it",
+          "Six preconditions are checked item by item when the collaboration is set up, before any spend is committed",
+          "CNS spans four cell types — neuron subtypes, astrocytes, microglia and oligodendrocytes — and neuron delivery evidence does not extrapolate to glia",
+          "Benchmarks already exist in CNS: one clinical conjugate plus two non-classic carriers (Dyne CNS FORCE, SRP-1005, Denali DNL628)",
+          "Cardiac is a separate direction: skeletal-muscle human delivery evidence does not carry over, and first-hand conjugate data must be obtained"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Knockdown measured on bulk tissue is weighted by each cell type's share of target RNA, not by cell count: 75% bulk knockdown does not mean 75% of neurons were reached."
+      }
+    ],
+    "source": "Source: IC Memo v2 (§1, §5.3, §6.3); team analysis, data cut-off 2026-10-13",
+    "notes": "CNS and cardiac are kept out of the build plan and held as collaboration extensions, entered only through a technology or product partnership whose deliverables we can accept and verify. The disease-side evidence in CNS is deep across four mechanism groups — lowering PrP synthesis in prion disease, excluding cryptic exons to restore full-length STMN2 where TDP-43 function is lost, raising expression at SCN1A and UBE3A-ATS in inhibitory interneurons, and partial reduction of mutant GFAP in astrocytes — but each still has to clear all three delivery gates separately. Registry status for the benchmark assets was read on 2026-10-11 against materials dated 2026-09-30 and has not been re-verified here. Cut for space: the per-asset benchmark table and the full six-precondition list, both of which sit in the memo."
+  },
+  {
+    "orig": [
+      44
+    ],
+    "section": "How we build",
+    "title": "First-round portfolio carries three named unknowns: one benchmark, one conditional product, one gated option",
+    "layout": "full",
+    "regions": [
+      {
+        "type": "rows",
+        "items": [
+          {
+            "num": "1",
+            "heading": "Mechanism and delivery benchmark — GAA IVS1 (late-onset Pompe)",
+            "body": "Carries the functional chain under free uptake. Funded now: the freedom-to-operate & backbone study and the productive-delivery study with its patient-cell arm. Continue if mature enzyme, glycogen function and the delivery increment all hold."
+          },
+          {
+            "num": "2",
+            "heading": "Conditional first product — DYSF repairable variants (LGMD R2)",
+            "body": "Carries the function of the expected protein product and the patient denominator, and is the only test of platform transfer: a second payload producing independent function on the same entry. This budget builds and qualifies the two functional assays."
+          },
+          {
+            "num": "3",
+            "heading": "Independent gated option — COL6A1 pseudoexon (Ullrich/Bethlem)",
+            "body": "Carries the interstitial entry itself. No money and no timeline slot now; the single gated judgement is made only if interstitial functional delivery holds and models and materials are separately available."
+          },
+          {
+            "num": "4",
+            "heading": "Partnership and watch — HSP47, kidney, CNS, cardiac",
+            "body": "Entry, models and partnership terms are each still open. HSP47 runs the paired lesional-versus-normal selectivity test, kidney buys only the two elimination steps of receptor discovery, and CNS and cardiac go through the six preconditions."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "If the entry licence, the product population or the function proves unworkable, not forming the company has to remain an acceptable outcome of this round."
+      }
+    ],
+    "source": "Source: IC Memo v2 (§6.2, §6.3, §7.2, §7.3, §7.9); team analysis, data cut-off 2026-10-13",
+    "notes": "The portfolio is an order of resource allocation, not a ranking of scientific value, and it does not pick one of the three configurations — they stay in parallel. Authorisation stops at the receptor-entry & payload-fit gate together with the patient-cell biology gate; the platform-transfer gate and everything after it come back to the committee separately. The first experiment can be bought two ways: the cautious version buys discrimination readouts first, with total uptake and functional potency on separate axes and all four entry-dependence controls, while the faster version starts the patient-cell arm alongside and goes straight at the functional endpoint. One capability is worth owning across all three configurations — site-specific conjugation and full oligonucleotide-to-antibody ratio characterisation, because it decides whether discovery-stage data can be interpreted; conjugation under GMP stays with the manufacturing partner. The sample and data compliance path is registered here and is covered nowhere else in the deck."
+  }
+]

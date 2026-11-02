@@ -1,0 +1,127 @@
+[
+ {
+  "orig": 21,
+  "title": "Rights dependency sits in the receptor-antibody layer; the backbone-chemistry path waits on a supplementary search",
+  "lead": "The layer NewCo can differentiate on is payload sequence and disease use, while the backbone-chemistry layer needs a supplementary search before a path is chosen. Across the four entry paths the decisive costs are commercial terms, data rebuild, receptor-access rebuild and scarce models.",
+  "figure": "fig/fig21.png",
+  "fig_caption": "Core-60 publication numbers by year, plus the two-leaders-and-long-tail split of the 26 merged applicants; grey = pre-merger basis.",
+  "points": [
+   "29 of the 60 core publications land in 2025-26; nothing in this set before 2018, and the trend is still rising.",
+   "Avidity 13 and Dyne 11 hold 40% of the 60; 20 of the other 24 applicants hold a single publication each.",
+   "The two leaders concentrate on TfR1 conjugates, linker chemistry and muscle indications - our own entry layer.",
+   "Both time-window readings are disclosed side by side: the window is still open, and it is closing.",
+   "Dependency sits in the receptor-antibody layer; payload sequence and disease use stay differentiable."
+  ],
+  "table_note": [
+   "Three counts kept apart: 135/60 publications, no family counts yet, 2 granted-in-force",
+   "Pre-merger 135 basis is reference only and is never added to the 60"
+  ],
+  "limits": [
+   "Not a freedom-to-operate opinion: changing epitope or sequence is not automatic design-around, process innovation may not solve FTO, and publication does not imply freedom to operate.",
+   "A 'Ceased' status on one WO page says nothing about the whole family, and the counts reflect the search set only, not global filing.",
+   "2026 is a partial year and publication lags about 18 months, so the last two years are necessarily understated."
+  ],
+  "source": "Source: IC Memo v2 §3.1, §3.2, §4.5, Appendix B; core AOC patent workbook 2026-09-07; data as of 2026-10-13",
+  "notes": "Filing density is still rising, and the deck discloses both readings of that fact side by side: it makes any FTO conclusion premature, and it also narrows the wait-and-see window. This round does not choose between them. The pre-merger 135-publication basis (Avidity 14, Dyne 12, Arrowhead 5, Denali 5) is shown for reference only and is never added to the 60. Chinese applicants hold 8 of the core 60 across six entities. The first two entry paths fall inside gate work; the last two stay exploratory."
+ },
+ {
+  "orig": 23,
+  "title": "Crowding sits at the entry and rights layers, not the disease layer",
+  "lead": "Of 94 disease records, 45% share one receptor family, so the first wave backs the single entry with human PD, TfR1 into skeletal muscle. Differentiation stays in payload sequence and disease use, and the 18 records whose entry is still undiscovered run as a separate receptor-discovery route.",
+  "figure": "fig/fig23.png",
+  "fig_caption": "Candidates placed by biological confidence against entry grade; COL6A1 is repositioned, and the four axes are kept apart.",
+  "points": [
+   "45% of the 94 disease records sit in one receptor family, so crowding is at the entry layer, not the disease layer.",
+   "Only GAA IVS1 and DYSF share the platform unit - same TfR1 entry, myofibre nucleus and nuclear splicing.",
+   "COL6A1 moves off that circle: its product cell is the interstitial fibroblast nucleus, so its entry needs separate proof.",
+   "GAA's slot is already taken at same receptor, target and mechanism by a Creyon 36 nt aptamer; ABX1100 is the comparator.",
+   "Four axes are marked on four channels - y, x, symbol, border - and never collapsed into one score."
+  ],
+  "table_note": [
+   "Entry families of 94: TfR1/CD98hc 42, local dosing 12, other receptors 10, immune/blood 8",
+   "18 records still need their entry receptor discovered - the moat candidate set"
+  ],
+  "limits": [
+   "The map answers where work is already under way, not where work is worth doing; that second question is answered by the four-axis grading.",
+   "The five counting columns use different units and no two may be added; the 26 adjacent-technology records are likewise not additive.",
+   "Of the 31 records ready for mechanism validation, 13 are CNS, 6 eye, ear and skin, 3 skeletal muscle and 3 kidney."
+  ],
+  "source": "Source: IC Memo v2 §3.3, §3.4, §4.1.7, §6.1; registry status check 2026-10-11; data as of 2026-10-13",
+  "notes": "The figure repositions COL6A1 away from GAA IVS1 and DYSF: its product cell is the muscle interstitial fibroblast nucleus, which is not the myofibre nucleus under the platform-unit definition, so it no longer shares a platform unit with the other two. Only GAA IVS1 and DYSF share the large circle. Biology, delivery, competition and resource dependency are marked on four separate channels and are never combined into a single score. GAA IVS1 is already occupied at same receptor, same target site and same mechanism by a Creyon 36 nt aptamer; DYSF shows no same-configuration occupancy this round."
+ },
+ {
+  "orig": 26,
+  "title": "Antibody format is derived from target cell and compartment, then fixed by our own same-payload comparison",
+  "lead": "Format follows from the mature myofibre and the nucleus rather than from a literature ranking, and is settled by a same-payload, same-model comparison we run ourselves. Antibody gain is measured on functional delivery, safety window and durability, and antibody supply gates the start.",
+  "figure": "fig/fig26.png",
+  "fig_caption": "Carrier mass plus one loaded siRNA duplex across six binder formats, against the glomerular-filtration magnitude and current AOC use.",
+  "points": [
+   "The smaller the carrier, the larger the share of mass one 13 kDa oligonucleotide duplex takes.",
+   "About 60 kDa is a first-approximation filtration level, so Fab and everything below sit near or under it.",
+   "Clinical precedent exists at IgG, Fab, Centyrin and peptide mass; scFv has no AOC data this round.",
+   "Format follows from the mature myofibre and the nucleus, then from our own same-payload comparison.",
+   "Antibody gain is read on functional delivery, safety window and durability - never summed into a score."
+  ],
+  "table_note": [
+   "VHH-Fc fusion rises to tens of kDa and is no longer glomerularly filtered",
+   "Charge and plasma-protein binding move real clearance off the mass threshold"
+  ],
+  "limits": [
+   "No same-payload, same-model head-to-head between formats exists in this round's material, so formats are not interchangeable parts.",
+   "No sub-rating is merged into an overall delivery score and there is no score card; the three antibody-gain dimensions are also shown separately.",
+   "The one read-out to buy sits with WuXi Biologics, so closing antibody supply is a hard precondition for starting the receptor-entry & payload-fit gate."
+  ],
+  "source": "Source: IC Memo v2 §4.1, §4.1.2, §10.8; data as of 2026-10-13",
+  "notes": "The smaller the carrier, the larger the share of mass one oligonucleotide takes, and about 60 kDa is a first-approximation glomerular-filtration level rather than a prediction: charge and plasma-protein binding move real clearance, and a VHH-Fc fusion rises to tens of kDa and is no longer filtered. Clinical precedent exists at IgG, Fab, Centyrin and peptide-ligand mass; scFv has no AOC data in this round's material and VHH appears only in a preprint. The influence of antibody format on AOC delivery is graded as system-dependent, supported only by valency, affinity and epitope having been compared systematically inside a single study."
+ },
+ {
+  "orig": 27,
+  "title": "Nine entries graded on five steps: the atlas screens entries and sets the first read-out to buy",
+  "lead": "Across the 45 cells the evidence stands at 2 publicly comparable, 19 indirect support, 0 vendor narrative and 24 none. The first-wave skeletal-muscle TfR1 row is the only one with human PD yet still carries four indirect cells, so the first money buys two read-outs on that row.",
+  "figure": "fig/fig27.png",
+  "fig_caption": "Nine entries by five delivery steps; cell colour is the evidence level for that step, and the steps are never merged into a total.",
+  "points": [
+   "Only 2 of the 45 cells rest on a published head-to-head; 19 are indirect and 24 have no evidence at all.",
+   "The skeletal-muscle TfR1 row is the only one with human PD, yet four of its five cells are indirect.",
+   "Both comparable cells are whole-tissue read-outs, so neither resolves what reaches the target cell.",
+   "First money buys two read-outs on that row: cell-resolved payload, then a same-payload format comparison.",
+   "Not more dose and not a second entry - the kidney-cell row is blank across all five steps."
+  ],
+  "table_note": [
+   "Three company configurations held in parallel: none ranked, none eliminated this round",
+   "Evidence level and clinical maturity are separate scales and are never multiplied"
+  ],
+  "limits": [
+   "Evidence level and clinical maturity are two different scales: they are not multiplied and not combined into a delivery total.",
+   "The grading is this report's own reading of the material (research inference), not a systematic review.",
+   "Comparable human receptor copy numbers at the blood-brain barrier are unavailable, and anti-CD98 antibodies do not transit the LAT1 substrate channel."
+  ],
+  "source": "Source: IC Memo v2 §4.1, §4.1.1, §4.1.7; registry status check 2026-10-11; data as of 2026-10-13",
+  "notes": "Each cell records the evidence level for that entry at that step, not a performance score, and the four counts must always be quoted together. The first money buys cell-resolved productive payload, then a same-payload format comparison on the skeletal-muscle TfR1 row - not more dose and not a second entry. The diseased-fibroblast configuration is stuck at receptor selection, and the kidney configuration has no accessible endocytic receptor on the blood side. Transport fate across the five steps is coupled, so moving one step moves the others."
+ },
+ {
+  "orig": 28,
+  "title": "Loading is optimised jointly on payload charge, P=S content, site and format, one system at a time",
+  "lead": "Loading is set by payload charge, P=S content, site and format together, with the read-out basis labelled on every experiment. The rights & backbone-chemistry gate judges only two items: counsel's written directional opinion, and the exposure gain seen on a non-targeting backbone.",
+  "figure": "fig/fig28.png",
+  "fig_caption": "Ten backbone experiments across plasma PK, liver uptake, muscle PD and potency; colour shows direction only and carries no values.",
+  "points": [
+   "DAR2 loses plasma exposure and gains liver uptake against DAR1, and muscle knockdown falls with it.",
+   "Charge-neutral backbone changes reverse it: the PMO heteroduplex gives >50% knockdown at 3 mg/kg.",
+   "Better plasma exposure does not buy muscle PD - the LNA row improves exposure but not knockdown.",
+   "Every gain costs something: removing all P=S wrecks stability, MOP loses material in deprotection.",
+   "Three antibodies are used across the study, so PK and PD rows are never chained into one mechanism."
+  ],
+  "table_note": [
+   "Usable premise: within this chemistry the DAR ceiling is set by payload charge and P=S",
+   "No evidence for a best DAR across payload classes, receptors or species"
+  ],
+  "limits": [
+   "Female Hsd:ICR mice, about 24 g, n=4 per group, intravenous 5 mL/kg, siRNA equivalent 0.5-6 mg/kg; DAR1 and DAR2 compared at equal antibody dose.",
+   "Only two loading levels were tested, so nothing extends to all DAR>=2, and a blank cell reads as 'not reported', never as 'no effect'.",
+   "Single institution, single siRNA chemistry, no third-party replication; the PMO gain needs an antisense 5'-vinylphosphonate, and 2'-O-MOE only partly rescues the stability loss."
+  ],
+  "source": "Source: IC Memo v2 §4.2.2, §4.2.2a, §4.2.3, §10.4, §10.5; Cochran et al., J Med Chem 2026;69(17):20230-20247 (PMID 42612014); data as of 2026-10-13",
+  "notes": "The DAR2 problem sits mainly in plasma-side non-specific hepatic clearance and is dominated by P=S content, though the authors state the mechanism is not fully defined. Better plasma exposure does not guarantee better muscle knockdown, as the LNA row shows, and several effective modifications carry a synthesis or potency cost. Three antibodies are used across the study - a targeting anti-TfR1 for efficacy, an anti-TfR1 for PG plasma exposure and a non-binding anti-EGFR for the reduced-P=S arm - so PK and PD from different antibodies are read separately and never strung into one causal chain. The backbone-chemistry patent-family search boundary is scoped by counsel first."
+ }
+]

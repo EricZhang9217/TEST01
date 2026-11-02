@@ -1,0 +1,131 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+body{width:1150px;padding:18px 22px 14px}
+.ftitle{font-size:26px}
+.fsub{font-size:17px;margin-top:7px;line-height:1.4}
+.fsrc{font-size:14px;margin-top:5px;line-height:1.5}
+.chart{display:flex;margin-top:8px}
+.ytit{flex:0 0 20px;position:relative}
+.ytit span{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-90deg);
+  white-space:nowrap;font-size:16px;color:#4A4A4A}
+.ylab{flex:0 0 152px}
+.ylab .bd{padding:4px 12px 0 0;text-align:right}
+.ybn{font-size:17px;font-weight:700;color:#2F2F2F;line-height:1.2}
+.ybd{font-size:16px;color:#8A8A8A;line-height:1.25;margin-top:2px}
+.mx{flex:1;position:relative;background:#F2F0ED;height:198px}
+.shade{position:absolute;top:0;bottom:0;right:0;width:20%;background:#F3EAE1}
+.vd{position:absolute;top:0;bottom:0;width:1px;background:#E4E0DB}
+.hz{position:absolute;left:0;right:0;border-top:1px dashed #D8D3CD}
+.it{position:absolute;display:flex;align-items:center;gap:7px;font-size:16px;color:#3A3A3A;white-space:nowrap}
+.it.b{font-weight:700;color:#2F2F2F}
+.it.gy{color:#9A9A9A}
+.mk{flex:0 0 auto;border-radius:50%;box-sizing:border-box}
+.big{width:26px;height:26px;background:#8C6244;display:flex;align-items:center;justify-content:center;color:#fff;font-size:16px}
+.sm{width:18px;height:18px;border:2px dashed #B07A5B}
+.smg{width:18px;height:18px;border:2px dashed #C7C2BC}
+.ring{width:24px;height:24px;border:2px dashed #B07A5B;display:flex;align-items:center;justify-content:center}
+.ring i{width:12px;height:12px;border-radius:50%;border:2px dashed #B07A5B;display:block}
+.hsp{width:20px;height:20px;border:2px dashed #B07A5B;display:flex;align-items:center;justify-content:center;color:#4E7A52;font-size:16px}
+.aline{position:absolute;border-top:2px dashed #B07A5B}
+.ahead{position:absolute;color:#B07A5B;font-size:16px;line-height:1}
+.alab{position:absolute;font-size:16px;color:#B07A5B;white-space:nowrap}
+.foots{display:flex;margin-top:5px}
+.fpad{flex:0 0 172px;position:relative}
+.fpad span{position:absolute;right:12px;top:2px;font-size:16px;color:#4A4A4A;text-align:right}
+.fc{flex:1;padding:0 9px 0 0}
+.fct{font-size:17px;font-weight:700;color:#2F2F2F;line-height:1.2}
+.fcd{font-size:16px;color:#8A8A8A;line-height:1.25;margin-top:3px}
+.cardrow{display:flex;gap:10px;margin-top:6px}
+.cd2{flex:1;border:1.5px solid #8C4A2F;border-radius:9px;background:#F7F5F2;padding:7px 11px}
+.cd2.plain{border-color:#B6ADA2}
+.cnm{font-size:17px;font-weight:700;color:#8C4A2F;margin-bottom:2px}
+.cli{font-size:16px;color:#4A4A4A;line-height:1.3}
+.cli b{color:#B07A5B;font-weight:700}
+.lgd{font-size:16px;color:#7A7A7A;line-height:1.3;margin-top:5px}
+</style></head><body>
+<div class="ftitle">Candidate positioning: biology &times; delivery feasibility</div>
+<div class="fsub">X = entry grade (five bands); Y = payload mechanism maturity (three bands). Four axes kept apart, no single score.</div>
+
+<div class="chart">
+  <div class="ytit"><span>Biology &nbsp;&uarr;</span></div>
+  <div class="ylab">
+    <div class="bd" style="height:90px"><div class="ybn">Strong</div><div class="ybd">patient-cell function restored</div></div>
+    <div class="bd" style="height:58px"><div class="ybn">Medium</div><div class="ybd">genetics + mechanism</div></div>
+    <div class="bd" style="height:52px"><div class="ybn">Weak / control</div><div class="ybd">indirect or control</div></div>
+  </div>
+  <div class="mx">
+    <div class="shade"></div>
+    <div class="vd" style="left:20%"></div><div class="vd" style="left:40%"></div>
+    <div class="vd" style="left:60%"></div><div class="vd" style="left:80%"></div>
+    <div class="hz" style="top:90px"></div><div class="hz" style="top:148px"></div>
+
+    <div class="it b" style="left:calc(40% + 14px);top:4px"><span class="mk sm"></span>PRNP prion</div>
+    <div class="it b" style="left:calc(40% + 14px);top:58px"><span class="mk sm"></span>STMN2 / UNC13A</div>
+    <div class="alab" style="left:calc(20% + 14px);top:4px">Repositioned here</div>
+    <div class="it b" style="left:calc(20% + 14px);top:30px"><span class="mk ring"><i></i></span></div>
+    <div class="it b" style="left:calc(20% + 14px);top:58px">COL6A1 pseudoexon</div>
+    <div class="aline" style="left:calc(20% + 48px);right:40px;top:40px"></div>
+    <div class="ahead" style="left:calc(20% + 38px);top:32px">&#9664;</div>
+    <div class="alab" style="right:calc(20% + 14px);top:46px">Original position</div>
+    <div class="it b" style="right:14px;top:4px;flex-direction:row-reverse">GAA IVS1 splice<span class="mk big">&#9670;</span></div>
+    <div class="it" style="right:22px;top:32px"><span class="mk smg" style="background:#FAF9F7"></span></div>
+    <div class="it b" style="right:14px;top:58px;flex-direction:row-reverse">DYSF repairable<span class="mk big"></span></div>
+
+    <div class="it" style="left:14px;top:96px"><span class="mk sm"></span>UMOD TAL</div>
+    <div class="it" style="left:14px;top:122px"><span class="mk sm"></span>COL4A5 podocyte</div>
+    <div class="it" style="left:calc(20% + 14px);top:109px"><span class="mk hsp">&#9678;</span>SSc skin HSP47</div>
+    <div class="it" style="left:calc(40% + 14px);top:96px"><span class="mk sm"></span>MAPT FTD</div>
+    <div class="it" style="left:calc(40% + 14px);top:122px"><span class="mk sm"></span>MYH7 allele-sel.</div>
+    <div class="it" style="left:calc(60% + 14px);top:109px"><span class="mk sm"></span>CD22&ndash;MXD3 B-ALL</div>
+
+    <div class="it" style="left:14px;top:150px"><span class="mk sm"></span>CMT1A Schwann</div>
+    <div class="it gy" style="left:14px;top:174px"><span class="mk smg"></span>KRAS+MYC dual</div>
+    <div class="it gy" style="left:calc(20% + 14px);top:150px"><span class="mk smg"></span>MASH stellate</div>
+    <div class="it gy" style="left:calc(40% + 14px);top:150px"><span class="mk smg"></span>AD tau</div>
+    <div class="it gy" style="left:calc(40% + 14px);top:174px"><span class="mk smg"></span>MYBPC3 up</div>
+    <div class="it" style="left:calc(60% + 14px);top:150px"><span class="mk sm"></span>BCL11A erythroid</div>
+    <div class="it gy" style="left:calc(80% + 14px);top:174px"><span class="mk smg"></span>MSTN muscle</div>
+  </div>
+</div>
+
+<div class="foots">
+  <div class="fpad"><span>Delivery feasibility<br>(entry grade) &nbsp;&rarr;</span></div>
+  <div class="fc"><div class="fct">Entry undiscovered</div><div class="fcd">18/94; receptor discovery only</div></div>
+  <div class="fc"><div class="fct">Entry needs proof</div><div class="fcd">target cell changed class; grade = none</div></div>
+  <div class="fc"><div class="fct">Same-family receptor</div><div class="fcd">TfR1/CD98hc 42/94; evidence self-made</div></div>
+  <div class="fc"><div class="fct">Entry grade: medium</div><div class="fcd">receptor known, no muscle precedent</div></div>
+  <div class="fc"><div class="fct" style="color:#8C4A2F">Entry grade: high</div><div class="fcd">TfR1 &rarr; skeletal muscle; only human PD</div></div>
+</div>
+
+<div class="cardrow">
+  <div class="cd2">
+    <div class="cnm">GAA IVS1</div>
+    <div class="cli"><b>Biology</b> strong, patient-cell function</div>
+    <div class="cli"><b>Delivery</b> high, TfR1 &rarr; skeletal muscle</div>
+    <div class="cli"><b>Competition</b> taken: Creyon 36 nt aptamer</div>
+    <div class="cli"><b>Resources</b> funded: FTO + delivery study</div>
+  </div>
+  <div class="cd2">
+    <div class="cnm">DYSF</div>
+    <div class="cli"><b>Biology</b> strong, protein + function</div>
+    <div class="cli"><b>Delivery</b> high, same entry as GAA</div>
+    <div class="cli"><b>Competition</b> none found this round</div>
+    <div class="cli"><b>Resources</b> materials only; later board</div>
+  </div>
+  <div class="cd2 plain">
+    <div class="cnm" style="color:#6E5B4E">COL6A1 (repositioned)</div>
+    <div class="cli"><b>Biology</b> strong, matrix normalised</div>
+    <div class="cli"><b>Delivery</b> needs proof; grade = none</div>
+    <div class="cli"><b>Competition</b> shares cell class</div>
+    <div class="cli"><b>Resources</b> no funding, no gate</div>
+  </div>
+</div>
+
+<div class="box hl" style="margin-top:7px;padding:6px 12px">
+  <div class="bt" style="margin-top:0;font-size:16px;line-height:1.35"><b>Change:</b> COL6A1 leaves the GAA/DYSF large circle &mdash; product cell is the muscle interstitial fibroblast nucleus.</div>
+</div>
+
+<div class="lgd">Large circle = shared platform unit (TfR1 entry &times; myofibre nucleus &times; nuclear splicing): GAA IVS1 and DYSF only; small circle = independent direction<br>
+&#9670; position already taken &middot; &#9678; competition sparse (inference) &middot; no symbol = not checked &middot; solid ring = funded &middot; dashed ring = no funding &middot; grey = control</div>
+<div class="fsrc">Dashed = least direct evidence or boundary undefined, not &ldquo;most likely to fail&rdquo;. Source: IC Memo v2 &sect;6.1, &sect;4.1.7; data as of 2026-10-13.</div>
+</body></html>

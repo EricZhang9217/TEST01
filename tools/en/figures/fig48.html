@@ -1,0 +1,120 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+body{width:1150px;padding:8px 16px 3px}
+.ftitle{font-size:26px}
+.fsub{font-size:17px;margin-top:4px;line-height:1.25}
+.band{display:flex;align-items:stretch;margin-top:5px}
+.fr{border:2px dashed #8C4A2F;border-radius:10px;padding:6px}
+.fr2{border:2px dashed #BDB6AE;border-radius:10px;padding:6px}
+.lane{font-size:16px;color:#8A8A8A;line-height:1.1;margin-bottom:2px;height:17px;overflow:hidden}
+.cards{display:flex;gap:6px;align-items:stretch}
+.cards>*{flex:1;display:flex;flex-direction:column}
+.card{border-radius:8px;padding:4px 6px;background:#FBF5EF;border:1.5px solid #C79A7C;flex:1}
+.card.off{background:#F6F5F3;border:1.5px solid #D5CFC8}
+.ct{font-size:16px;font-weight:700;color:#2F2F2F;line-height:1.14}
+.ct i{font-style:normal;color:#8C4A2F}
+.cs{font-size:16px;color:#B5452C;line-height:1.1;margin-top:1px}
+.card.off .cs{color:#7A7A7A}
+.f{font-size:16px;color:#4A4A4A;line-height:1.15;margin-top:1px}
+.f b{color:#6E6E6E;font-weight:400}
+.f.s{margin-top:3px;padding-top:2px;border-top:1px solid #E2DDD7;color:#3A3A3A;font-weight:700}
+.sq{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:0}
+.ar{flex:0 0 34px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.ar .g{font-size:21px;color:#2F2F2F;line-height:1}
+.ar .t{font-size:16px;color:#8A8A8A;line-height:1.05;text-align:center}
+.veto{border:2px dashed #B08B3E;border-radius:10px;padding:4px 8px;margin-top:5px;background:#FBF8F1}
+.vh{font-size:16px;font-weight:700;color:#8A6B23;line-height:1.15}
+.vt{font-size:16px;color:#4A4A4A;line-height:1.2;margin-top:1px}
+.vt b{color:#3A3A3A}
+.lgl{font-size:16px;color:#6E6E6E;line-height:1.25;margin-top:4px}
+</style></head><body>
+<div class="ftitle">Six gates in dependency order, with a fallback route at every gate</div>
+<div class="fsub">Solid arrow = dependency; brown frame = inside this round's authorisation, grey = separate approval later; the veto bar spans all five.</div>
+
+<div class="band">
+  <div class="fr" style="flex:0 0 58.8%">
+    <div class="cards">
+      <div><div class="lane">Starts first</div>
+        <div class="card">
+          <div class="ct">Freedom-to-operate &amp; backbone study <i>&rarr; rights &amp; backbone-chemistry gate</i></div>
+          <div class="cs">Parallel start &middot; in this round</div>
+          <div class="f"><b>Starts:</b> directional opinion in hand</div>
+          <div class="f"><b>Criterion:</b> no blocking finding; exposure up</div>
+          <div class="f"><b>Tier:</b> anchor [fact]; output [inference]</div>
+          <div class="f s">Stop chemistry change; keep assays</div>
+          <div class="f"><span class="sq" style="background:#B08B3E"></span>Re-measure exposure proxy</div>
+          <div class="f"><span class="sq" style="background:#9B3B23"></span>No downgrade (scope only)</div>
+          <div class="f"><span class="sq" style="background:#2F6B33"></span>Licence route if blocked</div>
+        </div>
+      </div>
+      <div><div class="lane">Parallel start</div>
+        <div class="card">
+          <div class="ct">Productive-delivery study <i>&rarr; receptor-entry &amp; payload-fit gate</i></div>
+          <div class="cs">Parallel start &middot; in this round</div>
+          <div class="f"><b>Starts:</b> binder supply closed; &ge;3 LOPD donors</div>
+          <div class="f"><b>Criterion:</b> receptor-dependent payload + RNA PD</div>
+          <div class="f"><b>Tier:</b> [inference] cell + payload + RNA</div>
+          <div class="f s">Stop all payloads here; keep assays</div>
+          <div class="f"><span class="sq" style="background:#B08B3E"></span>Change epitope or format</div>
+          <div class="f"><span class="sq" style="background:#9B3B23"></span>Control works &rarr; re-select</div>
+          <div class="f"><span class="sq" style="background:#2F6B33"></span>Partner for the entry</div>
+        </div>
+      </div>
+      <div><div class="lane">Same study</div>
+        <div class="card">
+          <div class="ct">Patient-cell arm of that study <i>&rarr; patient-cell biology gate</i></div>
+          <div class="cs">Same study &middot; in this round</div>
+          <div class="f"><b>Starts:</b> same study, no separate tranche</div>
+          <div class="f"><b>Criterion:</b> transcript &rarr; GAA &rarr; activity &rarr; glycogen</div>
+          <div class="f"><b>Tier:</b> [disclosed] payload level only</div>
+          <div class="f s">Adjust target; keep entry work</div>
+          <div class="f"><span class="sq" style="background:#B08B3E"></span>Add escape read-out</div>
+          <div class="f"><span class="sq" style="background:#9B3B23"></span>Second platform unit</div>
+          <div class="f"><span class="sq" style="background:#2F6B33"></span>To be filled this round</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ar"><div class="g">&#10230;</div></div>
+
+  <div class="fr2" style="flex:1">
+    <div class="cards">
+      <div><div class="lane">Downstream</div>
+        <div class="card off">
+          <div class="ct">Second-payload (DYSF) study <i>&rarr; platform-transfer gate</i></div>
+          <div class="cs">Separate approval later</div>
+          <div class="f"><b>Starts:</b> delivery study passes</div>
+          <div class="f"><b>Criterion:</b> DYSF function at same entry</div>
+          <div class="f"><b>Tier:</b> [inference] RNA + function</div>
+          <div class="f s">Stop platform claim; GAA continues</div>
+          <div class="f"><span class="sq" style="background:#B08B3E"></span>RNA only &rarr; fix construct</div>
+          <div class="f"><span class="sq" style="background:#9B3B23"></span>Single product, BD out</div>
+          <div class="f"><span class="sq" style="background:#2F6B33"></span>Partner; keep method</div>
+        </div>
+      </div>
+      <div><div class="lane">Last in chain</div>
+        <div class="card off">
+          <div class="ct">In vivo target-cell PD &amp; safety study <i>&rarr; tissue translation &amp; safety gate</i></div>
+          <div class="cs">Separate approval later</div>
+          <div class="f"><b>Starts:</b> both upstream pass</div>
+          <div class="f"><b>Criterion:</b> sorted PD, diaphragm, safety</div>
+          <div class="f"><b>Tier:</b> [inference] five steps (animal)</div>
+          <div class="f s">Stop this pair; keep methods</div>
+          <div class="f"><span class="sq" style="background:#B08B3E"></span>Change dose, re-measure</div>
+          <div class="f"><span class="sq" style="background:#9B3B23"></span>Turn to second unit</div>
+          <div class="f"><span class="sq" style="background:#2F6B33"></span>Co-develop on safety</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="veto">
+  <div class="vh">Conjugate characterization study &rarr; CMC &amp; cost gate &mdash; whole-course veto across all five, not a dependency</div>
+  <div class="vt"><b>Starts:</b> alongside the productive-delivery study, not deferred &nbsp;&middot;&nbsp; <b>Criterion:</b> full OAR distribution, free payload, batch potency spread below between-construct spread, plus yield and cost per course &nbsp;&middot;&nbsp; <b>Tier:</b> gate form [assumption]; yield anchor [fact] random Cys DAR1 16&ndash;46%, 5 isotypes / 6 antibody&ndash;linker pairs &nbsp;&middot;&nbsp; <b>Stop:</b> scale-up; it never funds alone, so it vetoes every stage &nbsp;&middot;&nbsp; <span class="sq" style="background:#B08B3E"></span>fix process before comparing constructs &nbsp;&middot;&nbsp; <span class="sq" style="background:#9B3B23"></span>no downgrade, not a budget line &nbsp;&middot;&nbsp; <span class="sq" style="background:#2F6B33"></span>scale-up outside, conjugation and OAR in-house</div>
+</div>
+
+<div class="lgl"><b style="color:#B5452C">Fallbacks &mdash;</b> <span class="sq" style="background:#B08B3E"></span>rework, same gate &nbsp; <span class="sq" style="background:#9B3B23"></span>downgrade, rewrite the claim &nbsp; <span class="sq" style="background:#2F6B33"></span>convert to partnering, keep the capability. A fallback is not a failure; having none is.</div>
+<div class="fsrc" style="margin-top:3px">Source: IC Memo v2 &sect;7.1, &sect;7.2, &sect;7.7, &sect;7.8; capability-model working table &sect;4.1. Data as of 2026-10-13.</div>
+</body></html>

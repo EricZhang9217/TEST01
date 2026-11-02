@@ -1,0 +1,125 @@
+[
+  {
+    "orig": 43,
+    "title": "CNS and cardiac stay collaboration extensions: disease evidence is deep, delivery evidence is filled in gate by gate",
+    "lead": "CNS and cardiac are held as collaboration extensions entered only through a verifiable technology or product partnership: the partner delivers final conjugate evidence for this payload in this cell, with raw material, models, a manufacturing definition and commercially usable rights.",
+    "figure": "fig/fig43.png",
+    "fig_caption": "Four CNS mechanisms read left to right from target cell to boundary; above them the three delivery gates every mechanism must clear separately",
+    "points": [
+      "Four mechanism rows, each read target cell to mechanism to payload to boundary; the brown column is the intervention.",
+      "The three gates at the top are independent: crossing the barrier proves neither cell entry nor regional coverage.",
+      "Each row ends in a brown boundary line - what the evidence does not yet support, not what the mechanism promises.",
+      "Only the PRNP row has a clinical asset behind it, and the astrocyte row has no neuron evidence that carries over."
+    ],
+    "table_note": [
+      "CNS asset and benchmark rows sit in the memo, with material and verification dates apart.",
+      "Six preconditions are checked item by item before any collaboration spend is committed."
+    ],
+    "limits": [
+      "Registry status for the benchmark assets was read on 2026-10-11 against materials dated 2026-09-30, and nothing in this section has been re-verified here.",
+      "Crossing the blood-brain barrier is not entry into the parenchymal target cell, and neither is coverage of the correct brain regions: evidence for one gate cannot stand in for another.",
+      "Homogenate knockdown is weighted by each cell population's share of target RNA, not by cell count, so 75% bulk knockdown does not mean 75% of neurons were reached."
+    ],
+    "source": "Source: IC Memo v2 (§1, §5.3, §6.3); data as of 2026-10-13; registry read 2026-10-11",
+    "notes": "CNS is a disease direction and cardiac is a separate one, and both are kept out of the build plan. The disease-side evidence in CNS is deep across four mechanism groups - lowering PrP synthesis in prion disease, excluding the cryptic exon to restore full-length STMN2 where TDP-43 nuclear function is lost, raising expression at SCN1A and UBE3A-ATS in inhibitory interneurons, and partially lowering mutant GFAP in astrocytes - but each still has to clear all three delivery gates on its own. Neuronal delivery evidence does not extrapolate to glia, and skeletal-muscle human delivery evidence does not carry over to cardiac. Cut for space: the per-asset benchmark table, the full six-precondition list and the quality-balance detail, all of which stay in the memo."
+  },
+  {
+    "orig": 44,
+    "title": "First round carries three named unknowns: one mechanism benchmark, one conditional product, one gated option",
+    "lead": "The first round takes on three unknowns that can be named - a mechanism benchmark in GAA IVS1, a conditional product in DYSF, a gated option in COL6A1 - with the rest held for partnering; if entry rights, the product population or function fails, not forming NewCo stays acceptable.",
+    "figure": "fig/fig44.png",
+    "fig_caption": "Four roles as columns, read down from direction to gate ownership; solid columns are funded or stocked this round, dashed columns are not",
+    "points": [
+      "Each row is one role read end to end: direction, gate, what this round funds, and the stop condition.",
+      "Only the top two rows carry money this round - one benchmark funded, one product stocked with assays.",
+      "The two dashed rows take no slot in the sequence, so nothing downstream waits on them.",
+      "The two tiers below differ in one thing: whether the first study buys discrimination or function."
+    ],
+    "table_note": [
+      "First-round roles, minimum validation and continue-or-stop conditions sit in the memo.",
+      "The portfolio is an allocation order, not a ranking of the three configurations."
+    ],
+    "limits": [
+      "The portfolio is not a one-of-three choice made this round: the three configurations stay listed in parallel, and no decision between them is taken here.",
+      "Authorisation reaches only receptor entry and payload fit, including patient-cell biology; the platform-transfer gate and everything after it come back to committee separately.",
+      "Every number and status in this section is carried over from the memo with its original qualifier and evidence tier; nothing has been re-verified. Data as of 2026-10-13."
+    ],
+    "source": "Source: IC Memo v2 §6.2, §6.3, §7.2, §7.3, §7.9; data as of 2026-10-13",
+    "notes": "GAA IVS1 carries the functional chain under free uptake and is the only entry where AOC already has human PD in the same class of target cell. DYSF carries the function of the expected protein product and the patient denominator, and it is the only test of platform transfer: a second payload producing independent function at the same entry. COL6A1 gets no money and no slot - it is one independent gated judgement, made only if interstitial functional delivery holds and models and materials are separately obtainable. The first study can be bought two ways: the conservative tier buys discrimination read-outs first, with uptake and functional potency on separate axes and all four entry-dependence controls; the aggressive tier starts the patient-cell arm in the same batch and goes straight at the four-level functional chain. One capability is worth owning across all three configurations - site-specific conjugation and full OAR distribution characterisation - because it decides whether discovery-stage data can be interpreted at all."
+  },
+  {
+    "orig": 46,
+    "title": "Two of the six capability layers have named candidates; the science and product lead unblocks the rest",
+    "lead": "What this round approves is a profile and a set of signing responsibilities, not a headcount table: two layers have named candidates, the biology lead comes in first as an adviser with gate adjudication designated in writing, and no term negotiation starts before conflict-of-interest closes.",
+    "figure": "fig/fig46.png",
+    "fig_caption": "Capability layers as rows, five decision rights as columns; cell colour marks candidate identified, fill to profile, procurable or adviser support",
+    "points": [
+      "Nine rows against five decision rights: green cells have a named candidate, tan cells are still only a profile.",
+      "Just two rows are green, and both sit low on the ladder - chemistry and conjugation, operations and capital.",
+      "Every tan cell in the biology row blocks a gate, which is why that one hire unblocks the rest.",
+      "Pink cells can be bought in, but the read-out and the failure attribution stay inside the company.",
+      "Dashed cells are adviser cover only; an opinion there does not substitute for signing responsibility."
+    ],
+    "table_note": [
+      "The six-layer model with gate ownership and coverage status sits in the memo.",
+      "Four conflict-of-interest documents must close before any term negotiation starts."
+    ],
+    "limits": [
+      "A CV does not carry in a former employer's IP: authorship and inventorship prove participation only, not that a person is recruitable or that the technology or patents are freely available.",
+      "Proposed CSO/CTO and COO are proposals only: appointment, time commitment, equity, current status and employment restrictions are confirmed in writing before any work package starts.",
+      "Both named candidates work for organisations whose direction overlaps heavily with this project; until the conflict-of-interest documents close, neither may judge a gate read-out alone."
+    ],
+    "source": "Source: IC Memo v2 §7.2, §7.8, §7.9; capability-model working table §4.1; two candidate CVs. Data as of 2026-10-13; CV and verification dates 2026-11-01 and 2026-10-21",
+    "notes": "The unit of judgement is the adjudication right, not the job title. Chemistry and conjugation is covered by a named candidate proposed as CSO/CTO, and operations and capital by a named candidate proposed as COO. The biology and programme-selection layer is the hire that unblocks everything else, because it adjudicates the patient-cell biology and platform-transfer gates directly and rules on whether read-outs qualify at the other four. Patient-derived cells, functional assays, animal work and toxicology can be procured, but interpretation and failure attribution stay in-house; diaphragm samples need an animal substitute plan agreed in advance. Cut for space: the adviser-support arrangements that bridge the period before formal appointment, and the full four-document conflict-of-interest list."
+  },
+  {
+    "orig": 48,
+    "title": "Six gates advance in dependency order, and every tranche hangs on a read-out that can be judged objectively",
+    "lead": "This round approves two tranches and one dependency graph - the freedom-to-operate and backbone study, and the productive-delivery study including its patient-cell arm - with no scale-up before the gate read-outs are in hand and three preset fallback routes, each with a cash boundary, at every gate.",
+    "figure": "fig/fig48.png",
+    "fig_caption": "Studies and their gates as cards; solid arrows are dependencies, the brown dashed frame is this round's authorisation boundary",
+    "points": [
+      "Three studies start together inside the brown frame; two more run in series only once the first passes.",
+      "The veto bar spans all five: the CMC and cost gate is never funded alone but can stop any stage.",
+      "Each card ends in three preset fallbacks - rework, downgrade, convert to partnering - coded by colour.",
+      "Approval stops at the brown frame; the two grey cards return to committee with their own budget.",
+      "One fallback reads to be filled: this round's material specifies no partnering route at that gate."
+    ],
+    "table_note": [
+      "Five studies and six gates with start preconditions and criteria sit in the memo.",
+      "A miss is decided by the IC among four options; no tranche releases automatically."
+    ],
+    "limits": [
+      "Approval stops at receptor entry and payload fit plus patient-cell biology: of the two gaps left open, only effective intracellular payload falls inside this round.",
+      "Across thirteen reference programmes including one control, none has direct in-material data on effective intracellular payload - that is a gap, not a proven rate-limiting step.",
+      "The one first-hand paper running a competition-inhibition experiment puts the main DAR2 limit at non-specific hepatic clearance in plasma, and concedes no direct evidence for the cell step."
+    ],
+    "source": "Source: IC Memo v2 §7, §7.1, §7.2, §7.7, §7.8; capability-model working table §4.1; data as of 2026-10-13",
+    "notes": "There is no calendar in this plan: order is set by dependency. The freedom-to-operate and backbone study and the conjugate characterization study start in parallel with the productive-delivery study, and the second-payload and in vivo studies are strictly downstream. The CMC and cost gate is never separately funded but holds a veto over every later stage, which is why it is drawn off the series chain. Each gate carries three fallbacks - rework inside the same gate, downgrade the claim, or convert to partnering - and a fallback is not a failure; having no fallback is. Pass thresholds at three gates are still TBD and are set back from the TPP rather than from a general figure. Cut for space: the per-gate cash boundaries and the full procedural list that has to close before the graph can run."
+  },
+  {
+    "orig": 51,
+    "title": "Build, licence, partnership and minority stake compared on one evidence and rights basis, each with a fallback trigger",
+    "lead": "Design-arounds belong at the antibody and backbone layers, not in switching tissue: this round verifies in parallel, as conditionals, one suppliable entry and one alternative-tissue option, and confirms a negotiable commercial path before any irreversible spend is enlarged.",
+    "figure": "fig/fig51.png",
+    "fig_caption": "Four routes as columns on the same four axes, read down for one route and across for the difference; dashed column is still entirely to verify",
+    "points": [
+      "Each row is one route written on the same four axes, so the rows can be compared line by line.",
+      "The dashed row is the minority stake: every field is still to verify, which is not the same as weak.",
+      "The two rows under the divider sit on the same axes but are not acquisition routes.",
+      "Every route carries a written fallback trigger, so stopping is a condition rather than a judgement call.",
+      "No cell holds an amount and nothing is summed - the figure deliberately produces no score."
+    ],
+    "table_note": [
+      "Alternative designs, their costs and when a licence becomes mandatory sit in the memo.",
+      "Rights layering and the patent search set as of 2026-09-07 are recorded in the appendix."
+    ],
+    "limits": [
+      "This round reaches no freedom-to-operate conclusion: a scanning-stage search supports no non-infringement view, and changing epitope or sequence is not by itself a completed design-around.",
+      "The backbone-chemistry layer returned no patent family numbers: its status is \"search scope not yet defined\", not \"buildable\" or \"rights-free\". Counsel's directional opinion comes first.",
+      "If two separately named backbone chemistries prove to be the same chemistry, that layer becomes named and licence-only immediately, and the comparison on this page is re-run."
+    ],
+    "source": "Source: IC Memo v2 §4.5 (patent snapshot, no freedom-to-operate conclusion), §4.7, §7.2, Appendix B; route comparison table; data as of 2026-10-13; patent search set as of 2026-09-07",
+    "notes": "The comparison basis is fixed first, and all four routes are written on the same four axes - total cash and critical path, actual control, ongoing obligations, transferability after failure - with no amounts and no weighted score. Rights dependency is most crowded at the receptor and antibody layers, where the acquisition route for the lead TfR1 binder is still open; the payload-sequence and disease-use layers are relatively open, while GAA is already occupied across the receptor, target and mechanism triple. Each route carries its own fallback trigger, so a route that stops does so against a written condition rather than a judgement call. Cut for space: the item-by-item alternative-design table and the detail of when a licence becomes mandatory at each layer."
+  }
+]

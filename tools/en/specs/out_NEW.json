@@ -1,0 +1,176 @@
+[
+{
+  "orig": [2],
+  "section": "Executive summary",
+  "title": "We ask the IC to approve a capped preparation period that buys three decisions, not a company",
+  "layout": "stack",
+  "regions": [
+    {"type": "bullets", "items": [
+      {"text": "The opportunity. Antibody-oligonucleotide conjugates have turned muscle into a reachable tissue for RNA drugs. Novartis paid about USD 12.0 bn for Avidity in Feb 2026; Dyne's exon-51 conjugate carries a PDUFA date of 21 Jan 2027. The modality is proven at the level of tissue entry, not yet at the level of durable clinical benefit."},
+      {"text": "The gap we would enter. Public work is concentrated on one receptor and a handful of muscle targets. What no one has shown publicly is receptor-dependent productive delivery under free uptake - payload reaching the cytosol in the target cell, measured as such rather than inferred from whole-tissue concentration."},
+      {"text": "Why WuXi. The group already runs the full oligo discovery chain and has delivered 150+ conjugates with 5-6 week turnaround; the three entities can execute every work package in this plan. What a NewCo adds is product judgement, patient material and ownership of rights and primary data."},
+      {"text": "What we would buy. Three readouts: a written freedom-to-operate opinion on the receptor antibody and backbone chemistry; a productive-delivery judgement under free uptake with a paired patient-cell arm; and an interpretable conjugate with full payload-distribution characterization."},
+      {"text": "What we are not deciding today. Amounts, valuation, ownership and the choice between the three company configurations. Thresholds can only be set once the target product profile is fixed; all figures are marked TBD."}
+    ]},
+    {"type": "callout", "text": "Decision requested: approve the preparation period and its five deliverables; release further investment gate by gate on evidence, not on calendar or business milestones."}
+  ],
+  "source": "Source: IC Memo v2; Novartis and Dyne company disclosures; team analysis",
+  "notes": "This is the one page to read if you read nothing else. Lead with the fact that the modality has been de-risked by others at the tissue-entry level - that is what makes the window real and also what makes it crowded. Our wedge is one layer down: productive delivery measured properly, and an interpretable conjugate. Stress that we are asking for a decision framework, not a cheque: every number on later pages is deliberately TBD until the target product profile is fixed."
+},
+{
+  "orig": [4, 5],
+  "section": "Executive summary",
+  "title": "Eight dimensions scored separately on evidence status, with no weighted total",
+  "layout": "full",
+  "regions": [
+    {"type": "table",
+     "columns": ["Dimension", "Where the evidence stands today", "What would move it up", "Owner"],
+     "col_widths": [0.14, 0.4, 0.31, 0.15],
+     "first_col_bold": true,
+     "rows": [
+       ["Biology", "Payload-level rescue shown for GAA IVS1 and DYSF, but under transfection", "Patient myotube chain: correct transcript to mature enzyme to activity to glycogen", "Science lead"],
+       ["Delivery", "Skeletal muscle via TfR1 rated high; heart medium; CNS low; fibroblast and kidney none", "Receptor-dependent cytosolic payload and RNA pharmacodynamics under free uptake", "In vitro pharmacology"],
+       ["Clinical translation", "No positive conjugate record yet; HARBOR Phase 3 missed its primary endpoint", "A fixed target product profile: treatable population, endpoint, meaningful effect size", "Clinical advisors"],
+       ["Competition", "Mature entries crowded; first-mover receptor-target-mechanism combinations taken", "Asset-by-asset comparison plus searches beyond the US registry", "Research and BD"],
+       ["Rights", "60 core conjugate filings found; 56 still at PCT stage, 2 in substantive examination", "Written counsel opinion on the receptor antibody and the backbone chemistry layer", "Patent counsel"],
+       ["CMC", "Single-step yield for one payload per antibody runs 16-46% across six pairings", "Six mandatory measurements including free-payload residue; batch variation below design gaps", "Conjugation and analytics"],
+       ["Market and team", "Addressable population not yet bounded; two named candidates, conflicts not yet cleared", "Target product profile plus signed commitments and closed conflict-of-interest gate", "Sponsor and legal"]
+     ]},
+    {"type": "callout", "text": "No weighted total is given. A single score would average away the two dimensions that can stop this investment on their own - rights and delivery."}
+  ],
+  "source": "Source: IC Memo v2 (evidence grading, delivery atlas, rights workbook); team analysis",
+  "notes": "Scoring logic, if asked: dimensions are graded by the type of evidence behind them - measured, disclosed by a third party, or inferred - not by how attractive they are. Rights and delivery are read first because either can end the case; biology and CMC next; translation, competition, market and team last because they only matter if the first four hold. We deliberately leave the total blank: the reference template reports a single out-of-100 figure, and here that would hide the fact that two dimensions rest on inference rather than measurement. If the IC wants an indicative number, the honest version is a pair - high confidence on biology and CMC, low on delivery and rights."
+},
+{
+  "orig": [6],
+  "section": "Executive summary",
+  "title": "Four questions this material answers, in the order an investment decision needs them",
+  "layout": "full",
+  "regions": [
+    {"type": "rows", "items": [
+      {"num": "1", "heading": "Why now", "body": "What antibody-oligonucleotide conjugates have made possible, who already occupies the field, and which part of the problem is still unsolved and therefore still open to us."},
+      {"num": "2", "heading": "How we evaluate", "body": "How we take a conjugate apart into binder, payload and chemistry; how we judge an entry receptor; and the evidence each disease candidate must produce before it becomes a programme."},
+      {"num": "3", "heading": "Why us", "body": "What the WuXi group can already execute end to end, what the three entities each carry, and what a NewCo must own itself: product judgement, patient material, rights and primary data."},
+      {"num": "4", "heading": "How we build", "body": "The way we enter the field, the three company configurations under parallel evaluation, the first programmes, the team to be completed, and the staged funding and governance we ask the IC to approve."}
+    ]}
+  ],
+  "source": "Source: IC Memo v2",
+  "notes": "Walk the four blocks top to bottom in about a minute. The order is deliberate: each block is only worth discussing if the one above it held. Note that the material deliberately stops at the preparation period - the sections on configuration and funding set out options, not a recommendation to commit capital."
+},
+{
+  "orig": [9, 10],
+  "section": "Why now",
+  "title": "Conjugates moved RNA drugs out of the liver, and the money followed before the biology was finished",
+  "layout": "split_left_wide",
+  "regions": [
+    {"type": "bullets", "heading": "What changed", "items": [
+      {"text": "Naked and GalNAc-conjugated oligonucleotides work in the liver and, intrathecally, in the central nervous system. Everywhere else, the drug never reaches the cytosol in useful amounts."},
+      {"text": "An antibody against a surface receptor carries the payload into a chosen cell type. Skeletal muscle via the transferrin receptor is the first case where this has been shown in patients."},
+      {"text": "That unlocks targets previously out of reach: splice correction in muscle, protein knockdown in heart and kidney, and interstitial cell types no prior modality could address."},
+      {"text": "Unresolved: endosomal escape is inefficient, payload-to-antibody distribution is hard to control and characterize, and receptor-mediated uptake carries its own on-target toxicity."}
+    ]},
+    {"type": "kpis", "heading": "What the market has paid", "items": [
+      {"value": "$12.0bn", "label": "Novartis for Avidity, closed Feb 2026"},
+      {"value": "$2.3bn", "label": "BMS-Avidity cardiovascular deal, up to five targets"},
+      {"value": "Jan 2027", "label": "PDUFA date for Dyne's exon-51 conjugate"},
+      {"value": "0", "label": "Conjugates approved anywhere to date"}
+    ]}
+  ],
+  "source": "Source: Novartis, Avidity, BMS and Dyne disclosures (2025-2026); IC Memo v2",
+  "notes": "The point of this page is the mismatch between validation and valuation. Buyers have paid platform prices for assets whose central technical problem - getting payload out of the endosome into the cytosol of the target cell - is still unsolved and, in most published work, not even measured directly. That mismatch is the opportunity: the expensive part of the field is the receptor antibody and the clinical asset; the unsolved part is conjugation chemistry and delivery measurement, which is exactly where WuXi's capability sits."
+},
+{
+  "orig": [19],
+  "section": "Why now",
+  "title": "Two companies hold most of the clinical field, and both are now past the readout that defines the ceiling",
+  "layout": "full",
+  "regions": [
+    {"type": "table",
+     "columns": ["Programme", "Target and payload", "Stage as of Nov 2026", "What it tells us"],
+     "col_widths": [0.2, 0.26, 0.27, 0.27],
+     "first_col_bold": true,
+     "rows": [
+       ["Del-desiran", "TfR1 antibody, DMPK siRNA", "Phase 3 HARBOR, 159 patients, primary endpoint missed Sep 2026", "Tissue entry is not the same as clinical benefit; endpoint choice decides the trial"],
+       ["Del-zota", "TfR1 antibody, exon-44 PMO", "BLA filed Jun 2026 under accelerated approval; Phase 3 confirmatory running", "Splice correction with a surrogate endpoint is the shortest regulatory route"],
+       ["Z-rostudirsen", "TfR1 antibody, exon-51 PMO", "BLA accepted with priority review; PDUFA 21 Jan 2027", "A second sponsor reaching filing on the same receptor and tissue"],
+       ["Z-basivarsen", "TfR1 antibody, DMPK ASO", "Confirmatory Phase 3 dosing since Jul 2026; expansion cohort reads out Q1 2027", "The DM1 question stays open despite the competitor's Phase 3 miss"],
+       ["Early entrants", "Backbone-modified and non-TfR1 conjugates", "Preprint and preclinical only; no registered trials found", "Differentiation is being attempted at the chemistry layer, not the receptor"]
+     ]},
+    {"type": "callout", "text": "Of 60 conjugate programmes in our search set, 24 belong to these two companies. The crowding is at the transferrin receptor in skeletal muscle - not across conjugates as a class."}
+  ],
+  "source": "Source: company disclosures and ClinicalTrials.gov to 2026-11-01; IC Memo v2 (competition). Non-US registries not yet searched",
+  "notes": "Three things to draw out. First, the HARBOR miss is the single most important datum in this deck: it says the hard part is no longer getting in, it is choosing a target and endpoint where getting in produces benefit. Second, both filings in hand are splice-correction programmes with surrogate endpoints, which is why our first programme is a splice-correction benchmark. Third, the crowding is specific - one receptor, one tissue - so entry elsewhere is open, but there is no public precedent to lean on either. Caveat the IC should hear: our search covers the US registry and a preprint sweep; European, Japanese and Chinese registries have not yet been searched, so this table may understate the field."
+},
+{
+  "orig": [],
+  "section": "Why us",
+  "title": "The group already runs the full oligonucleotide discovery chain, at a scale that makes screening a schedule rather than a risk",
+  "layout": "split",
+  "regions": [
+    {"type": "table", "heading": "Track record",
+     "columns": ["Capability", "Delivered to date"],
+     "col_widths": [0.52, 0.48],
+     "first_col_bold": true,
+     "rows": [
+       ["Oligo discovery projects", "1,000+ projects, 250+ targets, 300+ clients"],
+       ["Programmes reaching IND", "60+"],
+       ["Sequence design", "Machine-learning design with cross-species and off-target screens, plus patent risk tagging"],
+       ["Screening throughput", "One campaign: 8 targets, 7,000+ oligos in primary human hepatocytes in 8 weeks"],
+       ["Hit quality", "One siRNA campaign: half of 200 sequences below 0.1 nM, best 0.018 nM"]
+     ]},
+    {"type": "bullets", "heading": "The assays our first readouts need", "items": [
+      {"text": "Exon skipping measured in differentiated human skeletal muscle cells, with sequence-confirmed bands - the same readout our splice-correction benchmark requires."},
+      {"text": "Antibody-mediated free uptake in iPSC-derived cardiomyocytes, run side by side with transfection, which is how a delivery claim is separated from a payload claim."},
+      {"text": "Endosomal escape measured three ways: endo-lysosomal colocalization, galectin foci, and split-luciferase quantification of cytosolic arrival."},
+      {"text": "Off-target and immunogenicity packages: in silico plus RNA-seq confirmation, cytokine induction, complement and platelet activation."}
+    ]}
+  ],
+  "source": "Source: WuXi Biology oligonucleotide platform overview, Oct 2026. Internal use only",
+  "notes": "The purpose of this page is to show that the screening and assay work our gates require is routine here, not a build. Call out the third bullet specifically: split-luciferase cytosolic quantification is the assay that distinguishes productive delivery from tissue accumulation, and it is the single measurement most often missing from published conjugate work. That is the capability our first readout depends on."
+},
+{
+  "orig": [],
+  "section": "Why us",
+  "title": "Conjugation and characterization are in place, which is where our first gate is decided",
+  "layout": "split",
+  "regions": [
+    {"type": "bullets", "heading": "Conjugation and analytics", "items": [
+      {"text": "Random conjugation via interchain disulfides and site-specific routes by cysteine mutagenesis or enzymatic tagging, giving defined payload-to-antibody ratios of one or two."},
+      {"text": "Linker library spanning alkyl, PEG, cleavable disulfide and peptide chemistries; over 1,000 maleimide-oligos delivered in 2025 at greater than 95% purity."},
+      {"text": "Representative conjugate: ratio of 1.0 with no unconjugated antibody detected, 90% purity by anion exchange and 95% by size exclusion, endotoxin below 0.1 EU/mg."},
+      {"text": "Characterization by anion exchange, size exclusion, mass spectrometry and peptide mapping - the basis for reporting a full payload distribution rather than an average."}
+    ]},
+    {"type": "bullets", "heading": "Pharmacokinetics and bioanalysis", "items": [
+      {"text": "Conjugate-specific bioanalysis separating total antibody, conjugated antibody, free payload and each oligo strand - the only way to interpret a tissue result correctly."},
+      {"text": "Platforms spanning ligand binding, mass spectrometry and stem-loop PCR, including a ratio read directly from high-resolution mass spectrometry."},
+      {"text": "200+ rodent and 10+ large-animal conjugate pharmacokinetic studies completed, plus metabolite identification at both the oligo and protein level."},
+      {"text": "Dosing and sampling routes relevant to our programmes, including intramuscular, intrathecal and intracerebroventricular administration."}
+    ]},
+    {"type": "callout", "text": "Turnaround for a new conjugate is five to six weeks at 1-50 mg scale, with 150+ conjugates delivered across 20+ programmes - fast enough to compare configurations in parallel rather than in sequence."}
+  ],
+  "source": "Source: WuXi AppTec integrated antibody-oligonucleotide conjugate platform, Oct 2026. Internal use only",
+  "notes": "This page answers the question the conjugate gate turns on: can we produce a material whose payload distribution we can actually report, and can we tell free payload from conjugated payload in a tissue sample. Both yes. The five-to-six week turnaround is what makes parallel evaluation of the three configurations affordable in time, which is the practical argument for not choosing a configuration today. Note the confidentiality marking on both source decks - these figures are for internal IC use and should not be circulated externally without WuXi's written permission."
+},
+{
+  "orig": [11],
+  "section": "Recommendation",
+  "title": "Five deliverables define the preparation period, each with a stated test and a named owner",
+  "layout": "full",
+  "regions": [
+    {"type": "table",
+     "columns": ["Deliverable", "What it covers", "How completion is judged", "Amount"],
+     "col_widths": [0.19, 0.37, 0.29, 0.15],
+     "first_col_bold": true,
+     "rows": [
+       ["Science and product lead", "A named lead accountable for patients, the target product profile, and the decision to nominate or stop a programme", "Appointment letter and written confirmation of time commitment", "TBD"],
+       ["Patient material and compliance", "At least three independent Pompe donor myotube lines with matched normal donors; ethics and provenance cleared", "Compliance opinion received and material provenance confirmed", "TBD"],
+       ["Limited evaluation rights", "Transfer and work-order agreements covering pre-formation samples, data and newly created intellectual property", "Executed documents with the contracting entity identified", "TBD"],
+       ["Paired configurations", "Antibody format by epitope, at least two, by linker, with one payload held fixed", "Final shortlist agreed for the delivery study", "TBD"],
+       ["Freedom-to-operate opinion", "Written counsel view on the receptor antibody layer and the backbone chemistry layer", "Opinion delivered by instructed counsel", "TBD"]
+     ]},
+    {"type": "callout", "text": "Further investment releases gate by gate on evidence. Authority sought today stops after the entry and payload-fit gate, plus the conjugate gate that runs alongside; platform transfer and in vivo translation return to the IC."}
+  ],
+  "source": "Source: IC Memo v2 (preparation period, gate structure). Thresholds derive from the target product profile once fixed",
+  "notes": "Close on this page. The five deliverables are deliberately boring - they are the things that cannot be bought later: a person who owns product judgement, patient material with clean provenance, the right to use what gets generated, a defined set of configurations to compare, and a written rights opinion. Amounts stay TBD because the memo is explicit that no universal threshold exists: not 90% knockdown, not a fixed payload ratio, not quarterly dosing. Thresholds come from the target product profile, and that is the first thing the science lead delivers."
+}
+]

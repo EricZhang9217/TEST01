@@ -1,0 +1,121 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+ body{width:1150px;zoom:1.3913;padding:14px 20px 8px}
+ .ftitle{font-size:26px;line-height:1.2}
+ .fsub{font-size:17px;margin-top:6px;line-height:1.35}
+ .fsrc{font-size:14px;margin-top:6px;line-height:1.35}
+ .mg{display:grid;
+     grid-template-columns:150px 14px 1fr 14px 1.3fr 14px 1.1fr 14px 1.1fr 14px 1.2fr;
+     row-gap:5px;align-items:stretch;margin-top:5px}
+ .ch{font-size:17px;font-weight:700;color:#3A3A3A;text-align:center;padding-bottom:2px}
+ .ch.l{text-align:left}
+ .rule{grid-column:1 / -1;border-top:1px solid #D8D2CB}
+ .cb{text-align:center;padding:5px 8px;display:flex;flex-direction:column;justify-content:center;
+     border-radius:9px}
+ .t1{font-size:16px;font-weight:700;color:#2F2F2F;line-height:1.25}
+ .t2{font-size:16px;color:#5C5C5C;line-height:1.25;margin-top:1px}
+ .em{color:#8C4A2F;font-weight:700}
+ .bad{color:#B5452C}
+ .ar{display:flex;align-items:center;justify-content:center;font-size:17px;color:#2F2F2F}
+ .ar.d{color:#A79F97;font-size:16px}
+ .ar.s{color:#8C4A2F;font-size:16px}
+ .ent{text-align:left;padding:6px 9px;border-radius:9px}
+ .ent .t1{color:#8C4A2F;font-size:17px}
+ .ent .t2{margin-top:3px}
+ .entb{border:1.6px dashed #A8762F;background:transparent}
+ .divr{grid-column:1 / -1;border-top:1px solid #C7C2BC;padding-top:3px;
+       display:flex;justify-content:space-between;font-size:16px;color:#7A7A7A}
+ .hlb{border:1.8px solid #8C4A2F;background:#FBF5EF}
+ .hlb .t1{color:#8C4A2F}
+ .dsh{border:1.4px dashed #C7C2BC;background:transparent}
+ .bx{background:#F4F2EF;border:1px solid #DDD8D2}
+ .bx.w{background:#FCFBFA}
+ .note{margin-top:7px;padding:7px 13px;font-size:16px;line-height:1.3;color:#4F4F4F}
+ .lg{font-size:16px;color:#7A7A7A;line-height:1.3;margin-top:6px}
+ .kb{display:inline-block;width:26px;height:12px;border-radius:3px;margin-right:4px;
+     vertical-align:-1px}
+ .k1{background:#F4F2EF;border:1px solid #DDD8D2}
+ .k2{background:transparent;border:1.4px dashed #C7C2BC}
+ .k3{background:#FBF5EF;border:1.8px solid #8C4A2F}
+ .k4{background:transparent;border:1.6px dashed #A8762F}
+</style></head><body>
+<div class="ftitle">Skeletal muscle: three mechanisms, three compartments, two delivery-entry bands</div>
+<div class="fsub">Read across: entry &rarr; target cell &rarr; mechanism &rarr; payload &rarr; molecular change &rarr; phenotype. The rule between the bands is the entry boundary.</div>
+
+<div class="mg">
+  <div class="ch l">Delivery entry</div><div></div>
+  <div class="ch">Target cell</div><div></div>
+  <div class="ch">Disease mechanism</div><div></div>
+  <div class="ch">Payload</div><div></div>
+  <div class="ch">Molecular change</div><div></div>
+  <div class="ch">Phenotype</div>
+  <div class="rule"></div>
+
+  <div class="box hl ent" style="grid-row:span 3">
+    <div class="t1">Entry A</div>
+    <div class="t2 em">TfR1 &rarr; skeletal myofiber</div>
+    <div class="t2">Grade: high &mdash; the only entry with human PD in the same cell type</div>
+    <div class="t2">Shared by all three rows</div>
+    <div class="t2">Diaphragm unproven</div>
+  </div>
+  <div class="ar s">&#10230;</div>
+  <div class="cb bx"><div class="t1">Myofiber nucleus</div><div class="t2">Nuclear RNA foci</div><div class="t2 em">DM1</div></div>
+  <div class="ar">&#10230;</div>
+  <div class="cb bx w"><div class="t1">DMPK CUG RNA</div><div class="t2">Sequesters MBNL factors</div><div class="t2">&rarr; mis-splicing</div></div>
+  <div class="ar">&#10230;</div>
+  <div class="cb hlb"><div class="t1">Lower toxic RNA</div><div class="t2">Gapmer or siRNA</div></div>
+  <div class="ar">&#10230;</div>
+  <div class="cb bx w"><div class="t1">MBNL released</div><div class="t2">Splicing restored</div></div>
+  <div class="ar">&#10230;</div>
+  <div class="cb bx w"><div class="t2">Myotonia, weakness</div><div class="t2 bad">Heart, CNS uncovered</div></div>
+
+  <div class="ar s">&#10230;</div>
+  <div class="cb bx"><div class="t1">Myofiber nucleus</div><div class="t2">pre-mRNA</div><div class="t2 em">GAA IVS1 &middot; DYSF</div></div>
+  <div class="ar">&#10230;</div>
+  <div class="cb bx w"><div class="t1">Splice-site variants</div><div class="t2">GAA c.-32-13T&gt;G splice</div><div class="t2">DYSF pseudo-exon in</div></div>
+  <div class="ar">&#10230;</div>
+  <div class="cb hlb"><div class="t1">Site occupancy</div><div class="t2">Splicing restored</div><div class="t2">RNA not degraded</div></div>
+  <div class="ar">&#10230;</div>
+  <div class="cb bx w"><div class="t1">Correct transcript</div><div class="t2">Mature GAA enzyme</div><div class="t2">Dysferlin product</div></div>
+  <div class="ar">&#10230;</div>
+  <div class="cb bx w"><div class="t2">Glycogen cleared</div><div class="t2 bad">Membrane repair</div><div class="t2 bad">Diaphragm apart</div></div>
+
+  <div class="ar s">&#10230;</div>
+  <div class="cb bx"><div class="t1">Myofiber cytosol</div><div class="t2 em">Pompe substrate&nbsp;&darr;</div></div>
+  <div class="ar d">&#8669;</div>
+  <div class="cb dsh"><div class="t1">GAA deficiency</div><div class="t2">&rarr; glycogen build-up</div><div class="t2">GYS1 keeps making</div></div>
+  <div class="ar d">&#8669;</div>
+  <div class="cb hlb"><div class="t1">Partial GYS1 &darr;</div><div class="t2">siRNA, indirect</div></div>
+  <div class="ar d">&#8669;</div>
+  <div class="cb dsh"><div class="t1">Synthesis rate &darr;</div><div class="t2 bad">Existing store stays</div></div>
+  <div class="ar d">&#8669;</div>
+  <div class="cb dsh"><div class="t2">Exercise tolerance</div><div class="t2 bad">Keep normal glycogen</div></div>
+
+  <div class="divr"><span>Entry boundary &mdash; below is a different delivery entry; the band above cannot be borrowed</span><span>A different platform unit</span></div>
+
+  <div class="entb ent">
+    <div class="t1">Entry B</div>
+    <div class="t2 em">Interstitial entry</div>
+    <div class="t2">Grade: none</div>
+  </div>
+  <div class="ar s">&#10230;</div>
+  <div class="cb dsh" style="border-color:#A8762F"><div class="t1">Interstitial fibroblast</div><div class="t2 em">COL6A1</div></div>
+  <div class="ar d">&#8669;</div>
+  <div class="cb dsh"><div class="t1">Pseudo-exon inclusion</div><div class="t2">Dominant-negative chain</div><div class="t2">Collagen VI assembly hit</div></div>
+  <div class="ar d">&#8669;</div>
+  <div class="cb hlb"><div class="t1">Pseudo-exon out</div><div class="t2">Compartment &ne; entry</div></div>
+  <div class="ar d">&#8669;</div>
+  <div class="cb dsh"><div class="t1">Normal &alpha;1 chain</div><div class="t2">Collagen VI assembles</div></div>
+  <div class="ar d">&#8669;</div>
+  <div class="cb dsh"><div class="t2">Weakness, contracture</div><div class="t2 bad">Entry is interstitial</div></div>
+</div>
+
+<div class="box hl note">
+Target cell is the interstitium, so the entry needs its own proof &mdash; different cell, different entry, a different platform unit; COL6A1 carries no gate.
+</div>
+
+<div class="lg">
+  <span class="kb k1"></span>Solid = patient or human evidence. <span class="kb k2"></span>Dashed = hypothesis or animal-only, least direct evidence &mdash; not &ldquo;most likely to fail&rdquo;. <span class="kb k3"></span>Band A = shared TfR1 entry. <span class="kb k4"></span>Band B = separate entry. <span class="bad" style="font-weight:700">Red</span> = adverse fact or uncovered scope; blank = not checked this round, not &ldquo;none&rdquo;.
+</div>
+<div class="fsrc">Source: redrawn from the memo&rsquo;s skeletal-muscle atlas; original figure and notes kept in full in the appendix figure archive; data as of 2026-10-13.</div>
+</body></html>

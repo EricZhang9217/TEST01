@@ -1,0 +1,127 @@
+[
+ {
+  "orig": 13,
+  "title": "AOC splits into binder, payload and conjugation chemistry: three capability lines built separately",
+  "lead": "Build and commit along three capability lines, not one: this round buys only the configuration-neutral freedom-to-operate & backbone study and the shared productive-delivery study, and reuse is claimed one platform unit at a time, first tested at the platform-transfer gate.",
+  "figure": "fig/fig13.png",
+  "fig_caption": "Three modules x three dimensions; each cell gives the existing basis and what must be built, with the commitment owner under each column.",
+  "points": [
+   "Three columns, three dimensions: nine cells, each with an existing basis and a capability still to build.",
+   "Everything on the brown line is new work this round; none of it transfers from one module to another.",
+   "The commitment bar is green only under the payload line; binder and linker sit at letter of intent, amounts TBD.",
+   "Reuse is claimed per platform unit, not per programme: GAA IVS1 and DYSF share one, COL6A1 is the second.",
+   "The dashed rights cell is the memo's own layer: thinnest direct evidence, search boundary undefined."
+  ],
+  "table_note": [
+   "Classic AOC scope only: direct covalent antibody-oligonucleotide conjugates",
+   "Three listed partners; rights boundary and commitment authority stay in the memo"
+  ],
+  "limits": [
+   "Classic AOC scope only, a direct covalent antibody-oligonucleotide conjugate; antibody-protamine-siRNA complexes, targeted LNP, Centyrin, aptamers, peptides and GalNAc are out of scope.",
+   "P=S clearance and the DAR1 versus DAR2 and backbone conclusions hold only inside the published system: female ICR mice, n=4/group, IV dosing, one siRNA chemistry, two loading levels.",
+   "Blank cells mean not captured or not found; the figure carries no amounts and no count rankings, and the commitment bars mark ownership only."
+  ],
+  "source": "Source: IC Memo v2 §4.1.2, §4.1.5, §4.2.2, §4.3, §4.5; data as of 2026-10-13",
+  "notes": "We buy and commit along three lines, and each line is owned by a different partner: WuXi AppTec can commit on the payload, while WuXi Biologics and WuXi XDC are at letter-of-intent stage with amounts still TBD. ADC experience runs in reverse on three points: conjugate PK is not predicted by the naked antibody, OAR distribution must be reported in full rather than as a mean, and the backbone-chemistry layer has the thinnest direct evidence and no defined search boundary. Reuse is claimed per platform unit, not per programme, so GAA IVS1 and DYSF share one unit and COL6A1 is held as the second-unit candidate. Cut for space: the three-company rights-boundary table and the detail of commitment authority."
+ },
+ {
+  "orig": 14,
+  "title": "Each payload class acts in its own compartment; for SSO the bar is correct splicing plus functional protein",
+  "lead": "Choose the payload by target cell and compartment first, then fix mechanism, backbone chemistry and readout: both first payloads are splice-switching oligonucleotides, so the gate threshold reads correct splicing ratio plus mature protein, scored on two axes that are never merged.",
+  "figure": "fig/fig14.png",
+  "fig_caption": "The five-step RNA pathway, the point at which each payload class acts, the compartments involved, and the qualifying readout per class.",
+  "points": [
+   "Five pathway nodes across two compartments; the dashed line is the nuclear envelope, crossed at export.",
+   "Each payload class acts at its own node: siRNA on mature mRNA, gapmer on either side, SSO on nuclear pre-mRNA.",
+   "Only the gapmer works in two compartments, which is why its readout needs RNase H1 dependence evidence.",
+   "No transport probability or percentage is drawn: the pathway is a framework, not a measured efficiency chain.",
+   "CpG/TLR9 sits off the pathway at an endosomal receptor and is scored on a separate set of metrics."
+  ],
+  "table_note": [
+   "Backbone chemistry is a third axis: PMO charge-neutral, 2'-modified plus P=S charged",
+   "A total-RNA readout is a methodological error for an SSO; occupancy does not cleave"
+  ],
+  "limits": [
+   "A total-RNA readout is a methodological error for an SSO: occupancy does not cleave the transcript, so any change in total level arises indirectly through splicing and NMD.",
+   "CpG/TLR9 endosomal agonism acts at an endosomal receptor, off the RNA pathway, and needs its own metric set; it is never scored together with RNA silencing.",
+   "Conjugate PK must be measured on the conjugate: the same antibody clears about four times faster once PMO is loaded."
+  ],
+  "source": "Source: IC Memo v2 §4.2.1, §1, §10.8; data as of 2026-10-13",
+  "notes": "Payload choice starts from the target cell and the compartment where the drug has to act, and only then fixes mechanism, backbone chemistry and readout. siRNA acts on mature mRNA in the cytoplasm, a gapmer cleaves through RNase H1 in either compartment depending on where the target RNA sits, and an SSO occupies nuclear pre-mRNA without cleaving it. Because both first payloads are SSOs, the receptor-entry & payload-fit gate and the patient-cell biology gate record correct splicing ratio and mature protein on two separate axes and never collapse them into one score. Cut for space: the full mechanism comparison table and the three separate sources behind the DAR and backbone conclusions."
+ },
+ {
+  "orig": 17,
+  "title": "Human evidence de-risks the skeletal-muscle entry; the window is measured by evidence density and rights",
+  "lead": "The length of the window cannot be predicted but its closing conditions can be monitored: this round secures rights at the payload-sequence and disease-use layers and turns transfection-free functional data on the first two payloads into our own first readouts.",
+  "figure": "fig/fig17.png",
+  "fig_caption": "Nine cards in three bands: risks lowered by human readouts, lowered only at stage or regulatory level, and still to be proven.",
+  "points": [
+   "Nine cards in three bands: lowered by human readouts, lowered only at stage level, and still to be proven.",
+   "All three green cards carry human or patient-cell data, but each one's reach is narrow and stated on the card.",
+   "The amber band is stage and regulatory fact only; none of it is evidence for any single step of the chain.",
+   "Every card below the dashed boundary carries a named gate, so each open risk has an owner this round.",
+   "The window has no date: it closes when evidence density or rights maturity moves on five monitored signals."
+  ],
+  "table_note": [
+   "Risks lowered by human evidence: reported value with its reach first, judgement after",
+   "Closing signals are reviewed quarterly and reported as order of magnitude, never as a rate"
+  ],
+  "limits": [
+   "Registry reads carry status only and no trial results; the check date is 2026-10-11 and no record was re-verified for this deck.",
+   "Human PD for TfR1 into skeletal muscle is company-disclosed with details absent from the material; the reach is skeletal muscle, TfR1 and the classic AOC format only.",
+   "Two BLA priority reviews are acceptances, not approvals, and no classic AOC has been approved anywhere in this search set."
+  ],
+  "source": "Source: IC Memo v2 §3.3, §3.4, §3.5, §4.1.7, Appendix D.2/D.4; registry status check 2026-10-11; data as of 2026-10-13",
+  "notes": "Human readouts have lowered three risks, each with a stated reach: TfR1 delivery into skeletal muscle with measurable PD, nuclear splice correction in patient cells, and randomised benefit for the intrathecal naked ASO route in CNS. Phase 3 status, priority review and the Novartis-Avidity deal lower feasibility and regulatory risk but supply no step-level delivery data, so they sit in the middle column and cannot stand as evidence for any one step of the chain. The right-hand column is what this round pays for: intact molecule in blood, entry into the right cell and productive intracellular payload, each with a named gate. The window itself is defined by evidence density times rights maturity, with no time axis and no weighted score. Cut for space: the full five-signal review cadence and the asset-by-asset gap read."
+ },
+ {
+  "orig": 18,
+  "title": "Crowding sits at the delivery entry; the disease layer is read by system and stage against its own denominator",
+  "lead": "Crowding in AOC is measured in delivery entries and development stages rather than company or disease counts: 7 assets spread across 3 systems while 6 share TfR1, so positioning and the follow-up search list are both generated on the entry and stage axes.",
+  "figure": "fig/fig18.png",
+  "fig_caption": "Disease x organ system: asset stage shown by dot colour, delivery modality by dot shape, and three counts that cannot be added.",
+  "points": [
+   "Fourteen organ systems against two asset panels and three counts; dot colour is stage, dot shape is modality.",
+   "All five Phase 3 classic AOC assets sit on one row, skeletal muscle; everything else is Phase 1 or absent.",
+   "CNS carries the most records and the second-largest patent count but only one classic AOC asset, in Phase 1.",
+   "The five counting columns use different units and denominators, so no two of them may be added.",
+   "A dash means not captured or not found this round, never 'no competition here'."
+  ],
+  "table_note": [
+   "Assets 33, patent publications 60, disease records 94, mechanism-verifiable 31 of 94",
+   "A '0' means the search set returns zero by definition; a blank means nothing was looked up"
+  ],
+  "limits": [
+   "A dash or a blank means not captured or not found this round, which is not the same as 'no competition here'; coverage is representative, not a global picture.",
+   "Publication numbers are neither patent families nor granted rights, and column E is broken out for four systems only, covering 25 of 31 records.",
+   "'Phase 1' includes Phase 1/2 and 'approved' requires a company announcement corroborated in the registry; CGB1001 is excluded from the figure."
+  ],
+  "source": "Source: IC Memo v2 §3.4, Appendix A, Appendix B, Appendix C.3; ClinicalTrials.gov check 2026-10-11; patent workbook 2026-09-07; data as of 2026-10-13",
+  "notes": "Every column has its own unit and denominator, so the figure deliberately drops all cross-column totals and any weighted density score. Late-stage activity is concentrated in a single system, skeletal muscle, where all five classic AOC assets sit in Phase 3, while the largest record counts sit in CNS: where the literature is densest is not where assets are most advanced. Blank cells are triaged three ways, as not captured, not found this round, or entry conditions not yet met, and the same entry-by-stage grid generates the follow-up search list. Cut for space: the full five-column statistical-unit table and the per-system record breakdown."
+ },
+ {
+  "orig": 20,
+  "title": "Representative companies split into six modality classes; the antibody's increment is answered asset by asset",
+  "lead": "Competition sits inside the same target and modality and also across alternative ligands and naked-oligonucleotide routes serving the same patients, so the first proposition moves from 'why AOC over naked oligo' to 'why an antibody over an aptamer', measured at the receptor-entry gate.",
+  "figure": "fig/fig20.png",
+  "fig_caption": "Evidence tier and modality for 12 named assets and 9 candidate directions across the seven-step chain, under two independent denominators.",
+  "points": [
+   "Twenty-one rows by seven steps: twelve named assets above, nine candidate directions below, separate denominators.",
+   "Steps 1 and 4 are empty for every asset: no direct in-material data on blood stability or productive payload.",
+   "What evidence exists clusters in step 5, and most of it is company disclosure rather than published detail.",
+   "The red frames on del-desiran mark negative results, which is a different state from a missing cell.",
+   "Candidate rows carry payload-level evidence only; no AOC has been built for any of the nine directions."
+  ],
+  "table_note": [
+   "26 same-disease assets in six delivery classes (check: 26 = 33 - 7)",
+   "Three modality representatives are shown but are not counted in the 13 programmes"
+  ],
+  "limits": [
+   "Check dates are batched: registry 2026-10-11 and correction items 2026-10-07; the two batches are not merged and no record was re-verified on 2026-11-02.",
+   "No classic AOC approval exists in this search set; the two BLA priority reviews, del-zota PDUFA TBD and z-rostudirsen PDUFA 2027-01-21, are acceptances only.",
+   "Bulk readouts (tissue homogenate, bulk RNA) do not count toward a gate decision; steps 3 and 4 need cell-level and subcellular resolution before they can be judged."
+  ],
+  "source": "Source: IC Memo v2 §3.3, §3.5, §4.1.5, §10.7, Appendix C.3, Appendix D.2/D.4; data as of 2026-10-13",
+  "notes": "The competitor table is split into six delivery classes and each asset's configuration is confirmed from three sources, because the comparison is only meaningful inside a class. Not one of the 13 priority programmes has in-material data for intact molecule in blood or for productive intracellular payload, which is the evidential backdrop for treating the step after cell entry as the likeliest failure point. The Denali cell-entry data comes from a MALAT1 tool molecule and is listed apart from the candidate, and HARBOR's failure is not inferred from other programmes on the same platform. Non-antibody ligands set the external benchmark for the antibody increment, and intrathecal naked oligonucleotide is the CNS comparator. Cut for space: the per-asset three-source confirmation log."
+ }
+]

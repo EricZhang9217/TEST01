@@ -1,0 +1,300 @@
+[
+  {
+    "orig": [46],
+    "section": "How we build",
+    "title": "Two of the six capability layers already have named candidates; the science and product lead unblocks the rest",
+    "layout": "full",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Six capability layers: what each decides and who covers it",
+        "columns": ["Capability layer", "What this layer decides", "Gate it owns", "Coverage (2026-11-01)"],
+        "col_widths": [0.2, 0.3, 0.26, 0.24],
+        "first_col_bold": true,
+        "rows": [
+          ["Company setup (CEO)", "External funding message, internal priorities, lock to the lead direction", "All gates; rights checks shared with operations and capital", "CEO TBD"],
+          ["Biology and programme selection", "Direction, functional endpoints, whether a read-out qualifies", "Patient-cell biology and platform-transfer gates", "Hire to profile; not yet filled"],
+          ["Antibody engineering", "Format, epitope and linker design for the entry construct", "Receptor-entry and payload-fit gate", "Hire to profile; hardest to recruit"],
+          ["Receptor biology", "Entry choice, internalisation and sorting", "Patient-cell biology gate", "Partly covered; based on a disclosed current role"],
+          ["Chemistry and conjugation", "Backbone modification, site-specific conjugation, linkers, OAR control", "Rights and backbone-chemistry gate (chemistry side); CMC and cost gate", "Named candidate, proposed CSO/CTO"],
+          ["CMC", "Process, scale-up and quality-attribute decisions", "CMC and cost gate", "Partly covered by two candidates, both disclosed"],
+          ["Operations and capital", "Gate operation, tranche release, structure, board", "All gates; rights checks shared with the CEO", "Named candidate, proposed COO"]
+        ]
+      },
+      {
+        "type": "bullets",
+        "heading": "What is being approved",
+        "items": [
+          "What is approved here is a profile and a set of signing responsibilities, not a headcount table.",
+          "Until the science and product lead is in post, bring the role in as an adviser or scientific committee and designate in writing who exercises gate adjudication.",
+          "A CV does not carry in a former employer's IP: authorship and inventorship prove participation only, not that the technology is available.",
+          "Proposed CSO/CTO and COO roles are proposals: appointment, time commitment, equity and employment restrictions are confirmed in writing before any work package starts.",
+          "No term negotiation until all four conflict-of-interest documents are closed."
+        ]
+      }
+    ],
+    "source": "Source: IC Memo v2 §7.8, §7.9; capability-model working table §7.2; candidate CVs (2026-11-01); data as of 2026-10-13",
+    "notes": "We judge people by the decisions they are accountable for, not by titles. Two layers are covered by named candidates; the science and product lead is the hire that unblocks everything else, because that layer adjudicates the patient-cell and platform-transfer gates and rules on whether a read-out qualifies at the other four. Services such as patient-derived cells, functional assays, animal work and toxicology can be bought in, but interpretation and attribution of failure stay inside the company. Cut for space: the full decision-rights matrix across the five decision types, and the adviser-support arrangements that bridge the period before formal appointment."
+  },
+  {
+    "orig": [47],
+    "section": "How we build",
+    "title": "External technology is taken module by module; outreach and rights checks are prerequisites, not gate criteria",
+    "layout": "split_right_wide",
+    "regions": [
+      {
+        "type": "bullets",
+        "heading": "Questions put to every delivery platform",
+        "items": [
+          "Whether skeletal-muscle rights have already been granted exclusively, and what scope remains.",
+          "Whether a mature, licensable AOC delivery package exists at all.",
+          "Plus one tailored question each: separated single-DAR species; GAA use-rights scope; non-competing split within the same disease; aptamer as a control arm.",
+          "Outreach runs in three steps: non-confidential materials first, rights verified under a confidentiality arrangement, terms last."
+        ]
+      },
+      {
+        "type": "table",
+        "heading": "Delivery-platform enquiries and what we do next",
+        "columns": ["Counterparty", "Status (2026-10-29)", "Action this round"],
+        "col_widths": [0.26, 0.37, 0.37],
+        "first_col_bold": true,
+        "rows": [
+          ["Vect-Horus, Manifold Bio, Nosis Bio", "Not yet contacted; no contact record", "Run the three outreach steps; nothing here is tied to a gate criterion"],
+          ["ABL Bio", "Not yet contacted", "Same three steps; sits outside the five-name wording list, so reconcile at source"],
+          ["Creyon Bio", "Not yet contacted; no registry record and no IND verified (checked 2026-10-07)", "Treat as a direct competitor; discuss only if residual field or territory rights are clear"],
+          ["Gensaic", "No verifiable registry record found (checked 2026-10-07)", "Add to the enquiry list and correct the name mismatch at the same time"]
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The premise that no licensable mature AOC delivery platform exists is still unproven: every enquiry row reads 'not contacted'. Acquisition stays conditional, not 'must build in-house'."
+      }
+    ],
+    "source": "Source: IC Memo v2 §4.5, §10.7 (verified 2026-10-07); enquiry-table status as of 2026-10-29",
+    "notes": "Three things are being approved: a set of outreach conversations, two academic technology-transfer ownership checks, and closing one of three supply routes for the binder in the productive-delivery study. None of them is a gate criterion, and none of them delays a gate read-out. Zero hits on a sponsor search of CT.gov means not verified, not global whitespace: all five have publicly disclosed oligonucleotide delivery programmes that have simply not reached a registrable stage, and the search coverage itself has gaps. Cut for space: the seven-row table of identified technology sources and the seven-row table separating what can be acquired from what must be owned."
+  },
+  {
+    "orig": [48],
+    "section": "How we build",
+    "title": "Six gates run in dependency order; each tranche releases only against an objectively judgeable read-out",
+    "layout": "full",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Five studies and six gates: what starts when and what passes",
+        "columns": ["Study and gate", "Can start when", "Qualifying read-out", "This round"],
+        "col_widths": [0.26, 0.24, 0.32, 0.18],
+        "first_col_bold": true,
+        "rows": [
+          ["Freedom-to-operate and backbone study to the rights and backbone-chemistry gate", "Counsel's written directional opinion in hand; no dependency on disease or antibody", "No blocking findings; backbone change raises antisense exposure at equal payload", "Funded"],
+          ["Productive-delivery study to the receptor-entry and payload-fit gate", "TfR1 binder supply closed by any of three routes; 3 or more independent LOPD donors", "Receptor-dependent payload and RNA PD without transfection; four entry controls all hold", "Funded"],
+          ["Patient-cell arm of the same study to the patient-cell biology gate", "Same study, not a separate one: no separate start and no separate tranche", "Patient myotubes: correct transcript to mature GAA to enzyme activity to glycogen", "Funded"],
+          ["Conjugate characterization study to the CMC and cost gate", "Starts alongside the productive-delivery study, not deferred to preclinical", "Full OAR distribution, free payload, batch potency spread below between-construct spread", "Parallel; veto only, no separate tranche"],
+          ["Second-payload (DYSF) study to the platform-transfer gate", "Only after the productive-delivery study passes", "Second payload gives independent function at the same entry; three controls complete", "Separate approval later"],
+          ["In vivo target-cell PD and safety study to the tissue translation and safety gate", "After the productive-delivery and second-payload studies both pass", "Sorted target-cell PD including diaphragm, plus safety and durability; three control arms", "Separate approval later"]
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Authorisation stops at the receptor-entry and patient-cell gates. Every gate has three preset fallbacks - rework, downgrade the claim, or partner - and the IC chooses; no tranche auto-releases."
+      }
+    ],
+    "source": "Source: IC Memo v2 §7, §7.1, §7.2, §7.7, §7.8; data as of 2026-10-13",
+    "notes": "Order is set by dependency, not by a calendar. The freedom-to-operate and backbone work and the conjugate characterization work start in parallel with the productive-delivery study; the second-payload and in vivo studies are strictly downstream. Two evidence gaps remain open - intact molecule in blood, and effective intracellular payload - and only the second falls inside this round's scope. Across thirteen reference programmes including one control, none has direct in-material data on effective intracellular payload: that is a gap, not a proven rate-limiting step. Each fallback carries a cash limit, and a miss is decided by the IC among four options rather than releasing the next tranche."
+  },
+  {
+    "orig": [51],
+    "section": "How we build",
+    "title": "Build, licence, partnership and minority stake compared on one evidence and rights basis, each with a fallback trigger",
+    "layout": "full",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Four routes, same four axes, no amounts, no weighted score",
+        "columns": ["", "Build in-house", "Module licence", "Partnership", "Minority stake"],
+        "col_widths": [0.14, 0.215, 0.215, 0.215, 0.215],
+        "first_col_bold": true,
+        "rows": [
+          ["When it is the right answer", "No existing platform meets the protectable combination; key people and resources available", "Holder supplies a reproducible module covering our tissue, payload and indication", "Partner holds the key receptor, model or chemistry; complementary rather than duplicative", "Existing team has solved the hardest entry step; buying the learning beats rebuilding it"],
+          ["Main failure mode", "Receptor, payload, model and assays can fail at once; hiring and method work consume cash", "Upfront and milestones erode economics; narrow field exclusivity; improvements unclear", "Slow decisions; milestone attribution disputed; background and new IP cross over", "No control of resources or strategy; financing history and preference overhang"],
+          ["Evidence and rights we must obtain", "Owned or licensed entry technology, original company data, new IP, a named product owner", "Rights chain, field, territory, sublicensing, change of control, post-term data rights", "Work package, contributions and fair valuation, candidate option, exit handling", "Independent data verification, information and follow-on rights, governance, platform IP"],
+          ["Fallback trigger", "All three entry-supply routes fail to close and no alternative tissue option is available", "Licence scope misses skeletal muscle or splice payloads, or improvement terms stall", "Independent reproduction fails, or option and post-termination use cannot be defined", "No named assets, no reproducible data and no real quote - every field still to verify"]
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Compared on four axes only: total cash and critical path, actual control, ongoing obligations, transferability after failure. No amounts, no weighted score - an analysis, not a deal."
+      }
+    ],
+    "source": "Source: IC Memo v2 §4.5 (patent snapshot; no freedom-to-operate conclusion), Appendix B; route comparison table; patent search set as of 2026-09-07; data as of 2026-10-13",
+    "notes": "Work around rights at the antibody and backbone layers, not by switching tissue: changing tissue costs biology, changing antibody costs data. Two further options sit on the same axes without being acquisition routes - buy a short evaluation or an option first and decide afterwards, or hold and watch with written re-entry triggers. This round reaches no freedom-to-operate conclusion: a scanning-stage search does not support a non-infringement view, and changing epitope or sequence is not by itself a design-around. The backbone-chemistry layer returned no patent family numbers, which means the search scope is not yet defined, not that the layer is free; if two separately named chemistries prove identical, that layer immediately becomes named and licensable only. Cut for space: the item-by-item table of what each alternative design releases and what it costs."
+  },
+  {
+    "orig": [52],
+    "section": "How we build",
+    "title": "Budget rebuilt line by line from quantity drivers, each item tied to a gate, in a conservative and an aggressive case",
+    "layout": "full",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Budget lines, their gates, and what each case buys first",
+        "columns": ["Line item", "Gate", "Conservative case", "Aggressive case", "Amount"],
+        "col_widths": [0.2, 0.19, 0.24, 0.24, 0.13],
+        "first_col_bold": true,
+        "rows": [
+          ["People, responsibilities, site and overhead", "All gates", "Minimum team for the first two studies; science lead as adviser; shared space", "Full-time science lead plus staff to build the functional assays", "TBD - sponsor"],
+          ["Backbone chemistry and shielding (outsourced)", "Rights and backbone chemistry", "One round of minimal modification combinations", "Same; does not expand with the case", "TBD"],
+          ["Productive-delivery discrimination (outsourced)", "Receptor-entry and payload-fit; patient-cell biology", "Discriminating read-outs only: two axes plus four entry-dependency controls", "Discriminating and functional read-outs in the same batch", "TBD"],
+          ["Disease and function models", "Patient-cell biology; platform transfer", "3 or more independent LOPD donor myotubes plus matched normals; one assay first", "Both functional assays built in one batch against a transfection control", "TBD"],
+          ["CMC interpretability and characterisation capability", "CMC and cost; receptor-entry and payload-fit", "Runs with the delivery study, no separate tranche; lowest-threshold work only", "First two characterisation workstreams in parallel", "TBD"],
+          ["In vivo work and bioanalysis", "Tissue translation and safety", "Not started this round", "Not started this round", "TBD"],
+          ["Rights acquisition and freedom-to-operate work", "Rights and backbone chemistry; receptor-entry", "Directional opinion only, as a documentary criterion", "Adds a targeted freedom-to-operate pre-screen as a deliverable, not a release condition", "TBD"]
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "The two cases diverge on one point: which read-out the first experiment buys. Amounts follow the four prerequisites and like-for-like quotes; RMB 47m is a muscle-construct scenario only."
+      }
+    ],
+    "source": "Source: IC Memo v2 §4.3, §7.2, §7.3, §7.7, §7.9; budget quantity-driver schedule; data as of 2026-10-13",
+    "notes": "What goes to the IC is a line-item structure tied to gates, not a total. A budget can only be built after company positioning, the case for AOC, the patient and target product profile, and the availability of technology rights are settled; setting a raise first and back-filling the pipeline turns gate criteria into reporting decoration. The conservative case buys discrimination fastest - the productive-delivery study is the only one that can start without a fixed disease direction, and the most valuable result is similar uptake with more than fivefold difference in functional potency. The aggressive case goes straight at the functional endpoint and exposes failure one notch slower. The three construct families bottleneck on different resources: muscle nuclear repair on donor myotubes and two functional assays, with diaphragm samples unobtainable in vitro and needing planning early; fibroblast delivery on clinical sampling, which is feasible; kidney-cell entry on scarce models, where not verified is not the same as non-existent. Public data do not support generic unit-cost figures, and cost per effective course is an output of the CMC and cost gate, not an input here."
+  },
+  {
+    "orig": [53],
+    "section": "How we build",
+    "title": "Addressable population is set by repairable-variant frequency and treatable disease stage, not by total disease counts",
+    "layout": "stack",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Addressable population to net sales - each factor used once",
+        "columns": ["Step", "Input", "Where the number comes from", "Owner"],
+        "col_widths": [0.19, 0.3, 0.26, 0.25],
+        "first_col_bold": true,
+        "rows": [
+          ["Prevalent and diagnosed", "Prevalence in the study region; share already diagnosed", "Regional epidemiology and registries", "Science and product lead, with external epidemiology"],
+          ["Repairable-variant frequency", "Share of the target variant in that disease population; not carried across ancestries", "Genotype registries and sequencing centres", "Science and product lead"],
+          ["Treatable disease stage", "Share with residual reversible tissue function", "Natural-history studies", "Science and product lead, with clinical centres"],
+          ["Access to care and treatment", "Centre coverage, diagnostic routes, payment pathway", "Centre survey and payer research", "Sponsor decision and market access"],
+          ["Adoption", "Share of addressable patients who actually start treatment", "Adoption curves of analogue therapies, with the analogue named", "Finance and market access"],
+          ["Persistence", "Share retained after starting treatment", "Adoption curves of analogue therapies", "Finance and market access"]
+        ]
+      },
+      {
+        "type": "bullets",
+        "heading": "What bounds each direction, and what we will not do",
+        "items": [
+          "GAA IVS1: repairable-variant frequency differs by ancestry and cannot be carried across populations.",
+          "DYSF: until the target-variant list is fixed, limb-girdle muscular dystrophy patients as a whole are not the denominator.",
+          "MYH7: the addressable population is limited by phasing and by SNP coverage.",
+          "No patient numbers, incidence, market size or price this round - every missing input is marked for verification with a named owner, never filled with an estimate."
+        ]
+      }
+    ],
+    "source": "Source: IC Memo v2 §6.1, §6.2; team analysis",
+    "notes": "What we deliver is a market input table that can be voted down item by item, not a market size. Four things bound the addressable population: repairable-variant frequency, treatable disease stage, diagnostic route and net price. Each factor enters the derivation exactly once, so the same optimism cannot be counted twice. Addressable population and genotype coverage can only be built once the patient definition and target product profile are agreed. Cut for space: the per-direction patient subgroup and differentiation table."
+  },
+  {
+    "orig": [54],
+    "section": "How we build",
+    "title": "Financing, dilution and exit on one basis; three cash-flow types modelled separately with parameters still to fill",
+    "layout": "stack",
+    "regions": [
+      {
+        "type": "cards",
+        "heading": "Three cash flows, modelled separately and never netted",
+        "items": [
+          {
+            "heading": "Equity return",
+            "body": "Paid at exit by holding and preference order. Exit value is set by the whole company, which licence income influences but does not equal; 'stake x equity value' holds only with single-class common. Amount TBD."
+          },
+          {
+            "heading": "Company licence income",
+            "body": "Upfront, milestones and royalties accrue to the company, with the development obligations. It raises company value and so equity return indirectly, but counting it as shareholder recovery double-counts. Terms TBD."
+          },
+          {
+            "heading": "Related-party service income",
+            "body": "Group-side revenue from NewCo buying services from the group: a NewCo cost, opposite to equity return and not an investment return. Turning capital into related-party purchasing does not remove risk. Pricing TBD."
+          }
+        ]
+      },
+      {
+        "type": "bullets",
+        "heading": "Rules that hold the basis together",
+        "items": [
+          "The two empty tables and their rules are this round's deliverable; any arithmetic scenario reads as a sensitivity, not an expected return.",
+          "No back-solving a first-round post-money valuation from a platform purchase price or a BD upfront.",
+          "40/30/30 - WuXi AppTec 40%, co-investor 30%, founding team including option pool 30% - is illustrative, not a commitment.",
+          "Domestic limited company, converting to a joint-stock company if financing requires; no Cayman-HK-WFOE layering.",
+          "One co-investor's status is still TBD: if it is not purely financial, the claim that the increment sits only on the capability side must be re-judged."
+        ]
+      }
+    ],
+    "source": "Source: Governance and terms basis 04 §1.2, §2.1-§2.3 (shareholders, roles and protective provisions TBD); IC Memo v2; team analysis",
+    "notes": "We are submitting two empty tables with their rules and a list of parameters to fill, not numbers. The three cash flows must stay separate because merging them either double-counts or hides an obligation. We do not reuse comparable-transaction return figures: different entry risk, different rights position and different capital structure make those multiples uninformative here. Governance terms already agreed in principle: no controlling stake, no board majority, a customer-data firewall accepted by both quality organisations, and no exclusive-sourcing requirement. Tranche structure is already determined by the gates, so financing instalments follow gate read-outs rather than a calendar."
+  },
+  {
+    "orig": [55],
+    "section": "How we build",
+    "title": "Funding switches hang on gate read-outs only; the full rights opinion is a standalone diligence deliverable",
+    "layout": "full",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Stop conditions by gate - and what must not be done instead",
+        "columns": ["Gate", "What stops", "What does not stop", "What must not be done"],
+        "col_widths": [0.19, 0.23, 0.28, 0.3],
+        "first_col_bold": true,
+        "rows": [
+          ["Rights and backbone chemistry", "Chemical modification work, where rights are constrained", "Formulation, assays and characterisation build continue", "No chemistry work to design around; no exposure-boosting modification that cuts potency"],
+          ["Receptor entry and payload fit", "All payloads on that construct", "Both functional assays and the characterisation already built remain in use", "No rescue by raising affinity; if the non-binding control also works, the hypothesis fails"],
+          ["Patient-cell biology", "Target choice or patient stratification is adjusted", "Entry-side work continues", "No rescue by stronger delivery; an RNA-ratio change alone is not disease repair"],
+          ["Platform transfer", "The platform claim; fall back to a single product and revalue", "GAA work may continue, but valuation and narrative must be rewritten", "No passing off several sequences against one target as platform evidence"],
+          ["Tissue translation and safety", "That entry and payload combination", "Methods and analytical capability building continue", "High total tissue concentration does not explain failure; homogenate data do not count"],
+          ["CMC and cost", "Process scale-up", "No separate tranche, so no 'stop this tranche' step; it holds a veto over every tranche", "If batch spread exceeds between-construct spread, fix the process before comparing"]
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Only counsel's written directional opinion is a release condition; the full rights opinion and targeted freedom-to-operate work are standalone diligence deliverables, not funding switches."
+      }
+    ],
+    "source": "Source: IC Memo v2 §7.2, §7.3, §7.7, §7.8; stop-condition annex to the investment agreement; data as of 2026-10-13",
+    "notes": "A rights conclusion is a switch on scope of work, not a switch on money. Three downside cases are pre-scripted with immediate actions and an inventory list: the asset reduces to a single product, rights are not obtained, or a key person does not take up post. Five consideration groups are kept separate, share no parameters, and are all TBD. One sequencing conflict must be resolved before the terms are finalised: the targeted freedom-to-operate work is placed before the receptor-entry gate in one source and after the construct is fixed in another, and under our own definition the construct is fixed only after that gate reads out, so the two cannot both stand. The criteria behind each stop are two-sided where the source is two-sided: at the patient-cell gate, the target must change and function must recover in patient cells while normal cells are not over-affected."
+  },
+  {
+    "orig": [56],
+    "section": "How we build",
+    "title": "Candidate questions ranked by discriminating power; nine resolutions and six open slots go to an item-by-item vote",
+    "layout": "stack",
+    "regions": [
+      {
+        "type": "table",
+        "heading": "Technical questions, ranked by what they settle",
+        "columns": ["Question", "Decision it settles", "Answer that changes the plan"],
+        "col_widths": [0.3, 0.33, 0.37],
+        "first_col_bold": true,
+        "rows": [
+          ["Yield from random-cysteine conjugation when isolating DAR1?", "Whether conjugation chemistry is built in-house, borrowed internally or hired", "A neat point value or a vague answer means conjugation chemistry needs its own hire"],
+          ["How do you report DAR?", "Whether their team can define and sign off full OAR distribution characterisation", "Reporting a mean, or no answer on thiol capping, means a separate analytical hire"],
+          ["How would you formulate a high-concentration subcutaneous AOC?", "Whether colloidal-stability work starts this round or goes outside", "Copying monoclonal-antibody practice means that workstream is outsourced"],
+          ["Is endosomal escape the rate-limiting step for AOC?", "Whether a separate escape workstream and gate is budgeted; our answer is no", "A flat 'yes', or review consensus presented as measurement, fails evidence discipline"],
+          ["Can Gal8/Gal9 reporters evidence productive delivery?", "How the membrane-damage read-out at the patient-cell gate is defined", "Treating galectin signal as delivery evidence means an external adviser defines it"],
+          ["What does a rise in tissue concentration show?", "Whether homogenate discipline holds internally at the tissue translation gate", "Explaining success or failure by total tissue concentration means independent review"]
+        ]
+      },
+      {
+        "type": "bullets",
+        "heading": "What the IC is asked to settle",
+        "items": [
+          "Nine resolutions voted item by item and six open slots filled; authorisation stops at a defined preparation and verification period, after which the IC decides again.",
+          "Conversations run in two stages, and the first stage can stand even if the second lapses.",
+          "Two candidates, conflicts of interest not yet cleared: no in-depth discussion, no terms, no equity and no title until that gate closes.",
+          "No question asks for a former employer's confidential material; any question touching undisclosed current-employer content is stopped on the spot."
+        ]
+      }
+    ],
+    "source": "Source: Candidate discussion outline 2026-10-20 §0, §2, §4-§5; IC Memo v2 §4.2.2; Cochran et al., J Med Chem 2026;69(17):20230-20247",
+    "notes": "Questions are ordered by discriminating power, and each one is written to land on a single decision rather than on an impression. Avoid open questions about what the candidate finds exciting: they produce agreement, not information. For each question we also fix what source material we want to see - published methods, publicly discussable cases, the candidate's own reasoning - so that nothing asked requires a former employer's confidential information. Cut for space: the governance questions, the single most important question of the session, and the detail of the six open slots."
+  }
+]
