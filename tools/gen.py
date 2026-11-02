@@ -69,6 +69,46 @@ CAPS={}
 for m in re.finditer(r'^(图 (M\d+u?)-\d+[^\n]*)',MEMO,re.M):
     CAPS.setdefault(m.group(2),clean(m.group(1)))
 
+
+def fix_appxml(path):
+    import zipfile,re,os
+    from pptx import Presentation as _P
+    P=_P(path); titles=[]
+    for s in P.slides:
+        t=''
+        for ph in s.placeholders:
+            if ph.placeholder_format.idx==13 and ph.has_text_frame and ph.text_frame.text.strip():
+                t=ph.text_frame.text.strip().split('\n')[0]; break
+        if not t:
+            for sh in s.shapes:
+                if sh.has_text_frame and sh.text_frame.text.strip():
+                    t=sh.text_frame.text.strip().split('\n')[0]; break
+        titles.append(t or 'Slide')
+    n=len(titles)
+    z=zipfile.ZipFile(path); thm=z.read('ppt/theme/theme1.xml').decode()
+    m=re.search(r'<a:theme[^>]*\bname="([^"]*)"',thm); theme=m.group(1) if m else 'Office Theme'; z.close()
+    esc=lambda s:s.replace('&','&amp;').replace('<','&lt;').replace('>','&gt;').replace('"','&quot;')
+    parts=[esc(theme)]+[esc(t) for t in titles]
+    tvec=''.join('<vt:lpstr>%s</vt:lpstr>'%q for q in parts)
+    app=('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\r\n'
+    '<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" '
+    'xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">'
+    '<TotalTime>0</TotalTime>'
+    f'<Slides>{n}</Slides><Notes>0</Notes><HiddenSlides>0</HiddenSlides><MMClips>0</MMClips>'
+    '<ScaleCrop>false</ScaleCrop><HeadingPairs><vt:vector size="4" baseType="variant">'
+    '<vt:variant><vt:lpstr>主题</vt:lpstr></vt:variant><vt:variant><vt:i4>1</vt:i4></vt:variant>'
+    f'<vt:variant><vt:lpstr>幻灯片标题</vt:lpstr></vt:variant><vt:variant><vt:i4>{n}</vt:i4></vt:variant>'
+    '</vt:vector></HeadingPairs>'
+    f'<TitlesOfParts><vt:vector size="{n+1}" baseType="lpstr">{tvec}</vt:vector></TitlesOfParts>'
+    '<Company></Company><LinksUpToDate>false</LinksUpToDate><SharedDoc>false</SharedDoc>'
+    '<HyperlinksChanged>false</HyperlinksChanged><AppVersion>16.0000</AppVersion></Properties>')
+    tmp=path+'.tmp'; zin=zipfile.ZipFile(path); zout=zipfile.ZipFile(tmp,'w',zipfile.ZIP_DEFLATED)
+    for it in zin.infolist():
+        d=zin.read(it.filename)
+        if it.filename=='docProps/app.xml': d=app.encode('utf-8')
+        zout.writestr(it,d)
+    zout.close(); zin.close(); os.replace(tmp,path)
+
 prs=Presentation(S+'/tpl.pptx')
 # drop existing slides
 sldIdLst=prs.slides._sldIdLst
@@ -389,4 +429,5 @@ for fid,p in figs:
     para(t,'原图保留不等于事实已更新；正文如有改绘版以正文为准。',7.5,False,LGREY,0,True)
 
 prs.save(S+'/AOC_IC.pptx')
+fix_appxml(S+'/AOC_IC.pptx')  # keep docProps/app.xml slide count/titles consistent, else PowerPoint repairs later slides
 print('slides',len(prs.slides.__iter__.__self__._sldIdLst))
